@@ -19,13 +19,6 @@
 	const others = ['Terms of purchase', 'Security and privacy', 'Newsletter']
 </script>
 
-<!-- #314373 -->
-<!-- #5CC4DC -->
-<!-- #647494 -->
-<!-- #CBD2DC -->
-<!-- #838FAA -->
-<!-- #4C9CBC -->
-
 <div class="bg-low-contrast grid place-content-center h-screen">
 	<footer class="grid place-items-center max-w-6xl bg-primary p-10 rounded-xl shadow-lg">
 		<div class="flex justify-between gap-28">
