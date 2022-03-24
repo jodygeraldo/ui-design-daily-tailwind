@@ -28,59 +28,57 @@
   const others = ['Terms of purchase', 'Security and privacy', 'Newsletter']
 </script>
 
-<div class="theme bg-app grid place-content-center min-h-screen">
-  <footer
-    class="grid place-items-center max-w-6xl bg-primary p-10 rounded-xl shadow-lg"
-  >
-    <div class="flex justify-between gap-28">
-      <div class="flex-1">
-        <h2 class="font-bold text-2xl text-high-contrast font-serif">
-          About the store
-        </h2>
-        <nav class="mt-4">
-          <ul class="space-y-2 text-high-contrast">
-            {#each navLinks as link}
-              <li>{link}</li>
+<div class="theme grid place-items-center min-h-screen">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <footer class="bg-primary p-10 rounded-3xl shadow-lg">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-28 gap-y-4">
+        <div class="col-span-1">
+          <h2 class="font-extrabold text-[26px] text-high-contrast font-serif">
+            About the store
+          </h2>
+          <nav class="mt-4">
+            <ul class="space-y-2 text-high-contrast">
+              {#each navLinks as link}
+                <li>{link}</li>
+              {/each}
+            </ul>
+          </nav>
+        </div>
+        <div class="col-span-1">
+          <h2 class="font-extrabold text-[26px] text-high-contrast font-serif">
+            Language
+          </h2>
+          <ul class="mt-4 text-high-contrast flex flex-wrap items-center">
+            {#each languages as language}
+              <li
+                class={`mr-4 py-1 ${
+                  language.enabled &&
+                  'bg-ascent px-2 rounded-md text-high-contrast'
+                }`}
+              >
+                {language.name}
+              </li>
             {/each}
           </ul>
-        </nav>
-      </div>
-      <div class="flex-1">
-        <h2 class="font-bold text-2xl text-high-contrast font-serif">
-          Language
-        </h2>
-        <ul class="mt-4 text-high-contrast flex flex-wrap items-center">
-          {#each languages as language}
-            <li
-              class={`mr-4 py-1 ${
-                language.enabled &&
-                'bg-ascent px-2 rounded-md text-high-contrast'
-              }`}
-            >
-              {language.name}
-            </li>
-          {/each}
-        </ul>
-      </div>
-      <div class="flex-1">
-        <h2 class="font-bold text-2xl text-high-contrast font-serif">
-          Get in touch
-        </h2>
-        <div class="flex gap-6 mt-4">
-          <Icon id="discord" className="w-6 h-6 text-high-contrast" />
-          <Icon id="github" className="w-6 h-6 text-high-contrast" />
-          <Icon id="twitter" className="w-6 h-6 text-high-contrast" />
+        </div>
+        <div class="col-span-1">
+          <h2 class="font-extrabold text-[26px] text-high-contrast font-serif">
+            Get in touch
+          </h2>
+          <div class="flex gap-6 mt-4">
+            <Icon id="discord" className="w-6 h-6 text-high-contrast" />
+            <Icon id="github" className="w-6 h-6 text-high-contrast" />
+            <Icon id="twitter" className="w-6 h-6 text-high-contrast" />
+          </div>
         </div>
       </div>
-    </div>
-    <div class="text-low-contrast mt-2">
-      <ul class="flex gap-4">
+      <ul class="mt-2 flex p-[10px] space-x-[10px] justify-center flex-wrap">
         {#each others as other}
-          <li>{other}</li>
+          <li class="text-white font-medium text-lg opacity-50">{other}</li>
         {/each}
       </ul>
-    </div>
-  </footer>
+    </footer>
+  </div>
 </div>
 
 <style>
