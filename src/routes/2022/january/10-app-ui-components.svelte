@@ -91,7 +91,7 @@
             class="flex w-full justify-center gap-2 rounded-md bg-black p-4 text-lg text-white"
           >
             <Icon id="plus" className="h-8 w-8" />
-            <span>Buy storage</span>
+            <span>Add another language</span>
           </button>
         </div>
       </div>
