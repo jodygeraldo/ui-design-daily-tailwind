@@ -4,6 +4,21 @@
 
   const list = [
     {
+      id: 1526,
+      title: 'App UI Components',
+      date: Intl.DateTimeFormat().format(
+        Temporal.PlainDate.from({
+          year: 2022,
+          month: 1,
+          day: 10,
+        }),
+      ),
+      linkOriginal:
+        'https://www.uidesigndaily.com/posts/figma-app-ui-components-menu-card-storage-list-status-day-1526',
+      linkComponent: '/2022/january/10-app-ui-components',
+      imageUrl: '10-january-2022.png',
+    },
+    {
       id: 1525,
       title: 'About Card',
       date: Intl.DateTimeFormat().format(
