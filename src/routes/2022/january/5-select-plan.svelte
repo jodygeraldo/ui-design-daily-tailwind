@@ -15,29 +15,29 @@
   ]
 </script>
 
-<div class="theme grid place-items-center min-h-screen">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="theme grid min-h-screen place-items-center">
+  <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div
-      class="bg-white rounded-[42px] p-16 mx-auto max-w-3xl space-y-[56px] shadow-lg"
+      class="mx-auto max-w-3xl space-y-[56px] rounded-[42px] bg-white p-16 shadow-lg"
     >
-      <h2 class="font-bold text-[32px]">Choose a trial plan</h2>
+      <h2 class="text-[32px] font-bold">Choose a trial plan</h2>
 
       <div class="space-y-[56px]">
         <div class="space-y-6">
           {#each plans as plan}
             <div
-              class="bg-[#f4f9fa] border border-[#B3C4C6] rounded-2xl p-6 flex space-x-[13px]"
+              class="flex space-x-[13px] rounded-2xl border border-[#B3C4C6] bg-[#f4f9fa] p-6"
             >
               <button
                 class={`${
                   plan.enable
                     ? 'border-[9px] border-primary'
                     : 'border border-ascent'
-                } rounded-full bg-white shrink-0 w-[35px] h-[35px]`}
+                } h-[35px] w-[35px] shrink-0 rounded-full bg-white`}
               />
               <div class="space-y-3">
-                <h3 class="font-medium text-2xl">{plan.name}</h3>
-                <p class="font-medium text-lg">
+                <h3 class="text-2xl font-medium">{plan.name}</h3>
+                <p class="text-lg font-medium">
                   {plan.description}
                 </p>
               </div>
@@ -48,7 +48,7 @@
         <div class="space-y-6 pl-6">
           <div class="flex space-x-[13px]">
             <button
-              class="w-[35px] h-[35px] border border-[#5e797b] rounded-lg shrink-0"
+              class="h-[35px] w-[35px] shrink-0 rounded-lg border border-[#5e797b]"
             />
             <p class="text-lg font-medium">
               I agree to the <span class="underline underline-offset-1"
@@ -58,7 +58,7 @@
             </p>
           </div>
           <div class="flex space-x-[13px]">
-            <button class="w-[35px] h-[35px] border border-ascent rounded-lg" />
+            <button class="h-[35px] w-[35px] rounded-lg border border-ascent" />
             <p class="text-lg font-medium">
               I’d like to receive direct marketing email updates.
             </p>
@@ -67,10 +67,10 @@
 
         <div class="space-y-6 pr-[10px]">
           <button
-            class="w-full p-[10px] bg-primary text-white text-lg font-medium"
+            class="w-full bg-primary p-[10px] text-lg font-medium text-white"
             >Start free trial</button
           >
-          <p class="font-medium text-center">No credit card needed</p>
+          <p class="text-center font-medium">No credit card needed</p>
         </div>
       </div>
     </div>

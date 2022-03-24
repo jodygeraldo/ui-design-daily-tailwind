@@ -4,6 +4,36 @@
 
   const list = [
     {
+      id: 1526,
+      title: 'App UI Components',
+      date: Intl.DateTimeFormat().format(
+        Temporal.PlainDate.from({
+          year: 2022,
+          month: 1,
+          day: 10,
+        }),
+      ),
+      linkOriginal:
+        'https://www.uidesigndaily.com/posts/figma-app-ui-components-menu-card-storage-list-status-day-1526',
+      linkComponent: '/2022/january/10-app-ui-components',
+      imageUrl: '10-january-2022.png',
+    },
+    {
+      id: 1525,
+      title: 'About Card',
+      date: Intl.DateTimeFormat().format(
+        Temporal.PlainDate.from({
+          year: 2022,
+          month: 1,
+          day: 7,
+        }),
+      ),
+      linkOriginal:
+        'https://www.uidesigndaily.com/posts/figma-about-card-details-day-1525',
+      linkComponent: '/2022/january/7-about-card',
+      imageUrl: '7-january-2022.png',
+    },
+    {
       id: 1524,
       title: 'Job Cards',
       date: Intl.DateTimeFormat().format(
@@ -66,39 +96,39 @@
   ]
 </script>
 
-<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
   <ul
     class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
   >
     {#each list as item}
       <li
-        class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200"
+        class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow"
       >
-        <div class="flex-1 flex flex-col p-8">
+        <div class="flex flex-1 flex-col p-8">
           <img
-            class="w-full aspect-video flex-shrink-0 rounded-lg"
+            class="aspect-video w-full flex-shrink-0 rounded-lg"
             src={`/assets/images/${item.imageUrl}`}
             alt=""
           />
-          <h3 class="mt-6 text-gray-900 text-sm font-medium">{item.title}</h3>
+          <h3 class="mt-6 text-sm font-medium text-gray-900">{item.title}</h3>
 
-          <time class="mt-1 text-gray-500 text-sm">{item.date}</time>
+          <time class="mt-1 text-sm text-gray-500">{item.date}</time>
         </div>
         <div>
           <div class="-mt-px flex divide-x divide-gray-200">
-            <div class="w-0 flex-1 flex">
+            <div class="flex w-0 flex-1">
               <a
                 href={item.linkOriginal}
-                class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500"
+                class="relative -mr-px inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm font-medium text-gray-700 hover:text-gray-500"
               >
                 <span> UIDesignDaily </span>
                 <Icon id="external-link" className="w-4 h-4 ml-2" />
               </a>
             </div>
-            <div class="-ml-px w-0 flex-1 flex">
+            <div class="-ml-px flex w-0 flex-1">
               <a
                 href={item.linkComponent}
-                class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500"
+                class="relative inline-flex w-0 flex-1 items-center justify-center rounded-br-lg border border-transparent py-4 text-sm font-medium text-gray-700 hover:text-gray-500"
               >
                 <span> Implementation </span>
                 <Icon id="arrow-top-right" className="w-4 h-4 ml-2" />
