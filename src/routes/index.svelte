@@ -4,6 +4,21 @@
 
   const list = [
     {
+      id: 1523,
+      title: 'Select Plan',
+      date: Intl.DateTimeFormat().format(
+        Temporal.PlainDate.from({
+          year: 2022,
+          month: 1,
+          day: 5,
+        }),
+      ),
+      linkOriginal:
+        'https://www.uidesigndaily.com/posts/figma-select-plan-pricing-price-card-day-1523',
+      linkComponent: '/2022/january/5-select-plan',
+      imageUrl: '5-january-2022.png',
+    },
+    {
       id: 1522,
       title: 'Set Status',
       date: Intl.DateTimeFormat().format(
