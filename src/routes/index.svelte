@@ -47,7 +47,7 @@
         <div class="flex-1 flex flex-col p-8">
           <img
             class="w-full aspect-video flex-shrink-0 rounded-lg"
-            src={`/static/images/${item.imageUrl}`}
+            src={`/assets/images/${item.imageUrl}`}
             alt=""
           />
           <h3 class="mt-6 text-gray-900 text-sm font-medium">{item.title}</h3>
