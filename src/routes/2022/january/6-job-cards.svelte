@@ -42,19 +42,19 @@
   ]
 </script>
 
-<div class="theme grid place-items-center min-h-screen">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="theme grid min-h-screen place-items-center">
+  <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div class="space-y-[72px]">
-      <h2 class="font-extrabold text-[32px] text-primary text-center">
+      <h2 class="text-center text-[32px] font-extrabold text-primary">
         Open positions
       </h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {#each positions as position}
           <div
-            class="col-span-1 rounded-2xl bg-white px-10 py-12 space-y-8 shadow-[0_24px_44px] shadow-[#B4BFE140]"
+            class="col-span-1 space-y-8 rounded-2xl bg-white px-10 py-12 shadow-[0_24px_44px] shadow-[#B4BFE140]"
           >
-            <div class="flex gap-4 items-center text-center justify-center">
+            <div class="flex items-center justify-center gap-4 text-center">
               <div
                 class={clsx(
                   position.name === 'Design' && 'from-[#BBCBFB] to-[#F1D4FF]',
@@ -66,15 +66,15 @@
                   position.name === 'Sales' && 'from-[#BBD8FB] to-[#FFD4D4]',
                   position.name === 'University' &&
                     'from-[#FFDEC7] to-[#D4D9FF]',
-                  'bg-gradient-to-br w-16 h-16 flex justify-center items-center rounded-2xl shrink-0',
+                  'flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br',
                 )}
               >
                 <Icon id={position.iconId} className="w-8 h-8 text-primary" />
               </div>
-              <h3 class="font-medium text-2xl text-primary">{position.name}</h3>
+              <h3 class="text-2xl font-medium text-primary">{position.name}</h3>
             </div>
             <button
-              class={`border border-[#C2C5E2] rounded-lg px-6 py-4 w-full font-medium text-lg ${
+              class={`w-full rounded-lg border border-[#C2C5E2] px-6 py-4 text-lg font-medium ${
                 position.special ? 'bg-primary text-white' : 'text-primary'
               }`}>{position.open} open positions</button
             >

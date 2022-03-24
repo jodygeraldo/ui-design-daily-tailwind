@@ -28,12 +28,12 @@
   const others = ['Terms of purchase', 'Security and privacy', 'Newsletter']
 </script>
 
-<div class="theme grid place-items-center min-h-screen">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
-    <footer class="bg-primary p-10 rounded-3xl shadow-lg">
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-28 gap-y-4">
+<div class="theme grid min-h-screen place-items-center">
+  <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
+    <footer class="rounded-3xl bg-primary p-10 shadow-lg">
+      <div class="grid grid-cols-1 gap-x-28 gap-y-4 lg:grid-cols-3">
         <div class="col-span-1">
-          <h2 class="font-extrabold text-[26px] text-high-contrast font-serif">
+          <h2 class="font-serif text-[26px] font-extrabold text-high-contrast">
             About the store
           </h2>
           <nav class="mt-4">
@@ -45,15 +45,15 @@
           </nav>
         </div>
         <div class="col-span-1">
-          <h2 class="font-extrabold text-[26px] text-high-contrast font-serif">
+          <h2 class="font-serif text-[26px] font-extrabold text-high-contrast">
             Language
           </h2>
-          <ul class="mt-4 text-high-contrast flex flex-wrap items-center">
+          <ul class="mt-4 flex flex-wrap items-center text-high-contrast">
             {#each languages as language}
               <li
                 class={`mr-4 py-1 ${
                   language.enabled &&
-                  'bg-ascent px-2 rounded-md text-high-contrast'
+                  'rounded-md bg-ascent px-2 text-high-contrast'
                 }`}
               >
                 {language.name}
@@ -62,19 +62,19 @@
           </ul>
         </div>
         <div class="col-span-1">
-          <h2 class="font-extrabold text-[26px] text-high-contrast font-serif">
+          <h2 class="font-serif text-[26px] font-extrabold text-high-contrast">
             Get in touch
           </h2>
-          <div class="flex gap-6 mt-4">
+          <div class="mt-4 flex gap-6">
             <Icon id="discord" className="w-6 h-6 text-high-contrast" />
             <Icon id="github" className="w-6 h-6 text-high-contrast" />
             <Icon id="twitter" className="w-6 h-6 text-high-contrast" />
           </div>
         </div>
       </div>
-      <ul class="mt-2 flex p-[10px] space-x-[10px] justify-center flex-wrap">
+      <ul class="mt-2 flex flex-wrap justify-center space-x-[10px] p-[10px]">
         {#each others as other}
-          <li class="text-white font-medium text-lg opacity-50">{other}</li>
+          <li class="text-lg font-medium text-white opacity-50">{other}</li>
         {/each}
       </ul>
     </footer>
