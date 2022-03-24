@@ -2,10 +2,10 @@
 	
 </script>
 
-<div class="bg-low-contrast grid place-content-center h-screen" ></div>
+<div class="theme bg-app grid place-content-center h-screen" ></div>
 
 <style>
-	:root {
+	.theme {
 		--color-primary: #1e3161;
 		--color-ascent: #5ac1d8;
 		--text-color-high: #ffffff;
