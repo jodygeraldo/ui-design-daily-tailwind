@@ -62,7 +62,7 @@
                 class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500"
               >
                 <span> UIDesignDaily </span>
-                <Icon id="external-link" className="w-6 h-6 ml-2" />
+                <Icon id="external-link" className="w-4 h-4 ml-2" />
               </a>
             </div>
             <div class="-ml-px w-0 flex-1 flex">
@@ -71,7 +71,7 @@
                 class="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500"
               >
                 <span> Implementation </span>
-                <Icon id="arrow-top-right" className="w-6 h-6 ml-2" />
+                <Icon id="arrow-top-right" className="w-4 h-4 ml-2" />
               </a>
             </div>
           </div>
