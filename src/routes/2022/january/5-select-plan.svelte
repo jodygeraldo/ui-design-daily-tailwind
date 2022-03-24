@@ -23,7 +23,7 @@
       <div class="space-y-6">
         {#each plans as plan}
           <div
-            class="bg-gray border border-[#B3C4C6] rounded-2xl p-6 flex space-x-[13px]"
+            class="bg-[#f4f9fa] border border-[#B3C4C6] rounded-2xl p-6 flex space-x-[13px]"
           >
             <button
               class={`${
@@ -77,6 +77,5 @@
   .theme {
     --color-primary: #130f29;
     --color-ascent: #5e797b;
-    --color-gray: #f4f9fa;
   }
 </style>
