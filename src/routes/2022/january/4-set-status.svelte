@@ -1,4 +1,6 @@
-<div class="bg-low-contrast grid lg:grid-cols-2 place-items-center place-content-center h-screen">
+<div
+	class="theme bg-low-contrast grid lg:grid-cols-2 place-items-center place-content-center h-screen"
+>
 	<div
 		class="w-[548px] h-[260px] bg-white p-8 rounded-2xl flex justify-between flex-col shadow-lg col-span-1"
 	>
@@ -81,7 +83,7 @@
 </div>
 
 <style>
-	:root {
+	.theme {
 		--color-primary: #7758ce;
 		--color-ascent: #5ac1d8;
 		--text-color-high: #161842;

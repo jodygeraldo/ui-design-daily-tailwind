@@ -19,7 +19,7 @@
 	const others = ['Terms of purchase', 'Security and privacy', 'Newsletter']
 </script>
 
-<div class="bg-low-contrast grid place-content-center h-screen">
+<div class="theme bg-low-contrast grid place-content-center h-screen">
 	<footer class="grid place-items-center max-w-6xl bg-primary p-10 rounded-xl shadow-lg">
 		<div class="flex justify-between gap-28">
 			<div class="flex-1">
@@ -90,7 +90,7 @@
 </div>
 
 <style>
-	:root {
+	.theme {
 		--color-primary: #1e3161;
 		--color-ascent: #5ac1d8;
 		--text-color-high: #ffffff;
