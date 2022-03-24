@@ -3,7 +3,7 @@
 </script>
 
 <div
-  class="theme bg-low-contrast grid lg:grid-cols-2 place-items-center place-content-center h-screen"
+  class="theme bg-app grid lg:grid-cols-2 place-items-center place-content-center h-screen"
 >
   <div
     class="w-[548px] h-[260px] bg-white p-8 rounded-2xl flex justify-between flex-col shadow-lg col-span-1"

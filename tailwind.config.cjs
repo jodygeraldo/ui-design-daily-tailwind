@@ -4,6 +4,7 @@ const config = {
   theme: {
     extend: {
       colors: {
+        app: '#838faa',
         primary: 'var(--color-primary)',
         ascent: 'var(--color-ascent)',
         'high-contrast': 'var(--text-color-high)',
