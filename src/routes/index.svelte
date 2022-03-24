@@ -68,7 +68,7 @@
 
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
   <ul
-    class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+    class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
   >
     {#each list as item}
       <li
