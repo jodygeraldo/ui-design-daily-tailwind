@@ -34,6 +34,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@js-temporal/polyfill": "^0.4.0"
+    "@js-temporal/polyfill": "^0.4.0",
+    "clsx": "^1.1.1"
   }
 }
