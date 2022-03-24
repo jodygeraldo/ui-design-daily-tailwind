@@ -28,7 +28,7 @@
   const others = ['Terms of purchase', 'Security and privacy', 'Newsletter']
 </script>
 
-<div class="theme bg-app grid place-content-center h-screen">
+<div class="theme bg-app grid place-content-center min-h-screen">
   <footer
     class="grid place-items-center max-w-6xl bg-primary p-10 rounded-xl shadow-lg"
   >

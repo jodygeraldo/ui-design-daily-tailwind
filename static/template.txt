@@ -2,7 +2,7 @@
 	
 </script>
 
-<div class="theme bg-app grid place-content-center h-screen" ></div>
+<div class="theme bg-app grid place-content-center min-h-screen" ></div>
 
 <style>
 	.theme {
