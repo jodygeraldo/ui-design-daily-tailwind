@@ -55,7 +55,7 @@
       <p
         class="flex items-center gap-2 py-4 text-lg text-high-contrast font-medium"
       >
-        <Icon id="clcok" className="w-6 h-6 text-high-contrast" />
+        <Icon id="clock" className="w-6 h-6 text-high-contrast" />
         <span>Duration</span>
       </p>
 
