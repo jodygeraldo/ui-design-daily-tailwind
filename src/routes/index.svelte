@@ -13,7 +13,8 @@
 				})
 			),
 			linkOriginal: 'https://www.uidesigndaily.com/posts/figma-set-status-dropdown-day-1522',
-			linkComponent: '/2022/january/4-set-status'
+			linkComponent: '/2022/january/4-set-status',
+			imageUrl: '4-january-2022.png'
 		},
 		{
 			id: 1521,
@@ -25,9 +26,9 @@
 					day: 3
 				})
 			),
-
 			linkOriginal: 'https://www.uidesigndaily.com/posts/figma-footer-dark-mode-day-1521',
-			linkComponent: '/2022/january/3-footer'
+			linkComponent: '/2022/january/3-footer',
+			imageUrl: '3-january-2022.png'
 		}
 	]
 </script>
@@ -40,8 +41,8 @@
 			>
 				<div class="flex-1 flex flex-col p-8">
 					<img
-						class="w-32 h-32 flex-shrink-0 mx-auto rounded-full"
-						src="https://via.placeholder.com/256"
+						class="w-full aspect-video flex-shrink-0 rounded-lg"
+						src={`/images/${item.imageUrl}`}
 						alt=""
 					/>
 					<h3 class="mt-6 text-gray-900 text-sm font-medium">{item.title}</h3>
