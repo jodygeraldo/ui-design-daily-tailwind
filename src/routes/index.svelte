@@ -4,6 +4,21 @@
 
   const list = [
     {
+      id: 1525,
+      title: 'About Card',
+      date: Intl.DateTimeFormat().format(
+        Temporal.PlainDate.from({
+          year: 2022,
+          month: 1,
+          day: 7,
+        }),
+      ),
+      linkOriginal:
+        'https://www.uidesigndaily.com/posts/figma-about-card-details-day-1525',
+      linkComponent: '/2022/january/7-about-card',
+      imageUrl: '7-january-2022.png',
+    },
+    {
       id: 1524,
       title: 'Job Cards',
       date: Intl.DateTimeFormat().format(
