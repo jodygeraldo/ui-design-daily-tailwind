@@ -4,6 +4,21 @@
 
   const list = [
     {
+      id: 1528,
+      title: 'Sign Up',
+      date: Intl.DateTimeFormat().format(
+        Temporal.PlainDate.from({
+          year: 2022,
+          month: 1,
+          day: 12,
+        }),
+      ),
+      linkOriginal:
+        'https://www.uidesigndaily.com/posts/figma-sign-up-authentication-day-1528',
+      linkComponent: '/2022/january/12-sign-up',
+      imageUrl: '12-january-2022.png',
+    },
+    {
       id: 1527,
       title: 'Share Document',
       date: Intl.DateTimeFormat().format(
