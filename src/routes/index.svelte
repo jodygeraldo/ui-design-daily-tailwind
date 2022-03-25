@@ -4,6 +4,21 @@
 
   const list = [
     {
+      id: 1529,
+      title: 'Storage Plan UI Design',
+      date: Intl.DateTimeFormat().format(
+        Temporal.PlainDate.from({
+          year: 2022,
+          month: 1,
+          day: 13,
+        }),
+      ),
+      linkOriginal:
+        'https://www.uidesigndaily.com/posts/figma-storage-plan-ui-design-card-pricing-day-1529',
+      linkComponent: '/2022/january/13-storage-plan-ui-design',
+      imageUrl: '13-january-2022.png',
+    },
+    {
       id: 1528,
       title: 'Sign Up',
       date: Intl.DateTimeFormat().format(
