@@ -4,6 +4,21 @@
 
   const list = [
     {
+      id: 1527,
+      title: 'Share Document',
+      date: Intl.DateTimeFormat().format(
+        Temporal.PlainDate.from({
+          year: 2022,
+          month: 1,
+          day: 11,
+        }),
+      ),
+      linkOriginal:
+        'https://www.uidesigndaily.com/posts/figma-share-document-day-1527',
+      linkComponent: '/2022/january/11-share-document',
+      imageUrl: '11-january-2022.png',
+    },
+    {
       id: 1526,
       title: 'App UI Components',
       date: Intl.DateTimeFormat().format(
