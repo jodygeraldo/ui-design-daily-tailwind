@@ -26,7 +26,7 @@
   <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
       <div
-        class="col-span-1 rounded-3xl p-6 pb-16 space-y-7 bg-white max-w-lg mx-auto shadow-[0_4px_0_0_#d8e4ef70]"
+        class="col-span-1 rounded-3xl p-6 pb-16 space-y-7 bg-white max-w-lg mx-auto shadow-[0_4px_0_0_#d8e4ef70] self-start"
       >
         <div
           class="p-[10px] bg-[#f6f8fa] rounded-lg sm:flex text-primary min-w-[240px]"
