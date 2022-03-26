@@ -1,50 +1,5 @@
 <script>
-  import clsx from 'clsx'
-
   import Icon from '/src/components/Icon.svelte'
-
-  const groups = [
-    {
-      name: 'Search',
-      iconId: 'magnifying-glass',
-      'bg-color': '#FB896B',
-      list: [
-        { name: 'SEO/Google Ads', special: false },
-        { name: 'Youtube Ads', special: false },
-        { name: 'Google shopping', special: true },
-      ],
-    },
-    {
-      name: 'CRO',
-      iconId: 'drawing-pin',
-      'bg-color': '#FB6B6B',
-      list: [
-        { name: 'Analysis', special: false },
-        { name: 'Multi variant testing', special: false },
-        { name: 'Landing pages', special: false },
-      ],
-    },
-    {
-      name: 'Social Media',
-      iconId: 'chat-bubble',
-      'bg-color': '#F1A864',
-      list: [
-        { name: 'Facebook', special: false },
-        { name: 'LinkedIn', special: false },
-        { name: 'Tik Tok', special: false },
-      ],
-    },
-    {
-      name: 'Other services',
-      iconId: 'magnifying-glass',
-      'bg-color': '#FBD36B',
-      list: [
-        { name: 'Marketing', special: false },
-        { name: 'Digital tools', special: false },
-        { name: 'Banner advertising', special: false },
-      ],
-    },
-  ]
 </script>
 
 <div class="theme grid place-items-center min-h-screen">
@@ -55,44 +10,70 @@
       <div
         class="absolute -inset-y-6 inset-x-[42px] bg-white -z-10 rounded-3xl"
       />
-      {#each groups as group, index}
-        <div
-          class={clsx(
-            index === 0 &&
-              'rounded-t-3xl md:rounded-tr-none py-16 pl-8 lg:pt-32 pr-8 lg:pl-16',
-            index === 1 &&
-              'md:rounded-tr-3xl lg:rounded-none py-16 pl-8 lg:pt-32 lg:pr-16',
-            index === 2 && 'lg:rounded-tr-3xl py-16 pl-8 lg:pt-32 lg:pr-16',
-            index === 3 && 'lg:rounded-bl-3xl py-16 pl-8 lg:pl-16 pr-8',
-            group['bg-color'] && `bg-[${group['bg-color']}]`,
-            'col-span-1 pb-16 min-w-max',
-          )}
-        >
-          <div
-            class={clsx(
-              'space-y-4 text-white',
-              index === 3 && 'text-[#485258]',
-            )}
-          >
-            <div class="flex items-center gap-[9px] ml-2">
-              <Icon id={group.iconId} className="w-6 h-6" />
-              <h3 class="font-semibold text-2xl -mt-1">{group.name}</h3>
-            </div>
-            <div>
-              {#each group.list as item}
-                <p
-                  class={clsx(
-                    item.special && 'bg-[#F27251]',
-                    'p-[10px] font-medium',
-                  )}
-                >
-                  {item.name}
-                </p>
-              {/each}
-            </div>
+      <div
+        class="col-span-1 pb-16 min-w-max bg-[#FB896B] rounded-t-3xl md:rounded-tr-none py-16 pl-8 lg:pt-32 pr-8 lg:pl-16"
+      >
+        <div class="space-y-4 text-white">
+          <div class="flex items-center gap-[9px] ml-2">
+            <Icon id="magnifying-glass" className="w-6 h-6" />
+            <h3 class="font-semibold text-2xl -mt-1">Search</h3>
+          </div>
+          <div>
+            <p class="p-[10px] font-medium">SEO/Google Ads</p>
+            <p class="p-[10px] font-medium">Youtube Ads</p>
+            <p class="bg-[#F27251] p-[10px] font-medium">Google shopping</p>
           </div>
         </div>
-      {/each}
+      </div>
+
+      <div
+        class="col-span-1 pb-16 min-w-max bg-[#FB6B6B] md:rounded-tr-3xl lg:rounded-none py-16 pl-8 lg:pt-32 lg:pr-16"
+      >
+        <div class="space-y-4 text-white">
+          <div class="flex items-center gap-[9px] ml-2">
+            <Icon id="drawing-pin" className="w-6 h-6" />
+            <h3 class="font-semibold text-2xl -mt-1">CRO</h3>
+          </div>
+          <div>
+            <p class="p-[10px] font-medium">Analysis</p>
+            <p class="p-[10px] font-medium">Multi variant testing</p>
+            <p class="p-[10px] font-medium">Landing pages</p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="col-span-1 pb-16 min-w-max bg-[#F1A864] lg:rounded-tr-3xl py-16 pl-8 lg:pt-32 lg:pr-16"
+      >
+        <div class="space-y-4 text-white">
+          <div class="flex items-center gap-[9px] ml-2">
+            <Icon id="chat-bubble" className="w-6 h-6" />
+            <h3 class="font-semibold text-2xl -mt-1">Social Media</h3>
+          </div>
+          <div>
+            <p class="p-[10px] font-medium">Facebooks</p>
+            <p class="p-[10px] font-medium">LinkedIn</p>
+            <p class="p-[10px] font-medium">Tik Tok</p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="col-span-1 pb-16 min-w-max bg-[#FBD36B] lg:rounded-bl-3xl py-16 pl-8 lg:pl-16 pr-8"
+      >
+        <div class="space-y-4 text-[#485258]">
+          <div class="flex items-center gap-[9px] ml-2">
+            <Icon id="magnifying-glass" className="w-6 h-6" />
+            <h3 class="font-semibold text-2xl -mt-1">Other services</h3>
+          </div>
+          <div>
+            <p class="p-[10px] font-medium">Marketing</p>
+            <p class="p-[10px] font-medium">Digital tools</p>
+            <p class="p-[10px] font-medium">Banner advertising</p>
+          </div>
+        </div>
+      </div>
+
       <div
         class="bg-[#485258] md:col-span-2 rounded-b-3xl lg:rounded-bl-none py-16 pl-8"
       >
