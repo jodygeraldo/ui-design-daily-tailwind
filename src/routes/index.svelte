@@ -4,6 +4,21 @@
 
   const list = [
     {
+      id: 1531,
+      title: 'Pricing',
+      date: Intl.DateTimeFormat().format(
+        Temporal.PlainDate.from({
+          year: 2022,
+          month: 1,
+          day: 17,
+        }),
+      ),
+      linkOriginal:
+        'https://www.uidesigndaily.com/posts/figma-pricing-radio-button-day-1531',
+      linkComponent: '/2022/january/17-pricing',
+      imageUrl: '17-january-2022.png',
+    },
+    {
       id: 1530,
       title: 'Footer',
       date: Intl.DateTimeFormat().format(
