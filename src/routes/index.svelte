@@ -4,6 +4,20 @@
 
   const list = [
     {
+      id: 1530,
+      title: 'Footer',
+      date: Intl.DateTimeFormat().format(
+        Temporal.PlainDate.from({
+          year: 2022,
+          month: 1,
+          day: 14,
+        }),
+      ),
+      linkOriginal: 'https://www.uidesigndaily.com/posts/figma-footer-day-1530',
+      linkComponent: '/2022/january/14-footer',
+      imageUrl: '14-january-2022.png',
+    },
+    {
       id: 1529,
       title: 'Storage Plan UI Design',
       date: Intl.DateTimeFormat().format(
