@@ -6,11 +6,15 @@
     {
       id: 1541,
       title: 'Filter',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
-          day: 21,
+          day: 31,
         }),
       ),
       linkOriginal:
@@ -21,7 +25,11 @@
     {
       id: 1535,
       title: 'Filter UI',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
@@ -36,7 +44,11 @@
     {
       id: 1534,
       title: 'Pricing Card',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
@@ -51,7 +63,11 @@
     {
       id: 1533,
       title: 'Search Results',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
@@ -66,7 +82,11 @@
     {
       id: 1532,
       title: 'Cards',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
@@ -81,7 +101,11 @@
     {
       id: 1531,
       title: 'Pricing',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
@@ -96,7 +120,11 @@
     {
       id: 1530,
       title: 'Footer',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
@@ -110,7 +138,11 @@
     {
       id: 1529,
       title: 'Storage Plan UI Design',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
@@ -125,7 +157,11 @@
     {
       id: 1528,
       title: 'Sign Up',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
@@ -140,7 +176,11 @@
     {
       id: 1527,
       title: 'Share Document',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
@@ -155,7 +195,11 @@
     {
       id: 1526,
       title: 'App UI Components',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
@@ -170,7 +214,11 @@
     {
       id: 1525,
       title: 'About Card',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
@@ -185,7 +233,11 @@
     {
       id: 1524,
       title: 'Job Cards',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
@@ -200,7 +252,11 @@
     {
       id: 1523,
       title: 'Select Plan',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
@@ -215,7 +271,11 @@
     {
       id: 1522,
       title: 'Set Status',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
@@ -230,7 +290,11 @@
     {
       id: 1521,
       title: 'Footer',
-      date: Intl.DateTimeFormat().format(
+      date: Intl.DateTimeFormat(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }).format(
         Temporal.PlainDate.from({
           year: 2022,
           month: 1,
