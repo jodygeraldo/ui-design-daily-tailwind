@@ -4,6 +4,21 @@
 
   const list = [
     {
+      id: 1535,
+      title: 'Filter UI',
+      date: Intl.DateTimeFormat().format(
+        Temporal.PlainDate.from({
+          year: 2022,
+          month: 1,
+          day: 21,
+        }),
+      ),
+      linkOriginal:
+        'https://www.uidesigndaily.com/posts/figma-filter-ui-dropdown-day-1535',
+      linkComponent: '/2022/january/21-filter-ui',
+      imageUrl: '21-january-2022.png',
+    },
+    {
       id: 1534,
       title: 'Pricing Card',
       date: Intl.DateTimeFormat().format(
