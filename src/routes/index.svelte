@@ -4,6 +4,21 @@
 
   const list = [
     {
+      id: 1534,
+      title: 'Pricing Card',
+      date: Intl.DateTimeFormat().format(
+        Temporal.PlainDate.from({
+          year: 2022,
+          month: 1,
+          day: 20,
+        }),
+      ),
+      linkOriginal:
+        'https://www.uidesigndaily.com/posts/figma-pricing-card-day-1534',
+      linkComponent: '/2022/january/20-pricing-card',
+      imageUrl: '20-january-2022.png',
+    },
+    {
       id: 1533,
       title: 'Search Results',
       date: Intl.DateTimeFormat().format(
