@@ -4,6 +4,21 @@
 
   const list = [
     {
+      id: 1533,
+      title: 'Search Results',
+      date: Intl.DateTimeFormat().format(
+        Temporal.PlainDate.from({
+          year: 2022,
+          month: 1,
+          day: 19,
+        }),
+      ),
+      linkOriginal:
+        'https://www.uidesigndaily.com/posts/figma-search-results-result-day-1533',
+      linkComponent: '/2022/january/19-search-results',
+      imageUrl: '19-january-2022.png',
+    },
+    {
       id: 1532,
       title: 'Cards',
       date: Intl.DateTimeFormat().format(
