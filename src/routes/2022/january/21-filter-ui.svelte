@@ -59,7 +59,7 @@
             {#each options as option}
               <div
                 class={clsx(
-                  option.special && 'bg-[#FBF7FF]',
+                  option.special && 'bg-[#FBF7FF] rounded-lg',
                   'p-4 font-medium flex gap-1 items-center',
                 )}
               >
