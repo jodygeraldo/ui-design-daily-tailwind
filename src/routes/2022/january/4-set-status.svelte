@@ -30,13 +30,15 @@
           >
         </div>
       </div>
+
       <div class="col-span-1">
         <button
-          class="inline-flex gap-3 rounded-lg border border-primary p-[10px] font-medium text-high-contrast"
+          class="inline-flex gap-3 rounded-lg border border-primary p-[10px] font-medium text-gray-12"
         >
           <span class="text-lg">In a call</span>
-          <Icon id="chevron-down" className="w-6 h-6 text-high-contrast" />
+          <Icon id="chevron-down" className="w-6 h-6 text-gray-12" />
         </button>
+
         <div
           class="mt-2 max-w-[240px] divide-y divide-ascent rounded-lg bg-white p-8"
         >
