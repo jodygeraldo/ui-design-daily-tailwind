@@ -8,6 +8,10 @@
   ]
 </script>
 
+<svelte:head>
+  <title>About Card - UI Design Daily with Tailwind CSS</title>
+</svelte:head>
+
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div class="mx-auto max-w-xl space-y-8 rounded-3xl bg-white p-[70px]">

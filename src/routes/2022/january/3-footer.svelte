@@ -28,6 +28,10 @@
   const others = ['Terms of purchase', 'Security and privacy', 'Newsletter']
 </script>
 
+<svelte:head>
+  <title>Footer - UI Design Daily with Tailwind CSS</title>
+</svelte:head>
+
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <footer class="rounded-3xl bg-primary p-10 shadow-lg">

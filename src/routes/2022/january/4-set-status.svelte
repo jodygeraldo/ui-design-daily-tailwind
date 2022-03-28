@@ -2,6 +2,10 @@
   import Icon from '/src/components/Icon.svelte'
 </script>
 
+<svelte:head>
+  <title>Set Status - UI Design Daily with Tailwind CSS</title>
+</svelte:head>
+
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div class="grid gap-20 lg:grid-cols-2">

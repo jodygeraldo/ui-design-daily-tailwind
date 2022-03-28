@@ -1,104 +1,15 @@
 <script>
-  import { Temporal, Intl } from '@js-temporal/polyfill'
   import Icon from '/src/components/Icon.svelte'
-
-  const list = [
-    {
-      id: 1526,
-      title: 'App UI Components',
-      date: Intl.DateTimeFormat().format(
-        Temporal.PlainDate.from({
-          year: 2022,
-          month: 1,
-          day: 10,
-        }),
-      ),
-      linkOriginal:
-        'https://www.uidesigndaily.com/posts/figma-app-ui-components-menu-card-storage-list-status-day-1526',
-      linkComponent: '/2022/january/10-app-ui-components',
-      imageUrl: '10-january-2022.png',
-    },
-    {
-      id: 1525,
-      title: 'About Card',
-      date: Intl.DateTimeFormat().format(
-        Temporal.PlainDate.from({
-          year: 2022,
-          month: 1,
-          day: 7,
-        }),
-      ),
-      linkOriginal:
-        'https://www.uidesigndaily.com/posts/figma-about-card-details-day-1525',
-      linkComponent: '/2022/january/7-about-card',
-      imageUrl: '7-january-2022.png',
-    },
-    {
-      id: 1524,
-      title: 'Job Cards',
-      date: Intl.DateTimeFormat().format(
-        Temporal.PlainDate.from({
-          year: 2022,
-          month: 1,
-          day: 6,
-        }),
-      ),
-      linkOriginal:
-        'https://www.uidesigndaily.com/posts/figma-job-cards-list-card-day-1524',
-      linkComponent: '/2022/january/6-job-cards',
-      imageUrl: '6-january-2022.png',
-    },
-    {
-      id: 1523,
-      title: 'Select Plan',
-      date: Intl.DateTimeFormat().format(
-        Temporal.PlainDate.from({
-          year: 2022,
-          month: 1,
-          day: 5,
-        }),
-      ),
-      linkOriginal:
-        'https://www.uidesigndaily.com/posts/figma-select-plan-pricing-price-card-day-1523',
-      linkComponent: '/2022/january/5-select-plan',
-      imageUrl: '5-january-2022.png',
-    },
-    {
-      id: 1522,
-      title: 'Set Status',
-      date: Intl.DateTimeFormat().format(
-        Temporal.PlainDate.from({
-          year: 2022,
-          month: 1,
-          day: 4,
-        }),
-      ),
-      linkOriginal:
-        'https://www.uidesigndaily.com/posts/figma-set-status-dropdown-day-1522',
-      linkComponent: '/2022/january/4-set-status',
-      imageUrl: '4-january-2022.png',
-    },
-    {
-      id: 1521,
-      title: 'Footer',
-      date: Intl.DateTimeFormat().format(
-        Temporal.PlainDate.from({
-          year: 2022,
-          month: 1,
-          day: 3,
-        }),
-      ),
-      linkOriginal:
-        'https://www.uidesigndaily.com/posts/figma-footer-dark-mode-day-1521',
-      linkComponent: '/2022/january/3-footer',
-      imageUrl: '3-january-2022.png',
-    },
-  ]
+  import list from '../data/index'
 </script>
+
+<svelte:head>
+  <title>UI Design Daily with Tailwind CSS</title>
+</svelte:head>
 
 <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
   <ul
-    class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+    class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
   >
     {#each list as item}
       <li
@@ -119,6 +30,8 @@
             <div class="flex w-0 flex-1">
               <a
                 href={item.linkOriginal}
+                rel="external noopener noreferrer"
+                target="_blank"
                 class="relative -mr-px inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm font-medium text-gray-700 hover:text-gray-500"
               >
                 <span> UIDesignDaily </span>

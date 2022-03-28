@@ -11,12 +11,16 @@
   ]
 </script>
 
+<svelte:head>
+  <title>App UI Components - UI Design Daily with Tailwind CSS</title>
+</svelte:head>
+
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 gap-10 lg:grid-cols-2 2xl:grid-cols-3">
-      <div class="relative col-span-1 self-start p-[30px]">
+      <div class="relative col-span-1 self-start m-7">
         <div
-          class="pointer-events-none absolute inset-0 rounded-[34px] border-2 border-white bg-white/40 opacity-50"
+          class="absolute -inset-7 rounded-[34px] border-2 border-white bg-white/40 -z-10"
         />
         <div class="rounded-3xl bg-white p-[50px] shadow-xl">
           <div class="flex items-center gap-[14px]">
@@ -42,9 +46,9 @@
         </div>
       </div>
 
-      <div class="relative col-span-1 self-start p-[30px]">
+      <div class="relative col-span-1 self-start m-7">
         <div
-          class="pointer-events-none absolute inset-0 rounded-[34px] border-2 border-white bg-white/40 opacity-50"
+          class="absolute -inset-7 rounded-[34px] border-2 border-white bg-white/40 -z-10"
         />
         <div class="rounded-3xl bg-white p-6 shadow-xl">
           <ul class="space-y-2">
@@ -63,9 +67,9 @@
         </div>
       </div>
 
-      <div class="relative col-span-1 self-start p-[30px]">
+      <div class="relative col-span-1 self-start m-7">
         <div
-          class="pointer-events-none absolute inset-0 rounded-[34px] border-2 border-white bg-white/40 opacity-50"
+          class="absolute -inset-7 rounded-[34px] border-2 border-white bg-white/40 -z-10"
         />
         <div class="space-y-8 rounded-3xl bg-white p-[50px] shadow-xl">
           <h2 class="text-2xl font-bold">Preferred Language</h2>
@@ -91,7 +95,7 @@
             class="flex w-full justify-center gap-2 rounded-md bg-black p-4 text-lg text-white"
           >
             <Icon id="plus" className="h-8 w-8" />
-            <span>Buy storage</span>
+            <span>Add another language</span>
           </button>
         </div>
       </div>
