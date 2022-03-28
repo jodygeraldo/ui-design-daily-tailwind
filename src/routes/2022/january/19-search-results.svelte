@@ -2,6 +2,10 @@
   import Icon from '/src/components/Icon.svelte'
 </script>
 
+<svelte:head>
+  <title>Search Results - UI Design Daily with Tailwind CSS</title>
+</svelte:head>
+
 <div class="theme grid place-items-center min-h-screen">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
     <div class="space-y-2 max-w-md mx-auto">

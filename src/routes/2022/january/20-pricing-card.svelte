@@ -1,4 +1,6 @@
-<script></script>
+<svelte:head>
+  <title>Pricing Card - UI Design Daily with Tailwind CSS</title>
+</svelte:head>
 
 <div class="theme grid place-items-center min-h-screen">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">

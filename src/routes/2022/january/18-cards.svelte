@@ -22,6 +22,10 @@
   ]
 </script>
 
+<svelte:head>
+  <title>Cards - UI Design Daily with Tailwind CSS</title>
+</svelte:head>
+
 <div class="theme grid place-items-center min-h-screen">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">

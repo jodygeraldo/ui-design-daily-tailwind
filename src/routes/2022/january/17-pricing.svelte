@@ -6,6 +6,10 @@
   ]
 </script>
 
+<svelte:head>
+  <title>Pricing - UI Design Daily with Tailwind CSS</title>
+</svelte:head>
+
 <div class="theme grid place-items-center min-h-screen">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
     <div class="rounded-2xl space-y-[23px] bg-ascent max-w-xl mx-auto">

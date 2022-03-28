@@ -12,6 +12,10 @@
   ]
 </script>
 
+<svelte:head>
+  <title>Filter UI - UI Design Daily with Tailwind CSS</title>
+</svelte:head>
+
 <div class="theme grid place-items-center min-h-screen">
   <div class="container mx-auto px-8 sm:px-6 lg:px-8 py-4">
     <div class="rounded-2xl p-8 space-y-4 bg-white relative max-w-lg mx-auto">

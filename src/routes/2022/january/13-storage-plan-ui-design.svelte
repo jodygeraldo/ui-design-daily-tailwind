@@ -2,6 +2,10 @@
   import Icon from '/src/components/Icon.svelte'
 </script>
 
+<svelte:head>
+  <title>Storage Plan UI Design - UI Design Daily with Tailwind CSS</title>
+</svelte:head>
+
 <div class="theme grid place-items-center min-h-screen">
   <div class="container mx-auto px-4 sm:px-6 md:px-8 py-16">
     <div class="grid grid-cols-1 2xl:grid-cols-2 gap-40 place-items-center">
