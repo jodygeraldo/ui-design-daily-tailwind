@@ -53,7 +53,7 @@
                   />
                   <Icon
                     id="check"
-                    className="w-6 h-6 text-ascent absolute top-1/2 bottom-1/2 -translate-y-[60%] translate-x-1/2 right-1/2"
+                    className="w-6 h-6 text-ascent absolute top-1/2 bottom-1/2 -translate-y-1/2 translate-x-1/2 right-1/2"
                   />
                 </div>
                 <p class="font-medium lg:text-xl text-ascent">
