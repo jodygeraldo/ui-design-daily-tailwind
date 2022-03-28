@@ -1,6 +1,7 @@
 <script>
   import Icon from '/src/components/Icon.svelte'
   import list from '../data/index'
+  import { browser, mode } from '$app/env'
 </script>
 
 <svelte:head>
@@ -53,3 +54,13 @@
     {/each}
   </ul>
 </div>
+
+{#if browser && mode !== 'development'}
+  <!-- Cloudflare Web Analytics -->
+  <script
+    defer
+    src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon={'{"token":"ed0e6d03022f40168e757f0ac8cf955f"}'}>
+  </script>
+  <!-- End Cloudflare Web Analytics -->
+{/if}
