@@ -48,7 +48,9 @@
 
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
-    <div class="space-y-[72px]">
+    <div
+      class="space-y-[72px] bg-white p-4 lg:p-8 2xl:p-12 rounded-xl shadow-2xl shadow-gray-3"
+    >
       <h2 class="text-center text-[32px] font-extrabold text-primary">
         Open positions
       </h2>
