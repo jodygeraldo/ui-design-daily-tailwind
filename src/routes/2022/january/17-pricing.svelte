@@ -12,7 +12,7 @@
 
 <div class="theme grid place-items-center min-h-screen">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
-    <div class="rounded-2xl space-y-[23px] bg-ascent max-w-xl mx-auto">
+    <div class="rounded-2xl max-w-xl mx-auto">
       <div class="bg-white text-primary space-y-6 pt-8 rounded-t-3xl">
         <h2 class="font-black text-2xl text-center">Buy this image</h2>
 
@@ -27,7 +27,7 @@
         </div>
       </div>
 
-      <div class="px-4 py-6 rounded-b-3xl space-y-6">
+      <div class="px-4 pb-6 pt-12 rounded-b-3xl space-y-6 bg-ascent">
         <div class="space-y-2 text-primary">
           <div
             class="p-6 rounded-lg bg-white shadow-[0_4px_24px_0_#34389525] grid-cols-12 grid"
