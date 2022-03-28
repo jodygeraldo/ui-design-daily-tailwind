@@ -9,16 +9,23 @@
 <div class="theme grid place-items-center min-h-screen">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
     <div class="space-y-2 max-w-md mx-auto">
-      <div class="flex items-center bg-white rounded-2xl">
-        <div class="p-2 flex flex-1">
-          <input
-            type="text"
-            placeholder="Apple"
-            class="border-none focus:outline-none focus:ring-0 flex-1 w-4/5 truncate"
-          />
-          <select class="rounded bg-[#F6F8FF] border border-[#E2E7FB]">
-            <option value="EN">EN</option>
-          </select>
+      <div class="flex items-center rounded-2xl">
+        <div class="flex flex-1">
+          <div class="relative flex-1">
+            <input
+              type="text"
+              placeholder="Apple"
+              class="border-none focus:outline-none focus:ring-0 w-full rounded-l-2xl p-[18px] pr-28"
+            />
+            <div class="absolute right-2 inset-y-2">
+              <select
+                class="rounded bg-[#F6F8FF] border border-[#E2E7FB] text-gray-3"
+              >
+                <option value="EN">EN</option>
+                <option value="ID">ID</option>
+              </select>
+            </div>
+          </div>
         </div>
         <button class="bg-primary p-4 rounded-r-2xl">
           <Icon id="magnifying-glass" className="w-7 h-7 text-white" />
