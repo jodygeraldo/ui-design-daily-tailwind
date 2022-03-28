@@ -1,4 +1,5 @@
-import { formattedDate, type ItemType } from '..'
+import { formattedDate } from '../../utils'
+import type { ItemType } from '..'
 
 const list: ItemType[] = [
   {
