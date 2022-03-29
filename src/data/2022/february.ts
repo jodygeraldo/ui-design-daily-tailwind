@@ -3,6 +3,15 @@ import type { ItemType } from '..'
 
 const list: ItemType[] = [
   {
+    id: 1546,
+    title: 'Details Card',
+    date: formattedDate(7, 2, 2022),
+    linkOriginal:
+      'https://www.uidesigndaily.com/posts/figma-details-card-day-1546',
+    linkComponent: '/2022/february/7-details-card',
+    imageUrl: '7-february-2022.png',
+  },
+  {
     id: 1545,
     title: 'Subscribe Card',
     date: formattedDate(4, 2, 2022),
@@ -11,7 +20,7 @@ const list: ItemType[] = [
     linkComponent: '/2022/february/4-subscribe-card',
     imageUrl: '4-february-2022.png',
   },
-  {  
+  {
     id: 1544,
     title: 'User Card',
     date: formattedDate(3, 2, 2022),
@@ -20,7 +29,7 @@ const list: ItemType[] = [
     linkComponent: '/2022/february/3-user-card',
     imageUrl: '3-february-2022.png',
   },
-  { 
+  {
     id: 1543,
     title: 'To Do List',
     date: formattedDate(2, 2, 2022),
@@ -41,15 +50,6 @@ const list: ItemType[] = [
 ]
 
 export const pendingList: ItemType[] = [
-  {
-    id: 1546,
-    title: 'Details Card',
-    date: formattedDate(7, 2, 2022),
-    linkOriginal:
-      'https://www.uidesigndaily.com/posts/figma-details-card-day-1546',
-    linkComponent: '/2022/february/7-details-card',
-    imageUrl: '7-february-2022.png',
-  },
   {
     id: 1547,
     title: 'Product Details Card',
