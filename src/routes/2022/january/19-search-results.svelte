@@ -19,7 +19,7 @@
             />
             <div class="absolute right-2 inset-y-2">
               <select
-                class="rounded bg-[#F6F8FF] border border-[#E2E7FB] text-gray-3"
+                class="rounded bg-[#F6F8FF] border border-[#E2E7FB] text-primary"
               >
                 <option value="EN">EN</option>
                 <option value="ID">ID</option>
