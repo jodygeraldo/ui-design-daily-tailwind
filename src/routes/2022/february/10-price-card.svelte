@@ -54,7 +54,7 @@
       </div>
 
       <button
-        class="shadow-[0_14px_54px_0_1b255a30] text-white rounded-lg p-6 w-full bg-primary mt-10"
+        class="shadow-[0_14px_54px_0_#1b255a30] text-white rounded-lg p-6 w-full bg-primary mt-10"
         >Subscribe</button
       >
     </div>
