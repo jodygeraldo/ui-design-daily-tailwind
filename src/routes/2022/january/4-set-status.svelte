@@ -8,7 +8,7 @@
 
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
-    <div class="grid gap-20 lg:grid-cols-2">
+    <div class="grid grid-cols-1 gap-20 lg:grid-cols-2">
       <div
         class="col-span-1 space-y-6 self-start rounded-2xl bg-white p-8 shadow-lg"
       >
@@ -31,7 +31,7 @@
         </div>
       </div>
 
-      <div class="col-span-1">
+      <div class="col-span-1 mx-auto">
         <button
           class="inline-flex gap-3 rounded-lg border border-primary p-[10px] font-medium text-gray-12"
         >
