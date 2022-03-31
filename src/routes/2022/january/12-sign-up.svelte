@@ -4,30 +4,30 @@
   <title>Sign Up - UI Design Daily with Tailwind CSS</title>
 </svelte:head>
 
-<div class="theme grid place-items-center min-h-screen">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="theme grid min-h-screen place-items-center">
+  <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div
-      class="rounded-3xl space-y-[41px] px-8 py-6 lg:px-16 lg:py-12 2xl:px-24 2xl:py-16 shadow-2xl bg-white max-w-xl mx-auto"
+      class="mx-auto max-w-xl space-y-[41px] rounded-3xl bg-white px-8 py-6 shadow-2xl lg:px-16 lg:py-12 2xl:px-24 2xl:py-16"
     >
       <div class="space-y-[35px]">
         <div class="space-y-[19px] text-center">
           <div class="space-y-6">
-            <div class="relative w-40 h-40 rounded-full mx-auto bg-[#F8F4FA]">
+            <div class="relative mx-auto h-40 w-40 rounded-full bg-[#F8F4FA]">
               <img
                 src="/assets/images/person-2.png"
                 alt=""
-                class="absolute rounded-full w-32 h-w-32 right-4 bottom-4"
+                class="h-w-32 absolute right-4 bottom-4 w-32 rounded-full"
               />
             </div>
 
             <p class="text-primary">Tina V. invited you to join</p>
           </div>
 
-          <h2 class="font-extrabold text-lg lg:text-2xl text-primary">
+          <h2 class="text-lg font-extrabold text-primary lg:text-2xl">
             Channel name
           </h2>
 
-          <div class="rounded-lg bg-[#f8f4fa] p-4 w-3/4 mx-auto">
+          <div class="mx-auto w-3/4 rounded-lg bg-[#f8f4fa] p-4">
             <p class="text-primary">46K Active users・78K Total users</p>
           </div>
         </div>
@@ -37,23 +37,23 @@
 
           <input
             type="text"
-            class="lg:placeholder:text-lg lg:text-lg text-primary rounded-lg bg-white border border-[#c2adc2] p-6 w-full"
+            class="w-full rounded-lg border border-[#c2adc2] bg-white p-6 text-primary lg:text-lg lg:placeholder:text-lg"
             placeholder="How do you like people to call you?"
           />
         </div>
 
         <div class="flex gap-4">
           <button
-            class="w-8 h-8 border border-[#c2adc2] bg-white rounded-lg shrink-0"
+            class="h-8 w-8 shrink-0 rounded-lg border border-[#c2adc2] bg-white"
           />
           <p class="lg:text-lg">
             I have read and agree to the <a
               href="#tos"
-              class="underline underline-offset-1 text-ascent"
+              class="text-ascent underline underline-offset-1"
               >Terms of service</a
             >
             and
-            <a href="#pp" class="underline underline-offset-1 text-ascent"
+            <a href="#pp" class="text-ascent underline underline-offset-1"
               >Privacy policy</a
             >.
           </p>
@@ -62,14 +62,14 @@
 
       <div class="space-y-14">
         <button
-          class="p-6 w-full border bg-ascent border-[#c2adc2] text-white font-semibold text-lg rounded-lg"
+          class="w-full rounded-lg border border-[#c2adc2] bg-ascent p-6 text-lg font-semibold text-white"
         >
           Continue
         </button>
 
         <a
           href="#login"
-          class="text-sm lg:text-base text-ascent block text-center underline underline-offset-1"
+          class="block text-center text-sm text-ascent underline underline-offset-1 lg:text-base"
           >Already have an account</a
         >
       </div>

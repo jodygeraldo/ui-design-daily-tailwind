@@ -1,7 +1,7 @@
 <script>
   import clsx from 'clsx'
 
-  import Icon from '/src/components/Icon.svelte'
+  import Icon from '$lib/Icon.svelte'
 
   const nav = [
     { name: 'Reputation', active: false },
@@ -61,15 +61,15 @@
   <title>Users List - UI Design Daily with Tailwind CSS</title>
 </svelte:head>
 
-<div class="theme grid place-items-center min-h-screen">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="theme grid min-h-screen place-items-center">
+  <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div
-      class="p-6 bg-white space-y-4 lg:p-12 lg:space-y-8 rounded-2xl shadow-2xl shadow-[#BCC6E7]"
+      class="space-y-4 rounded-2xl bg-white p-6 shadow-2xl shadow-[#BCC6E7] lg:space-y-8 lg:p-12"
     >
       <div class="space-y-4">
-        <h2 class="font-black text-2xl lg:text-3xl text-primary">Users</h2>
+        <h2 class="text-2xl font-black text-primary lg:text-3xl">Users</h2>
 
-        <div class="lg:flex justify-between items-center">
+        <div class="items-center justify-between lg:flex">
           <div class="relative flex-1">
             <Icon
               id="magnifying-glass"
@@ -77,18 +77,18 @@
             />
             <input
               type="search"
-              class="pl-8 p-4 lg:pl-12 rounded placeholder-primary/70 border border-tertiary bg-[#FBFCFF] placeholder:font-medium w-full lg:w-2/3"
+              class="placeholder-primary/70 w-full rounded border border-tertiary bg-[#FBFCFF] p-4 pl-8 placeholder:font-medium lg:w-2/3 lg:pl-12"
               placeholder="Search users"
             />
           </div>
 
           <nav class="mt-4 lg:mt-0">
-            <ul class="sm:flex w-full items-center">
+            <ul class="w-full items-center sm:flex">
               {#each nav as navItem}
                 <li
                   class={clsx(
                     navItem.active ? 'bg-[#849FFF] text-white' : 'text-primary',
-                    'p-2 lg:p-4 min-w-fit rounded-lg font-medium',
+                    'min-w-fit rounded-lg p-2 font-medium lg:p-4',
                   )}
                 >
                   <a href={`#${navItem.name}`}>{navItem.name}</a>
@@ -100,31 +100,31 @@
       </div>
 
       <div
-        class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 lg:gap-4"
+        class="grid grid-cols-1 gap-2 md:grid-cols-2 lg:gap-4 xl:grid-cols-3"
       >
         {#each users as user}
           <div
             class={clsx(
               user.selected &&
                 'border border-tertiary shadow-[0_8px_23px_0_#DAE0F970]',
-              'col-span-1 bg-[#FBFCFF] rounded-2xl p-6 text-center sm:text-left sm:flex sm:gap-4',
+              'col-span-1 rounded-2xl bg-[#FBFCFF] p-6 text-center sm:flex sm:gap-4 sm:text-left',
             )}
           >
             <img
               src={`/assets/images/${user.avatar}`}
               alt=""
-              class="rounded-full w-24 h-24 mx-auto sm:mx-0"
+              class="mx-auto h-24 w-24 rounded-full sm:mx-0"
             />
 
             <div>
-              <h3 class="font-black text-lg">{user.name}</h3>
+              <h3 class="text-lg font-black">{user.name}</h3>
               <p class="mt-1 text-sm font-medium">{user.location}</p>
               <ul
-                class="mt-4 flex gap-1 items-center flex-wrap justify-center sm:justify-start"
+                class="mt-4 flex flex-wrap items-center justify-center gap-1 sm:justify-start"
               >
                 {#each user.tags as tag}
                   <li
-                    class="py-0.5 px-2 rounded-full border border-[#BFC8E5] text-[#516FD4] bg-white"
+                    class="rounded-full border border-[#BFC8E5] bg-white py-0.5 px-2 text-[#516FD4]"
                   >
                     {tag}
                   </li>

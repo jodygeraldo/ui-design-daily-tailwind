@@ -1,5 +1,5 @@
 <script>
-  import Icon from '/src/components/Icon.svelte'
+  import Icon from '$lib/Icon.svelte'
 
   const people = [
     { name: 'Mary Massis', imageUrl: 'person-1.png' },

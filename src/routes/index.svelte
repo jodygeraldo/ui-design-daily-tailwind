@@ -1,5 +1,5 @@
 <script>
-  import Icon from '/src/components/Icon.svelte'
+  import Icon from '$lib/Icon.svelte'
   import list from '../data/index'
   import { browser, mode } from '$app/env'
 </script>
@@ -10,7 +10,7 @@
 
 <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
   <h2
-    class="text-2xl font-bold leading-7 text-gray-12 sm:text-3xl sm:truncate py-4"
+    class="py-4 text-2xl font-bold leading-7 text-gray-12 sm:truncate sm:text-3xl"
   >
     Recents
   </h2>
@@ -18,7 +18,7 @@
   <ul class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
     {#each list as item}
       <li
-        class="col-span-1 flex flex-col divide-y divide-gray-6 rounded bg-gray-3 text-center shadow border-2 border-gray-7"
+        class="col-span-1 flex flex-col divide-y divide-gray-6 rounded border-2 border-gray-7 bg-gray-3 text-center shadow"
       >
         <img
           class="aspect-video w-full flex-shrink-0 rounded-t-sm"
@@ -28,7 +28,7 @@
         <div class="flex flex-1 flex-col p-8">
           <h3 class="text-lg font-medium text-gray-12">{item.title}</h3>
 
-          <time class="mt-1 text-sm text-gray-11 truncate">{item.date}</time>
+          <time class="mt-1 truncate text-sm text-gray-11">{item.date}</time>
         </div>
         <div>
           <div class="-mt-px flex divide-x divide-gray-6">
@@ -37,7 +37,7 @@
                 href={item.linkOriginal}
                 rel="external noopener noreferrer"
                 target="_blank"
-                class="relative -mr-px inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm font-medium text-gray-9 hover:text-gray-11 transition-colors"
+                class="relative -mr-px inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm font-medium text-gray-9 transition-colors hover:text-gray-11"
               >
                 <span> UIDesignDaily </span>
                 <Icon
@@ -49,7 +49,7 @@
             <div class="-ml-px flex w-0 flex-1">
               <a
                 href={item.linkComponent}
-                class="relative inline-flex w-0 flex-1 items-center justify-center rounded-br-lg border border-transparent py-4 text-sm font-medium text-gray-9 hover:text-gray-11 transition-colors"
+                class="relative inline-flex w-0 flex-1 items-center justify-center rounded-br-lg border border-transparent py-4 text-sm font-medium text-gray-9 transition-colors hover:text-gray-11"
               >
                 <span> Implementation </span>
                 <Icon

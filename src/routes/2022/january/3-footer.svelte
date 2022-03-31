@@ -1,5 +1,5 @@
 <script>
-  import Icon from '/src/components/Icon.svelte'
+  import Icon from '$lib/Icon.svelte'
 
   const navLinks = [
     'Home',
@@ -70,9 +70,9 @@
             Get in touch
           </h2>
           <div class="mt-4 flex gap-6">
-            <Icon id="discord" className="w-6 h-6 text-high-contrast" />
-            <Icon id="github" className="w-6 h-6 text-high-contrast" />
-            <Icon id="twitter" className="w-6 h-6 text-high-contrast" />
+            <Icon id="discord-logo" className="w-6 h-6 text-high-contrast" />
+            <Icon id="github-logo" className="w-6 h-6 text-high-contrast" />
+            <Icon id="twitter-logo" className="w-6 h-6 text-high-contrast" />
           </div>
         </div>
       </div>
