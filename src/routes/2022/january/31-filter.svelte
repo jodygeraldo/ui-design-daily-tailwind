@@ -1,6 +1,6 @@
 <script>
   import clsx from 'clsx'
-  import Icon from '/src/components/Icon.svelte'
+  import Icon from '$lib/Icon.svelte'
 
   const list = [
     { name: 'BTC', imageUrl: 'btc.png', love: false, selected: false },
@@ -16,31 +16,31 @@
   <title>Filter - UI Design Daily with Tailwind CSS</title>
 </svelte:head>
 
-<div class="theme grid place-items-center min-h-screen">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="theme grid min-h-screen place-items-center">
+  <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div
-      class="max-w-md mx-auto rounded-3xl space-y-9 px-8 pt-12 pb-10 bg-white shadow-[0_13px_30px_0_#afbbea40] relative"
+      class="relative mx-auto max-w-md space-y-9 rounded-3xl bg-white px-8 pt-12 pb-10 shadow-[0_13px_30px_0_#afbbea40]"
     >
       <div
-        class="absolute -left-6 right-6 -top-6 bottom-12 bg-[#ccd5f9] -z-10 rounded-3xl"
+        class="absolute -left-6 right-6 -top-6 bottom-12 -z-10 rounded-3xl bg-[#ccd5f9]"
       />
 
       <div class="px-4">
-        <div class="flex mb-6">
+        <div class="mb-6 flex">
           <button
-            class="w-full text-white bg-primary px-2 py-1 sm:py-[10px] sm:px-6 rounded-l border border-ascent"
+            class="w-full rounded-l border border-ascent bg-primary px-2 py-1 text-white sm:py-[10px] sm:px-6"
             >All</button
           >
           <button
-            class="w-full text-black bg-white px-2 py-1 sm:py-[10px] sm:px-6 border-y border-ascent border-r"
+            class="w-full border-y border-r border-ascent bg-white px-2 py-1 text-black sm:py-[10px] sm:px-6"
             >USDT</button
           >
           <button
-            class="w-full text-black bg-white px-2 py-1 sm:py-[10px] sm:px-6 border-y border-ascent"
+            class="w-full border-y border-ascent bg-white px-2 py-1 text-black sm:py-[10px] sm:px-6"
             >BUSD</button
           >
           <button
-            class="w-full bg-white px-2 py-1 sm:py-[10px] sm:px-6 rounded-r border border-ascent flex justify-center items-center"
+            class="flex w-full items-center justify-center rounded-r border border-ascent bg-white px-2 py-1 sm:py-[10px] sm:px-6"
           >
             <Icon id="heart" className="h-5 w-5 text-[#2C3E50]" />
           </button>
@@ -53,23 +53,23 @@
           />
           <input
             type="search"
-            class="w-full rounded-lg border border-ascent py-4 pl-12 pr-4 placeholder:text-primary/60 bg-[#f2f5ff]"
+            class="placeholder:text-primary/60 w-full rounded-lg border border-ascent bg-[#f2f5ff] py-4 pl-12 pr-4"
             placeholder="Search ETH, BTC, ..."
           />
         </div>
       </div>
 
-      <div class="rounded space-y-1">
+      <div class="space-y-1 rounded">
         {#each list as item}
           <div
             class={clsx(
               item.selected && 'bg-[#F2F5FF]',
-              'flex justify-between items-center p-4 rounded',
+              'flex items-center justify-between rounded p-4',
             )}
           >
             <div class="flex items-center gap-2">
               <img
-                class="w-[50px] h-[50px] rounded-full"
+                class="h-[50px] w-[50px] rounded-full"
                 src={`/assets/images/${item.imageUrl}`}
                 alt=""
               />

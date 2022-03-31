@@ -1,26 +1,26 @@
 <script>
-  import Icon from '/src/components/Icon.svelte'
+  import Icon from '$lib/Icon.svelte'
 </script>
 
 <svelte:head>
   <title>Footer - UI Design Daily with Tailwind CSS</title>
 </svelte:head>
 
-<div class="theme grid place-items-center min-h-screen">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="theme grid min-h-screen place-items-center">
+  <div class="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
     <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-3xl relative"
+      class="relative grid grid-cols-1 rounded-3xl md:grid-cols-2 lg:grid-cols-3"
     >
       <div
-        class="absolute -inset-y-6 inset-x-[42px] bg-white -z-10 rounded-3xl"
+        class="absolute -inset-y-6 inset-x-[42px] -z-10 rounded-3xl bg-white"
       />
       <div
-        class="col-span-1 pb-16 min-w-max bg-[#FB896B] rounded-t-3xl md:rounded-tr-none py-16 pl-8 lg:pt-32 pr-8 lg:pl-16"
+        class="col-span-1 min-w-max rounded-t-3xl bg-[#FB896B] py-16 pb-16 pl-8 pr-8 md:rounded-tr-none lg:pt-32 lg:pl-16"
       >
         <div class="space-y-4 text-white">
-          <div class="flex items-center gap-[9px] ml-2">
+          <div class="ml-2 flex items-center gap-[9px]">
             <Icon id="magnifying-glass" className="w-6 h-6" />
-            <h3 class="font-semibold text-2xl -mt-1">Search</h3>
+            <h3 class="-mt-1 text-2xl font-semibold">Search</h3>
           </div>
           <div>
             <p class="p-[10px] font-medium">SEO/Google Ads</p>
@@ -31,12 +31,12 @@
       </div>
 
       <div
-        class="col-span-1 pb-16 min-w-max bg-[#FB6B6B] md:rounded-tr-3xl lg:rounded-none py-16 pl-8 lg:pt-32 lg:pr-16"
+        class="col-span-1 min-w-max bg-[#FB6B6B] py-16 pb-16 pl-8 md:rounded-tr-3xl lg:rounded-none lg:pt-32 lg:pr-16"
       >
         <div class="space-y-4 text-white">
-          <div class="flex items-center gap-[9px] ml-2">
+          <div class="ml-2 flex items-center gap-[9px]">
             <Icon id="drawing-pin" className="w-6 h-6" />
-            <h3 class="font-semibold text-2xl -mt-1">CRO</h3>
+            <h3 class="-mt-1 text-2xl font-semibold">CRO</h3>
           </div>
           <div>
             <p class="p-[10px] font-medium">Analysis</p>
@@ -47,12 +47,12 @@
       </div>
 
       <div
-        class="col-span-1 pb-16 min-w-max bg-[#F1A864] lg:rounded-tr-3xl py-16 pl-8 lg:pt-32 lg:pr-16"
+        class="col-span-1 min-w-max bg-[#F1A864] py-16 pb-16 pl-8 lg:rounded-tr-3xl lg:pt-32 lg:pr-16"
       >
         <div class="space-y-4 text-white">
-          <div class="flex items-center gap-[9px] ml-2">
+          <div class="ml-2 flex items-center gap-[9px]">
             <Icon id="chat-bubble" className="w-6 h-6" />
-            <h3 class="font-semibold text-2xl -mt-1">Social Media</h3>
+            <h3 class="-mt-1 text-2xl font-semibold">Social Media</h3>
           </div>
           <div>
             <p class="p-[10px] font-medium">Facebooks</p>
@@ -63,12 +63,12 @@
       </div>
 
       <div
-        class="col-span-1 pb-16 min-w-max bg-[#FBD36B] lg:rounded-bl-3xl py-16 pl-8 lg:pl-16 pr-8"
+        class="col-span-1 min-w-max bg-[#FBD36B] py-16 pb-16 pl-8 pr-8 lg:rounded-bl-3xl lg:pl-16"
       >
         <div class="space-y-4 text-[#485258]">
-          <div class="flex items-center gap-[9px] ml-2">
+          <div class="ml-2 flex items-center gap-[9px]">
             <Icon id="magnifying-glass" className="w-6 h-6" />
-            <h3 class="font-semibold text-2xl -mt-1">Other services</h3>
+            <h3 class="-mt-1 text-2xl font-semibold">Other services</h3>
           </div>
           <div>
             <p class="p-[10px] font-medium">Marketing</p>
@@ -79,17 +79,17 @@
       </div>
 
       <div
-        class="bg-[#485258] md:col-span-2 rounded-b-3xl lg:rounded-bl-none py-16 pl-8"
+        class="rounded-b-3xl bg-[#485258] py-16 pl-8 md:col-span-2 lg:rounded-bl-none"
       >
-        <div class="w-2/3 md:w-7/12 xl:w-1/2 space-y-4 pl-[10px]">
-          <h3 class="font-semibold text-2xl text-white">
+        <div class="w-2/3 space-y-4 pl-[10px] md:w-7/12 xl:w-1/2">
+          <h3 class="text-2xl font-semibold text-white">
             Do you want to increase your sales and reach your goals?
           </h3>
           <p class="font-medium text-white">
             Schedule a free, no-obligation conversation with one of our experts
             to quickly improve the results of your business.
           </p>
-          <button class="font-medium text-lg text-[#485258] bg-white p-4"
+          <button class="bg-white p-4 text-lg font-medium text-[#485258]"
             >Book a conversation</button
           >
         </div>

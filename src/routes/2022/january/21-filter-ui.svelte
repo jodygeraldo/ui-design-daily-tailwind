@@ -1,6 +1,6 @@
 <script>
   import clsx from 'clsx'
-  import Icon from '/src/components/Icon.svelte'
+  import Icon from '$lib/Icon.svelte'
 
   const options = [
     { name: 'All', checked: true, special: false },
@@ -16,35 +16,35 @@
   <title>Filter UI - UI Design Daily with Tailwind CSS</title>
 </svelte:head>
 
-<div class="theme grid place-items-center min-h-screen">
-  <div class="container mx-auto px-8 sm:px-6 lg:px-8 py-4">
-    <div class="rounded-2xl p-8 space-y-4 bg-white relative max-w-lg mx-auto">
+<div class="theme grid min-h-screen place-items-center">
+  <div class="container mx-auto px-8 py-4 sm:px-6 lg:px-8">
+    <div class="relative mx-auto max-w-lg space-y-4 rounded-2xl bg-white p-8">
       <div
-        class="absolute -inset-4 sm:-inset-6 lg:-inset-8 bg-[#F3EFFF] rounded-3xl -z-10"
+        class="absolute -inset-4 -z-10 rounded-3xl bg-[#F3EFFF] sm:-inset-6 lg:-inset-8"
       />
 
-      <h2 class="font-bold text-2xl text-primary">Filter by</h2>
+      <h2 class="text-2xl font-bold text-primary">Filter by</h2>
 
-      <div class="flex gap-5 flex-col sm:flex-row">
-        <div class="w-full relative">
+      <div class="flex flex-col gap-5 sm:flex-row">
+        <div class="relative w-full">
           <select
-            class="rounded-lg p-4 w-full font-medium border border-[#C7CCDE] text-primary"
+            class="w-full rounded-lg border border-[#C7CCDE] p-4 font-medium text-primary"
           >
             <option value="" disabled selected hidden>Location</option>
           </select>
         </div>
 
-        <div class="w-full relative">
+        <div class="relative w-full">
           <select
-            class="rounded-lg p-4 w-full font-medium border border-[#C7CCDE] text-primary"
+            class="w-full rounded-lg border border-[#C7CCDE] p-4 font-medium text-primary"
           >
             <option value="" disabled selected hidden>Team</option>
           </select>
         </div>
 
-        <div class="w-full relative">
+        <div class="relative w-full">
           <div
-            class="rounded-lg p-4 w-full font-medium border border-primary text-primary relative"
+            class="relative w-full rounded-lg border border-primary p-4 font-medium text-primary"
           >
             <p>Work Type</p>
             <Icon
@@ -54,19 +54,19 @@
           </div>
 
           <div
-            class="absolute right-0 mt-1 bg-white rounded-2xl p-2 shadow-[0_14px_44px_0_#c7bee250]"
+            class="absolute right-0 mt-1 rounded-2xl bg-white p-2 shadow-[0_14px_44px_0_#c7bee250]"
           >
             {#each options as option}
               <div
                 class={clsx(
-                  option.special && 'bg-[#FBF7FF] rounded-lg',
-                  'p-4 font-medium flex gap-1 items-center',
+                  option.special && 'rounded-lg bg-[#FBF7FF]',
+                  'flex items-center gap-1 p-4 font-medium',
                 )}
               >
                 <div
                   class={clsx(
                     option.special ? 'bg-[#FBF7FF]' : 'bg-white ',
-                    'w-6 h-6 flex justify-center items-center',
+                    'flex h-6 w-6 items-center justify-center',
                   )}
                 >
                   {#if option.checked}

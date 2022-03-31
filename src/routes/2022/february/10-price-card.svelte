@@ -1,50 +1,50 @@
 <script>
-  import Icon from '/src/components/Icon.svelte'
+  import Icon from '$lib/Icon.svelte'
 </script>
 
 <svelte:head>
   <title>Price Card - UI Design Daily with Tailwind CSS</title>
 </svelte:head>
 
-<div class="theme grid place-items-center min-h-screen">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="theme grid min-h-screen place-items-center">
+  <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div
-      class="rounded-3xl shadow-[0_43px_50px_-25px_#9dace330] bg-white p-12 max-w-lg mx-auto"
+      class="mx-auto max-w-lg rounded-3xl bg-white p-12 shadow-[0_43px_50px_-25px_#9dace330]"
     >
       <div
-        class="flex justify-center items-center flex-col gap-1 border border-ascent w-28 h-28 mx-auto rounded-full"
+        class="mx-auto flex h-28 w-28 flex-col items-center justify-center gap-1 rounded-full border border-ascent"
       >
         <Icon id="image" className="w-10 h-10 text-primary" />
         <p class="font-bold text-primary">BASIC</p>
       </div>
 
-      <div class="-space-y-1.5 text-primary mt-4 text-center">
-        <div class="flex items-center gap-2 justify-center">
+      <div class="mt-4 -space-y-1.5 text-center text-primary">
+        <div class="flex items-center justify-center gap-2">
           <p class="font-medium">KR</p>
-          <p class="font-bold text-4xl">199</p>
+          <p class="text-4xl font-bold">199</p>
         </div>
         <p class="font-medium">NOK/MONTH</p>
       </div>
 
-      <div class="space-y-4 mt-16 text-center">
-        <div class="flex gap-2 justify-center">
+      <div class="mt-16 space-y-4 text-center">
+        <div class="flex justify-center gap-2">
           <p
-            class="w-16 h-12 rounded-2xl font-medium text-2xl text-primary border-2 border-tertiary inline-flex justify-center items-center"
+            class="inline-flex h-12 w-16 items-center justify-center rounded-2xl border-2 border-tertiary text-2xl font-medium text-primary"
           >
             10
           </p>
           <p
-            class="w-16 h-12 rounded-2xl font-medium text-2xl text-white bg-primary inline-flex justify-center items-center"
+            class="inline-flex h-12 w-16 items-center justify-center rounded-2xl bg-primary text-2xl font-medium text-white"
           >
             25
           </p>
           <p
-            class="w-16 h-12 rounded-2xl font-medium text-2xl text-primary border-2 border-tertiary inline-flex justify-center items-center"
+            class="inline-flex h-12 w-16 items-center justify-center rounded-2xl border-2 border-tertiary text-2xl font-medium text-primary"
           >
             50
           </p>
           <p
-            class="w-16 h-12 rounded-2xl font-medium text-2xl text-primary border-2 border-tertiary inline-flex justify-center items-center"
+            class="inline-flex h-12 w-16 items-center justify-center rounded-2xl border-2 border-tertiary text-2xl font-medium text-primary"
           >
             100
           </p>
@@ -54,7 +54,7 @@
       </div>
 
       <button
-        class="shadow-[0_14px_54px_0_#1b255a30] text-white rounded-lg p-6 w-full bg-primary mt-10"
+        class="mt-10 w-full rounded-lg bg-primary p-6 text-white shadow-[0_14px_54px_0_#1b255a30]"
         >Subscribe</button
       >
     </div>

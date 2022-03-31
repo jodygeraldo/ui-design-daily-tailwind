@@ -10,45 +10,45 @@
   <title>Pricing - UI Design Daily with Tailwind CSS</title>
 </svelte:head>
 
-<div class="theme grid place-items-center min-h-screen">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
-    <div class="rounded-2xl max-w-xl mx-auto">
-      <div class="bg-white text-primary space-y-6 pt-8 rounded-t-3xl">
-        <h2 class="font-black text-2xl text-center">Buy this image</h2>
+<div class="theme grid min-h-screen place-items-center">
+  <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-xl rounded-2xl">
+      <div class="space-y-6 rounded-t-3xl bg-white pt-8 text-primary">
+        <h2 class="text-center text-2xl font-black">Buy this image</h2>
 
         <div class="flex">
           <button
-            class="text-lg font-semibold flex-1 p-6 border-b-2 border-primary"
+            class="flex-1 border-b-2 border-primary p-6 text-lg font-semibold"
             >Standard Licenses</button
           >
-          <button class="text-lg font-semibold flex-1 p-6"
+          <button class="flex-1 p-6 text-lg font-semibold"
             >Royalty free licenses</button
           >
         </div>
       </div>
 
-      <div class="px-4 pb-6 pt-12 rounded-b-3xl space-y-6 bg-ascent">
+      <div class="space-y-6 rounded-b-3xl bg-ascent px-4 pb-6 pt-12">
         <div class="space-y-2 text-primary">
           <div
-            class="p-6 rounded-lg bg-white shadow-[0_4px_24px_0_#34389525] grid-cols-12 grid"
+            class="grid grid-cols-12 rounded-lg bg-white p-6 shadow-[0_4px_24px_0_#34389525]"
           >
             <button
-              class="w-8 h-8 bg-white border-2 border-primary rounded-full relative col-span-2 sm:col-span-1"
+              class="relative col-span-2 h-8 w-8 rounded-full border-2 border-primary bg-white sm:col-span-1"
             >
-              <div class="absolute inset-1.5 bg-primary rounded-full" /></button
+              <div class="absolute inset-1.5 rounded-full bg-primary" /></button
             >
-            <h3 class="font-bold text-lg col-span-8 sm:col-span-9">
+            <h3 class="col-span-8 text-lg font-bold sm:col-span-9">
               Personal use
             </h3>
 
             <p
-              class="font-bold text-lg col-span-10 col-start-3 sm:col-start-auto sm:col-span-2 sm:justify-self-end -mt-2 sm:mt-0"
+              class="col-span-10 col-start-3 -mt-2 text-lg font-bold sm:col-span-2 sm:col-start-auto sm:mt-0 sm:justify-self-end"
             >
               $11.00
             </p>
 
             <p
-              class="font-semibold text-black col-span-10 col-start-3 sm:col-start-2"
+              class="col-span-10 col-start-3 font-semibold text-black sm:col-start-2"
             >
               Personal prints, cards and gifts, or reference for artists.
               Non-commercial use only, not for resale.
@@ -56,17 +56,17 @@
           </div>
 
           {#each others as other}
-            <div class="p-6 rounded-lg bg-white grid-cols-12 grid">
+            <div class="grid grid-cols-12 rounded-lg bg-white p-6">
               <button
-                class="w-8 h-8 bg-white border-2 border-primary/60 rounded-full relative col-span-2 sm:col-span-1"
+                class="border-primary/60 relative col-span-2 h-8 w-8 rounded-full border-2 bg-white sm:col-span-1"
               />
 
-              <h3 class="font-bold text-lg col-span-8 sm:col-span-9">
+              <h3 class="col-span-8 text-lg font-bold sm:col-span-9">
                 {other.name}
               </h3>
 
               <p
-                class="font-bold text-lg col-span-10 col-start-3 sm:col-start-auto sm:col-span-2 sm:justify-self-end -mt-2 sm:mt-0"
+                class="col-span-10 col-start-3 -mt-2 text-lg font-bold sm:col-span-2 sm:col-start-auto sm:mt-0 sm:justify-self-end"
               >
                 {other.price}
               </p>
@@ -75,12 +75,12 @@
         </div>
 
         <button
-          class="w-full bg-primary p-6 rounded-lg text-lg font-bold text-white"
+          class="w-full rounded-lg bg-primary p-6 text-lg font-bold text-white"
           >Buy now</button
         >
 
         <button
-          class="border border-primary p-6 bg-transparent rounded-lg text-lg font-bold text-primary w-full"
+          class="w-full rounded-lg border border-primary bg-transparent p-6 text-lg font-bold text-primary"
           >Add to cart</button
         >
       </div>

@@ -1,41 +1,47 @@
-<script>
-  import Icon from '/src/components/Icon.svelte'
+<script lang="ts">
+  import Icon from '$lib/Icon.svelte'
+  import type { IconId } from '$lib/IconType'
   import clsx from 'clsx'
 
-  const positions = [
+  const positions: {
+    name: string
+    iconId: IconId
+    open: number
+    special: boolean
+  }[] = [
     {
       name: 'Design',
-      iconId: 'github',
+      iconId: 'pencil-1',
       open: 4,
       special: false,
     },
     {
       name: 'Engineering',
-      iconId: 'discord',
+      iconId: 'code',
       open: 8,
       special: true,
     },
     {
       name: 'Operations',
-      iconId: 'reset',
+      iconId: 'gear',
       open: 2,
       special: false,
     },
     {
       name: 'People',
-      iconId: 'linkedin',
+      iconId: 'person',
       open: 6,
       special: false,
     },
     {
       name: 'Sales',
-      iconId: 'twitter',
+      iconId: 'file-text',
       open: 7,
       special: false,
     },
     {
       name: 'University',
-      iconId: 'clock',
+      iconId: 'backpack',
       open: 8,
       special: false,
     },
@@ -49,7 +55,7 @@
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div
-      class="space-y-[72px] bg-white p-4 lg:p-8 2xl:p-12 rounded-xl shadow-2xl shadow-gray-3"
+      class="space-y-[72px] rounded-xl bg-white p-4 shadow-2xl shadow-gray-3 lg:p-8 2xl:p-12"
     >
       <h2 class="text-center text-[32px] font-extrabold text-primary">
         Open positions
