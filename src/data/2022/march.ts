@@ -11,7 +11,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-price-card-day-1562',
     linkComponent: '/2022/march/1-price-card',
-    imageUrl: '1-march-2022.png',
+    imageUrl: '2022/march/1.png',
   },
   {
     id: 1563,
@@ -20,7 +20,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-stores-list-card-dark-mode-day-1563',
     linkComponent: '/2022/march/2-stores-list',
-    imageUrl: '2-march-2022.png',
+    imageUrl: '2022/march/2.png',
   },
   {
     id: 1564,
@@ -29,7 +29,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-details-card-day-1564',
     linkComponent: '/2022/march/3-details-card',
-    imageUrl: '3-march-2022.png',
+    imageUrl: '2022/march/3.png',
   },
   {
     id: 1565,
@@ -38,7 +38,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-product-review-modal-rating-day-1565',
     linkComponent: '/2022/march/4-product-review-modal',
-    imageUrl: '4-march-2022.png',
+    imageUrl: '2022/march/4.png',
   },
   {
     id: 1566,
@@ -47,7 +47,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-pricing-card-subscribe-day-1566',
     linkComponent: '/2022/march/7-pricing-card',
-    imageUrl: '7-march-2022.png',
+    imageUrl: '2022/march/7.png',
   },
   {
     id: 1567,
@@ -56,7 +56,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-analytics-statistics-day-1567',
     linkComponent: '/2022/march/8-analytics',
-    imageUrl: '8-march-2022.png',
+    imageUrl: '2022/march/8.png',
   },
   {
     id: 1568,
@@ -65,7 +65,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-statistics-analytics-chart-day-1568',
     linkComponent: '/2022/march/9-statistics',
-    imageUrl: '9-march-2022.png',
+    imageUrl: '2022/march/9.png',
   },
   {
     id: 1569,
@@ -74,7 +74,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-filter-modal-day-1569',
     linkComponent: '/2022/march/10-filter-modal',
-    imageUrl: '10-march-2022.png',
+    imageUrl: '2022/march/10.png',
   },
   {
     id: 1570,
@@ -83,7 +83,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-cards-card-day-1570',
     linkComponent: '/2022/march/11-cards',
-    imageUrl: '11-march-2022.png',
+    imageUrl: '2022/march/11.png',
   },
   {
     id: 1571,
@@ -92,7 +92,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-pick-up-in-store-card-day-1571',
     linkComponent: '/2022/march/14-pick-up-in-store-card',
-    imageUrl: '14-march-2022.png',
+    imageUrl: '2022/march/14.png',
   },
   {
     id: 1572,
@@ -101,7 +101,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-shopping-cart-online-shop-card-day-1572',
     linkComponent: '/2022/march/15-shopping-cart',
-    imageUrl: '15-march-2022.png',
+    imageUrl: '2022/march/15.png',
   },
   {
     id: 1573,
@@ -109,7 +109,7 @@ export const pendingList = [
     date: formattedDate(16, 3, 2022),
     linkOriginal: 'https://www.uidesigndaily.com/posts/figma-reviews-day-1573',
     linkComponent: '/2022/march/16-reviews',
-    imageUrl: '16-march-2022.png',
+    imageUrl: '2022/march/16.png',
   },
   {
     id: 1574,
@@ -118,7 +118,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-buy-subscription-section-pricing-card-day-1574',
     linkComponent: '/2022/march/17-buy-subscription-section',
-    imageUrl: '17-march-2022.png',
+    imageUrl: '2022/march/17.png',
   },
   {
     id: 1575,
@@ -127,7 +127,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-product-info-ui-design-card-day-1575',
     linkComponent: '/2022/march/18-product-info-ui-design',
-    imageUrl: '18-march-2022.png',
+    imageUrl: '2022/march/18.png',
   },
   {
     id: 1576,
@@ -136,7 +136,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-dropdown-search-day-1576',
     linkComponent: '/2022/march/21-dropdown',
-    imageUrl: '21-march-2022.png',
+    imageUrl: '2022/march/21.png',
   },
   {
     id: 1577,
@@ -145,7 +145,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-collections-list-collection-card-day-1577',
     linkComponent: '/2022/march/22-collections-list',
-    imageUrl: '22-march-2022.png',
+    imageUrl: '2022/march/22.png',
   },
   {
     id: 1578,
@@ -154,7 +154,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-timeline-ui-design-card-day-1578',
     linkComponent: '/2022/march/23-timeline-ui-design',
-    imageUrl: '23-march-2022.png',
+    imageUrl: '2022/march/23.png',
   },
   {
     id: 1579,
@@ -163,7 +163,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-rent-a-car-ui-design-card-search-day-1579',
     linkComponent: '/2022/march/24-rent-a-car-ui-design',
-    imageUrl: '24-march-2022.png',
+    imageUrl: '2022/march/24.png',
   },
   {
     id: 1580,
@@ -172,7 +172,7 @@ export const pendingList = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-profile-page-header-card-day-1580',
     linkComponent: '/2022/march/25-profile-page-header',
-    imageUrl: '25-march-2022.png',
+    imageUrl: '2022/march/25.png',
   },
   {
     id: 15,
@@ -180,7 +180,7 @@ export const pendingList = [
     date: formattedDate(26, 3, 2022),
     linkOriginal: '',
     linkComponent: '/2022/march/26-',
-    imageUrl: '26-march-2022.png',
+    imageUrl: '2022/march/26.png',
   },
   {
     id: 15,
@@ -188,7 +188,7 @@ export const pendingList = [
     date: formattedDate(27, 3, 2022),
     linkOriginal: '',
     linkComponent: '/2022/march/27-',
-    imageUrl: '27-march-2022.png',
+    imageUrl: '2022/march/27.png',
   },
   {
     id: 15,
@@ -196,7 +196,7 @@ export const pendingList = [
     date: formattedDate(28, 3, 2022),
     linkOriginal: '',
     linkComponent: '/2022/march/28-',
-    imageUrl: '28-march-2022.png',
+    imageUrl: '2022/march/28.png',
   },
   {
     id: 15,
@@ -204,7 +204,7 @@ export const pendingList = [
     date: formattedDate(29, 3, 2022),
     linkOriginal: '',
     linkComponent: '/2022/march/29-',
-    imageUrl: '29-march-2022.png',
+    imageUrl: '2022/march/29.png',
   },
   {
     id: 15,
@@ -212,7 +212,7 @@ export const pendingList = [
     date: formattedDate(30, 3, 2022),
     linkOriginal: '',
     linkComponent: '/2022/march/30-',
-    imageUrl: '30-march-2022.png',
+    imageUrl: '2022/march/30.png',
   },
   {
     id: 15,
@@ -220,7 +220,7 @@ export const pendingList = [
     date: formattedDate(31, 3, 2022),
     linkOriginal: '',
     linkComponent: '/2022/march/31-',
-    imageUrl: '31-march-2022.png',
+    imageUrl: '2022/march/31.png',
   },
 ]
 
