@@ -1,4 +1,10 @@
-<script></script>
+<script context="module" lang="ts">
+  export async function load() {
+    return {
+      maxage: 31536000,
+    }
+  }
+</script>
 
 <svelte:head>
   <title>Product Details Card - UI Design Daily with Tailwind CSS</title>

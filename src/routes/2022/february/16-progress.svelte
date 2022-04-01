@@ -1,4 +1,10 @@
-<script>
+<script context="module" lang="ts">
+  export async function load() {
+    return {
+      maxage: 31536000,
+    }
+  }
+
   const checkboxes = [
     { text: 'Industry', checked: true },
     { text: 'Website URL', checked: true },

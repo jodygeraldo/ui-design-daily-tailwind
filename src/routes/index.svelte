@@ -1,4 +1,10 @@
-<script>
+<script context="module" lang="ts">
+  export async function load() {
+    return {
+      maxage: 43200,
+    }
+  }
+
   import Icon from '$lib/Icon.svelte'
   import list from '../data/index'
   import { browser, mode } from '$app/env'
