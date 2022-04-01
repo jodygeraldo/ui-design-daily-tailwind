@@ -1,4 +1,10 @@
-<script lang="ts">
+<script context="module" lang="ts">
+  export async function load() {
+    return {
+      maxage: 31536000,
+    }
+  }
+
   import clsx from 'clsx'
   import Icon from '$lib/Icon.svelte'
   import type { IconId } from '$lib/IconType'

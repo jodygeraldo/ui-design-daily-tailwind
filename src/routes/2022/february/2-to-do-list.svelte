@@ -1,4 +1,10 @@
-<script>
+<script context="module" lang="ts">
+  export async function load() {
+    return {
+      maxage: 31536000,
+    }
+  }
+
   import Icon from '$lib/Icon.svelte'
 
   const todos = ['Eggs', 'Tomatoes', 'Avocado']
