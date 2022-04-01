@@ -30,6 +30,7 @@
           class="aspect-video w-full flex-shrink-0 rounded-t-sm"
           src={`/assets/images/${item.imageUrl}`}
           alt=""
+          loading="lazy"
         />
         <div class="flex flex-1 flex-col p-8">
           <h3 class="text-lg font-medium text-gray-12">{item.title}</h3>
