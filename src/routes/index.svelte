@@ -112,20 +112,9 @@
             height="330.75"
             src={imageUrl.default(item.imageUrl)}
             alt=""
+            loading="lazy"
           />
         </picture>
-        <!-- <img
-          class="aspect-video w-full flex-shrink-0 rounded-t-sm"
-          loading="lazy"
-          width="640"
-          height="360"
-          alt=""
-          src={`//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${item.imageUrl}&w=384&h=216&af`}
-          srcset={`//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${item.imageUrl}&w=1920&h=1080&af 1920w, 
-            //images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${item.imageUrl}&w=1024&h=576&af 1024w, 
-            //images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${item.imageUrl}&w=640&h=360&af 640w, 
-            //images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${item.imageUrl}&w=384&h=216&af 384w`}
-        /> -->
         <div class="flex flex-1 flex-col p-8">
           <h3 class="text-lg font-medium text-gray-12">{item.title}</h3>
 
