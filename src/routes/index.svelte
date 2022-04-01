@@ -8,6 +8,76 @@
   import Icon from '$lib/Icon.svelte'
   import list from '../data/index'
   import { browser, mode } from '$app/env'
+
+  const imageUrl = {
+    default: (url: string) =>
+      `//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${url}&w=588&h=330.75&af`,
+    sources: (url: string) => [
+      {
+        url: `//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${url}&w=588&h=330.75&output=webp`,
+        media: '(max-width: 767px)',
+        type: 'image/webp',
+        w: 588,
+        h: 330.75,
+      },
+      {
+        url: `//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${url}&w=344&h=193.5&output=webp`,
+        media: '(min-width: 768px) and (max-width: 1023px)',
+        type: 'image/webp',
+        w: 344,
+        h: 193.5,
+      },
+      {
+        url: `//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${url}&w=464&h=216&output=webp`,
+        media: '(min-width: 1024px) and (max-width: 1279px)',
+        type: 'image/webp',
+        w: 464,
+        h: 216,
+      },
+      {
+        url: `//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${url}&w=385.34&h=216.75&output=webp`,
+        media: '(min-width: 1280px) and (max-width: 1535px)',
+        type: 'image/webp',
+        w: 385.34,
+        h: 216.75,
+      },
+      {
+        url: `//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${url}&w=470.67&h=264.75&output=webp`,
+        media: '(min-width: 1536px)',
+        type: 'image/webp',
+        w: 470.67,
+        h: 264.75,
+      },
+      {
+        url: `//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${url}&w=344&h=193.5&af`,
+        media: '(min-width: 768px) and (max-width: 1023px)',
+        type: 'image/png',
+        w: 344,
+        h: 193.5,
+      },
+      {
+        url: `//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${url}&w=464&h=216&af`,
+        media: '(min-width: 1024px) and (max-width: 1279px)',
+        type: 'image/png',
+        w: 464,
+        h: 216,
+      },
+      {
+        url: `//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${url}&w=385.34&h=216.75&af`,
+        media: '(min-width: 1280px) and (max-width: 1535px)',
+        type: 'image/png',
+        w: 385.34,
+        h: 216.75,
+      },
+      {
+        url: `//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${url}&w=470.67&h=264.75&af`,
+        media: '(min-width: 1536px)',
+        type: 'image/png',
+        w: 470.67,
+        h: 264.75,
+      },
+    ],
+  }
 </script>
 
 <svelte:head>
@@ -26,12 +96,36 @@
       <li
         class="col-span-1 flex flex-col divide-y divide-gray-6 rounded border-2 border-gray-7 bg-gray-3 text-center shadow"
       >
-        <img
+        <picture>
+          {#each imageUrl.sources(item.imageUrl) as source}
+            <source
+              srcSet={source.url}
+              type={source.type}
+              media={source.media}
+              width={source.w}
+              height={source.h}
+            />
+          {/each}
+          <img
+            class="aspect-video w-full flex-shrink-0 rounded-t-sm"
+            width="588"
+            height="330.75"
+            src={imageUrl.default(item.imageUrl)}
+            alt=""
+          />
+        </picture>
+        <!-- <img
           class="aspect-video w-full flex-shrink-0 rounded-t-sm"
-          src={`/assets/images/${item.imageUrl}`}
-          alt=""
           loading="lazy"
-        />
+          width="640"
+          height="360"
+          alt=""
+          src={`//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${item.imageUrl}&w=384&h=216&af`}
+          srcset={`//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${item.imageUrl}&w=1920&h=1080&af 1920w, 
+            //images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${item.imageUrl}&w=1024&h=576&af 1024w, 
+            //images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${item.imageUrl}&w=640&h=360&af 640w, 
+            //images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${item.imageUrl}&w=384&h=216&af 384w`}
+        /> -->
         <div class="flex flex-1 flex-col p-8">
           <h3 class="text-lg font-medium text-gray-12">{item.title}</h3>
 
