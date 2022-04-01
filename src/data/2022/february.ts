@@ -3,6 +3,15 @@ import type { ItemType } from '..'
 
 const list: ItemType[] = [
   {
+    id: 1557,
+    title: 'Notifications UI Design',
+    date: formattedDate(22, 2, 2022),
+    linkOriginal:
+      'https://www.uidesigndaily.com/posts/figma-notifications-ui-design-day-1557',
+    linkComponent: '/2022/february/22-notifications-ui-design',
+    imageUrl: '2022/february/22.png',
+  },
+  {
     id: 1556,
     title: 'Contraction Timer',
     date: formattedDate(21, 2, 2022),
@@ -140,15 +149,6 @@ const list: ItemType[] = [
 ]
 
 export const pendingList: ItemType[] = [
-  {
-    id: 1557,
-    title: 'Notifications UI Design',
-    date: formattedDate(22, 2, 2022),
-    linkOriginal:
-      'https://www.uidesigndaily.com/posts/figma-notifications-ui-design-day-1557',
-    linkComponent: '/2022/february/22-notifications-ui-design',
-    imageUrl: '2022/february/22.png',
-  },
   {
     id: 1558,
     title: 'Profile',
