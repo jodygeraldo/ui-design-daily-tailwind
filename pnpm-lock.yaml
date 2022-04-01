@@ -3,7 +3,6 @@ lockfileVersion: 5.3
 specifiers:
   '@js-temporal/polyfill': ^0.4.0
   '@sveltejs/adapter-cloudflare': ^1.0.0-next.16
-  '@sveltejs/adapter-static': ^1.0.0-next.29
   '@sveltejs/kit': next
   '@tailwindcss/forms': ^0.5.0
   '@typescript-eslint/eslint-plugin': ^5.10.1
@@ -30,7 +29,6 @@ dependencies:
 
 devDependencies:
   '@sveltejs/adapter-cloudflare': 1.0.0-next.16
-  '@sveltejs/adapter-static': 1.0.0-next.29
   '@sveltejs/kit': 1.0.0-next.304_svelte@3.46.4
   '@tailwindcss/forms': 0.5.0_tailwindcss@3.0.23
   '@typescript-eslint/eslint-plugin': 5.16.0_5ebe0af2fc61364bec1c7aa70248ccae
@@ -152,12 +150,6 @@ packages:
     resolution: {integrity: sha512-ripTRtOasAtxDJEIF3kwwji/9WHfX069i5LuRwGUzOi4/cbcGfgV1RFBVfo/8G6hr3ehqLeKCdloet1yTsp34A==}
     dependencies:
       esbuild: 0.14.27
-    dev: true
-
-  /@sveltejs/adapter-static/1.0.0-next.29:
-    resolution: {integrity: sha512-0hjGnfT3BRyoHnzJ2w0/xL+xICRpKneDTm45ZzggiRrc0r71WJfF6toGeg8N4QUQnj8EJ3Itm453gsS1kt7VUQ==}
-    dependencies:
-      tiny-glob: 0.2.9
     dev: true
 
   /@sveltejs/kit/1.0.0-next.304_svelte@3.46.4:
@@ -1185,10 +1177,6 @@ packages:
       type-fest: 0.20.2
     dev: true
 
-  /globalyzer/0.1.0:
-    resolution: {integrity: sha512-40oNTM9UfG6aBmuKxk/giHn5nQ8RVz/SS4Ir6zgzOv9/qC3kKZ9v4etGTcJbEl/NyVQH7FGU7d+X1egr57Md2Q==}
-    dev: true
-
   /globby/11.1.0:
     resolution: {integrity: sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==}
     engines: {node: '>=10'}
@@ -1199,10 +1187,6 @@ packages:
       ignore: 5.2.0
       merge2: 1.4.1
       slash: 3.0.0
-    dev: true
-
-  /globrex/0.1.2:
-    resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==}
     dev: true
 
   /graceful-fs/4.2.9:
@@ -1950,13 +1934,6 @@ packages:
 
   /text-table/0.2.0:
     resolution: {integrity: sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=}
-    dev: true
-
-  /tiny-glob/0.2.9:
-    resolution: {integrity: sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==}
-    dependencies:
-      globalyzer: 0.1.0
-      globrex: 0.1.2
     dev: true
 
   /to-regex-range/5.0.1:
