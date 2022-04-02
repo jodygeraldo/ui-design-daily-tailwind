@@ -12,43 +12,43 @@
   <title>Notification - UI Design Daily with Tailwind CSS</title>
 </svelte:head>
 
-<div class="theme grid place-items-center min-h-screen">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="theme grid min-h-screen place-items-center">
+  <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div
-      class="max-w-lg mx-auto rounded-3xl shadow-[0_24px_44px_-20px_#c2abe580] bg-white py-8 pr-8 pl-16 relative"
+      class="relative mx-auto max-w-lg rounded-3xl bg-white py-8 pr-8 pl-16 shadow-[0_24px_44px_-20px_#c2abe580]"
     >
       <div
-        class="hidden lg:block absolute inset-y-[20%] -inset-x-[10%] bg-[#CD8AFF] -z-10 rounded-[30px]"
+        class="absolute inset-y-[20%] -inset-x-[10%] -z-10 hidden rounded-[30px] bg-[#CD8AFF] lg:block"
       />
       <div class="flex justify-between gap-4">
         <h2
-          class="self-end font-semibold text-lg sm:text-2xl text-[#38196B] pt-10"
+          class="self-end pt-10 text-lg font-semibold text-[#38196B] sm:text-2xl"
         >
           Show notifications for
         </h2>
         <div
-          class="border border-[#F4EDFF] bg-[#F8F4FF] p-3 rounded-full self-start"
+          class="self-start rounded-full border border-[#F4EDFF] bg-[#F8F4FF] p-3"
         >
           <Icon id="cross-1" className="w-8 h-8 text-[#38196B50]" />
         </div>
       </div>
 
-      <div class="flex gap-2 items-center mt-6">
+      <div class="mt-6 flex items-center gap-2">
         <div
-          class="rounded-2xl p-3 bg-gradient-to-br from-[#9AB0FF] to-[#EB73FF]"
+          class="rounded-2xl bg-gradient-to-br from-[#9AB0FF] to-[#EB73FF] p-3"
         >
           <Icon id="bell" className="w-8 h-8 text-white" />
         </div>
         <p class="text-lg text-black">www.website.com</p>
       </div>
 
-      <div class="flex sm:justify-end items-center mt-3 gap-4">
+      <div class="mt-3 flex items-center gap-4 sm:justify-end">
         <button
-          class="py-3 px-6 rounded-lg border border-[#FFB2B2] text-[#FF1212]"
+          class="rounded-lg border border-[#FFB2B2] py-3 px-6 text-[#FF1212]"
           >Block</button
         >
         <button
-          class="py-3 px-6 rounded-lg border border-[#9EEBAF] text-[#0ABE31]"
+          class="rounded-lg border border-[#9EEBAF] py-3 px-6 text-[#0ABE31]"
           >Allow</button
         >
       </div>

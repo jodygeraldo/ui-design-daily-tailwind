@@ -12,19 +12,19 @@
   <title>Profile - UI Design Daily with Tailwind CSS</title>
 </svelte:head>
 
-<div class="theme grid place-items-center min-h-screen">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="theme grid min-h-screen place-items-center">
+  <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div
-      class="rounded-3xl bg-gradient-to-br from-white to-[#CBCAFF] pt-8 px-8 pb-16 relative max-w-xs mx-auto text-primary"
+      class="relative mx-auto max-w-xs rounded-3xl bg-gradient-to-br from-white to-[#CBCAFF] px-8 pt-8 pb-16 text-primary"
     >
       <div
-        class="absolute inset-x-6 -inset-y-12 bg-primary rounded-[11px] -z-10"
+        class="absolute inset-x-6 -inset-y-12 -z-10 rounded-[11px] bg-primary"
       />
       <div
-        class="blur-2xl w-36 h-36 bg-[#5EFFC560] rounded-full absolute bottom-6 left-6"
+        class="absolute bottom-6 left-6 h-36 w-36 rounded-full bg-[#5EFFC560] blur-2xl"
       />
       <div
-        class="blur-2xl w-28 h-28 bg-[#5E94FF60] rounded-full absolute right-8 top-16"
+        class="absolute right-8 top-16 h-28 w-28 rounded-full bg-[#5E94FF60] blur-2xl"
       />
 
       <div class="flex justify-end">
@@ -34,20 +34,20 @@
       <div class="flex flex-col items-center space-y-6">
         <img
           src="/assets/images/person-3.png"
-          class="border-8 border-ascent rounded-full h-28 w-28 z-10"
+          class="z-10 h-28 w-28 rounded-full border-8 border-ascent"
           alt=""
         />
 
         <div class="space-y-2">
-          <h2 class="font-bold text-lg z-10">Daniel Joffrion</h2>
-          <div class="flex gap-1 items-center justify-center z-10">
+          <h2 class="z-10 text-lg font-bold">Daniel Joffrion</h2>
+          <div class="z-10 flex items-center justify-center gap-1">
             <Icon id="globe" className="w-5 h-5" />
-            <span class=" z-10 text-black text-sm">Atlanta, GA</span>
+            <span class=" z-10 text-sm text-black">Atlanta, GA</span>
           </div>
         </div>
 
         <button
-          class="px-4 py-2 rounded-full bg-primary text-white text-sm z-10"
+          class="z-10 rounded-full bg-primary px-4 py-2 text-sm text-white"
           >View Content</button
         >
       </div>
