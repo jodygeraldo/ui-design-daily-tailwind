@@ -20,3 +20,17 @@ jobs:
 
       - name: Format
         run: npm run format --if-present
+
+      - name: Commit changes
+        run: |
+          git config user.name "Github Actions Bot"
+          git config user.email "<>"
+
+          git add .
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "💿 no formatting changed"
+            exit 0
+          fi
+          git commit -m "chore: format"
+          git push
+          echo "💿 pushed formatting changes https://github.com/$GITHUB_REPOSITORY/commit/$(git rev-parse HEAD)"
