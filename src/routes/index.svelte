@@ -1,13 +1,12 @@
-<script context="module" lang="ts">
-  export async function load() {
-    return {
-      maxage: 43200,
-    }
-  }
-
+<script lang="ts">
   import Icon from '$lib/Icon.svelte'
-  import list from '../data/index'
+  import type { ItemType } from '../data/index'
   import { browser, mode } from '$app/env'
+  import Pagination from '$lib/Pagination.svelte'
+
+  export let page: number
+  export let totalPages: number
+  export let paginatedList: ItemType[]
 
   const imageUrl = {
     default: (url: string) => `/assets/images/${url}`,
@@ -98,7 +97,7 @@
   </h2>
 
   <ul class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
-    {#each list as item}
+    {#each paginatedList as item}
       <li
         class="col-span-1 flex flex-col divide-y divide-gray-6 rounded border-2 border-gray-7 bg-gray-3 text-center shadow"
       >
@@ -156,6 +155,10 @@
       </li>
     {/each}
   </ul>
+
+  {#if totalPages > 1}
+    <Pagination {page} {totalPages} />
+  {/if}
 </div>
 
 {#if browser && mode !== 'development'}
