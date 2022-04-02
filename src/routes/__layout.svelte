@@ -1,10 +1,4 @@
-<script context="module" lang="ts">
-  export async function load() {
-    return {
-      maxage: 43200,
-    }
-  }
-
+<script lang="ts">
   import '../app.css'
 </script>
 
