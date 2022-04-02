@@ -30,11 +30,11 @@
       />
       <div class="flex items-center justify-between px-5">
         <button>
-          <Icon id="arrow-left" class="w-7 h-7" />
+          <Icon id="arrow-left" class="h-7 w-7" />
         </button>
         <h2 class="text-lg font-medium">Contraction timer</h2>
         <button>
-          <Icon id="bell" class="w-8 h-8" />
+          <Icon id="bell" class="h-8 w-8" />
         </button>
       </div>
 

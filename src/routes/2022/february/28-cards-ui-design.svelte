@@ -68,7 +68,7 @@
         </p>
 
         <div class="flex items-center gap-2">
-          <Icon id="link-2" class="w-7 h-7 shrink-0" />
+          <Icon id="link-2" class="h-7 w-7 shrink-0" />
           <a
             href="#link"
             class="font-medium underline underline-offset-1 sm:text-lg "
@@ -77,12 +77,12 @@
         </div>
 
         <div class="flex items-center gap-2">
-          <Icon id="star" class="w-7 h-7 shrink-0" />
+          <Icon id="star" class="h-7 w-7 shrink-0" />
           <span class="font-medium sm:text-lg">1.1k stars</span>
         </div>
 
         <div class="flex items-center gap-2">
-          <Icon id="eye-open" class="w-7 h-7 shrink-0" />
+          <Icon id="eye-open" class="h-7 w-7 shrink-0" />
           <span class="font-medium sm:text-lg">80 watching</span>
         </div>
 

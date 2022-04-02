@@ -76,9 +76,9 @@
             Get in touch
           </h2>
           <div class="mt-4 flex gap-6">
-            <Icon id="discord-logo" class="w-6 h-6 text-high-contrast" />
-            <Icon id="github-logo" class="w-6 h-6 text-high-contrast" />
-            <Icon id="twitter-logo" class="w-6 h-6 text-high-contrast" />
+            <Icon id="discord-logo" class="h-6 w-6 text-high-contrast" />
+            <Icon id="github-logo" class="h-6 w-6 text-high-contrast" />
+            <Icon id="twitter-logo" class="h-6 w-6 text-high-contrast" />
           </div>
         </div>
       </div>

@@ -32,7 +32,7 @@
         <div class="rounded-3xl bg-white p-[50px] shadow-xl">
           <div class="flex items-center gap-[14px]">
             <div class="flex h-16 w-16 items-center justify-center">
-              <Icon id="github-logo" class="w-12 h-12" />
+              <Icon id="github-logo" class="h-12 w-12" />
             </div>
             <h2 class="text-2xl font-bold text-primary">Storage</h2>
           </div>

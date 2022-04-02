@@ -42,7 +42,7 @@
           class="inline-flex gap-3 rounded-lg border border-primary p-[10px] font-medium text-gray-12"
         >
           <span class="text-lg">In a call</span>
-          <Icon id="chevron-down" class="w-6 h-6 text-gray-12" />
+          <Icon id="chevron-down" class="h-6 w-6 text-gray-12" />
         </button>
 
         <div
@@ -71,14 +71,14 @@
           <p
             class="flex items-center gap-2 py-4 text-lg font-medium text-high-contrast"
           >
-            <Icon id="clock" class="w-6 h-6 text-high-contrast" />
+            <Icon id="clock" class="h-6 w-6 text-high-contrast" />
             <span>Duration</span>
           </p>
 
           <p
             class="flex items-center gap-2 pt-4 text-lg font-medium text-high-contrast"
           >
-            <Icon id="reset" class="w-6 h-6 text-high-contrast" />
+            <Icon id="reset" class="h-6 w-6 text-high-contrast" />
             <span>Reset status</span>
           </p>
         </div>

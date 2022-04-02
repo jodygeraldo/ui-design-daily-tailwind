@@ -33,7 +33,7 @@
           <h2 class="text-lg font-bold text-primary lg:text-2xl">
             Cancel site plan
           </h2>
-          <Icon id="cross-2" class="w-6 h-6 text-primary" />
+          <Icon id="cross-2" class="h-6 w-6 text-primary" />
         </div>
 
         <p class="mr-8 text-primary lg:mr-[52px] lg:text-lg">
@@ -57,7 +57,7 @@
                 {#if checkbox.checked}
                   <Icon
                     id="check"
-                    class="w-4 h-4 text-primary absolute top-1/2 bottom-1/2 -translate-y-[70%] right-1/2 translate-x-1/2"
+                    class="absolute top-1/2 bottom-1/2 right-1/2 h-4 w-4 -translate-y-[70%] translate-x-1/2 text-primary"
                   />
                 {/if}
               </div>

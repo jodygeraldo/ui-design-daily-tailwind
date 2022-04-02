@@ -34,7 +34,7 @@
       <div>
         <Icon
           id="magnifying-glass"
-          class="absolute w-9 h-9 mt-3 ml-2 opacity-50"
+          class="absolute mt-3 ml-2 h-9 w-9 opacity-50"
         />
         <input
           type="search"

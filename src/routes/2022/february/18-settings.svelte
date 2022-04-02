@@ -111,7 +111,7 @@
           class="inline-flex items-center gap-[10px] rounded-full border border-primary bg-white py-2 px-6"
         >
           <span class="text-sm text-primary">Change</span>
-          <Icon id="chevron-down" class="w-5 h-5 text-primary" />
+          <Icon id="chevron-down" class="h-5 w-5 text-primary" />
         </button>
       </div>
     </div>

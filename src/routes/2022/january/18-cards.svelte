@@ -66,7 +66,7 @@
               />
               <Icon
                 id="chevron-down"
-                class="w-5 h-5 absolute top-1/2 bottom-1/2 right-4 -translate-y-1/2"
+                class="absolute top-1/2 bottom-1/2 right-4 h-5 w-5 -translate-y-1/2"
               />
             </div>
           </div>
@@ -80,7 +80,7 @@
               />
               <Icon
                 id="chevron-down"
-                class="w-5 h-5 absolute top-1/2 bottom-1/2 right-4 -translate-y-1/2"
+                class="absolute top-1/2 bottom-1/2 right-4 h-5 w-5 -translate-y-1/2"
               />
             </div>
           </div>
@@ -94,7 +94,7 @@
               />
               <Icon
                 id="chevron-down"
-                class="w-5 h-5 absolute top-1/2 bottom-1/2 right-4 -translate-y-1/2"
+                class="absolute top-1/2 bottom-1/2 right-4 h-5 w-5 -translate-y-1/2"
               />
             </div>
           </div>
