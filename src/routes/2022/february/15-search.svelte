@@ -26,7 +26,7 @@
           />
           <Icon
             id="magnifying-glass"
-            className="w-8 h-8 absolute top-1/2 bottom-1/2 -translate-y-1/2 left-4 text-primary opacity-[54%]"
+            class="w-8 h-8 absolute top-1/2 bottom-1/2 -translate-y-1/2 left-4 text-primary opacity-[54%]"
           />
         </div>
 

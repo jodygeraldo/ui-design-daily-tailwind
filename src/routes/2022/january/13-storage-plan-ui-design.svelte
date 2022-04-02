@@ -25,7 +25,7 @@
           <div
             class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white"
           >
-            <Icon id="arrow-left" className="h-10 w-10 text-black" />
+            <Icon id="arrow-left" class="h-10 w-10 text-black" />
           </div>
 
           <h3 class="text-2xl font-medium">Total storage</h3>

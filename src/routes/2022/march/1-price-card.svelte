@@ -41,7 +41,7 @@
             <div
               class="rounded-full bg-gradient-to-br from-[#E9E8FF] to-[#E7F3FF] p-2"
             >
-              <Icon id="check" className="w-6 h-6 shrink-0" />
+              <Icon id="check" class="w-6 h-6 shrink-0" />
             </div>
             <p class="text-lg font-bold">
               <span class="underline underline-offset-1">Free shipping</span> over
@@ -53,7 +53,7 @@
             <div
               class="rounded-full bg-gradient-to-br from-[#E9E8FF] to-[#E7F3FF] p-2"
             >
-              <Icon id="check" className="w-6 h-6 shrink-0" />
+              <Icon id="check" class="w-6 h-6 shrink-0" />
             </div>
             <p class="text-lg font-bold underline underline-offset-1">
               Lightning fast delivery
@@ -75,7 +75,7 @@
               />
               <Icon
                 id="magnifying-glass"
-                className="w-7 h-7 text-primary absolute top-1/2 bottom-1/2 left-4 -translate-y-1/2"
+                class="w-7 h-7 text-primary absolute top-1/2 bottom-1/2 left-4 -translate-y-1/2"
               />
             </div>
             <button

@@ -28,7 +28,7 @@
       />
 
       <div class="flex justify-end">
-        <Icon id="hamburger-menu" className="w-6 h-6 text-primary" />
+        <Icon id="hamburger-menu" class="w-6 h-6 text-primary" />
       </div>
 
       <div class="flex flex-col items-center space-y-6">
@@ -41,7 +41,7 @@
         <div class="space-y-2">
           <h2 class="z-10 text-lg font-bold">Daniel Joffrion</h2>
           <div class="z-10 flex items-center justify-center gap-1">
-            <Icon id="globe" className="w-5 h-5" />
+            <Icon id="globe" class="w-5 h-5" />
             <span class=" z-10 text-sm text-black">Atlanta, GA</span>
           </div>
         </div>

@@ -20,7 +20,7 @@
       <div
         class="mx-auto flex h-28 w-28 flex-col items-center justify-center gap-1 rounded-full border border-ascent"
       >
-        <Icon id="image" className="w-10 h-10 text-primary" />
+        <Icon id="image" class="w-10 h-10 text-primary" />
         <p class="font-bold text-primary">BASIC</p>
       </div>
 

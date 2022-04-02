@@ -29,7 +29,7 @@
         <div
           class="self-start rounded-full border border-[#F4EDFF] bg-[#F8F4FF] p-3"
         >
-          <Icon id="cross-1" className="w-8 h-8 text-[#38196B50]" />
+          <Icon id="cross-1" class="w-8 h-8 text-[#38196B50]" />
         </div>
       </div>
 
@@ -37,7 +37,7 @@
         <div
           class="rounded-2xl bg-gradient-to-br from-[#9AB0FF] to-[#EB73FF] p-3"
         >
-          <Icon id="bell" className="w-8 h-8 text-white" />
+          <Icon id="bell" class="w-8 h-8 text-white" />
         </div>
         <p class="text-lg text-black">www.website.com</p>
       </div>

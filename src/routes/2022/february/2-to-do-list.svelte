@@ -28,7 +28,7 @@
           <h2 class="text-2xl font-black text-primary lg:text-4xl">
             Groceries
           </h2>
-          <Icon id="dots-horizontal" className="w-8 h-8 text-ascent" />
+          <Icon id="dots-horizontal" class="w-8 h-8 text-ascent" />
         </div>
         <p class="mt-1 text-sm font-medium text-ascent lg:mt-2 lg:text-base">
           Shared with <span>1 person</span>
@@ -59,7 +59,7 @@
                   />
                   <Icon
                     id="check"
-                    className="w-6 h-6 text-ascent absolute top-1/2 bottom-1/2 -translate-y-1/2 translate-x-1/2 right-1/2 pointer-events-none"
+                    class="w-6 h-6 text-ascent absolute top-1/2 bottom-1/2 -translate-y-1/2 translate-x-1/2 right-1/2 pointer-events-none"
                   />
                 </div>
                 <p class="font-medium text-ascent lg:text-xl">
@@ -72,7 +72,7 @@
 
         <div class="flex justify-end">
           <button class="mt-8 rounded-2xl bg-primary px-6 py-2 lg:mt-16">
-            <Icon id="plus" className="w-8 h-8 text-white" />
+            <Icon id="plus" class="w-8 h-8 text-white" />
           </button>
         </div>
       </div>

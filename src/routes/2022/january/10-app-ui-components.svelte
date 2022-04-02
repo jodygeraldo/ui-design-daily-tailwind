@@ -32,7 +32,7 @@
         <div class="rounded-3xl bg-white p-[50px] shadow-xl">
           <div class="flex items-center gap-[14px]">
             <div class="flex h-16 w-16 items-center justify-center">
-              <Icon id="github-logo" className="w-12 h-12" />
+              <Icon id="github-logo" class="w-12 h-12" />
             </div>
             <h2 class="text-2xl font-bold text-primary">Storage</h2>
           </div>
@@ -66,7 +66,7 @@
                   'flex items-center space-x-2 rounded-lg p-6',
                 )}
               >
-                <Icon id={item.iconId} className="h-8 w-8 text-primary" />
+                <Icon id={item.iconId} class="h-8 w-8 text-primary" />
                 <p class="text-lg text-black">{item.name}</p>
               </li>
             {/each}
@@ -87,21 +87,21 @@
                 <p class="text-lg">English</p>
                 <p class="text-lg">United States</p>
               </div>
-              <Icon id="pencil-1" className="h-8 w-8 text-primary" />
+              <Icon id="pencil-1" class="h-8 w-8 text-primary" />
             </div>
             <div class="flex items-center gap-[113px]">
               <div class="space-y-2">
                 <p class="text-lg">English</p>
                 <p class="text-lg">United States</p>
               </div>
-              <Icon id="pencil-1" className="h-8 w-8 text-primary" />
+              <Icon id="pencil-1" class="h-8 w-8 text-primary" />
             </div>
           </div>
 
           <button
             class="flex w-full justify-center gap-2 rounded-md bg-black p-4 text-lg text-white"
           >
-            <Icon id="plus" className="h-8 w-8" />
+            <Icon id="plus" class="h-8 w-8" />
             <span>Add another language</span>
           </button>
         </div>

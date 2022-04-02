@@ -87,7 +87,7 @@
                   'flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br',
                 )}
               >
-                <Icon id={position.iconId} className="w-8 h-8 text-primary" />
+                <Icon id={position.iconId} class="w-8 h-8 text-primary" />
               </div>
               <h3 class="text-2xl font-medium text-primary">{position.name}</h3>
             </div>

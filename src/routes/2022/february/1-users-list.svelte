@@ -79,7 +79,7 @@
           <div class="relative flex-1">
             <Icon
               id="magnifying-glass"
-              className="w-5 h-5 absolute top-1/2 bottom-1/2 -translate-y-1/2 ml-2 lg:ml-4"
+              class="w-5 h-5 absolute top-1/2 bottom-1/2 -translate-y-1/2 ml-2 lg:ml-4"
             />
             <input
               type="search"

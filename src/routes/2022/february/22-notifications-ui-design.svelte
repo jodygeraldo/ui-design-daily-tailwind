@@ -16,7 +16,7 @@
   <div class="container mx-auto px-4 py-4 text-primary sm:px-6 lg:px-8">
     <div class="mx-auto flex max-w-2xl flex-col items-end gap-4">
       <button class="rounded-full bg-primary p-4">
-        <Icon id="bell" className="w-8 h-8 text-white" />
+        <Icon id="bell" class="w-8 h-8 text-white" />
       </button>
 
       <div
@@ -29,7 +29,7 @@
           <h2 class="text-2xl font-semibold">You have 1 new message</h2>
           <div class="flex flex-col items-center gap-4 sm:flex-row sm:gap-6">
             <div class="max-w-fit rounded-lg bg-[#FFE9F2] p-4 ">
-              <Icon id="envelope-closed" className="w-8 h-8 text-[#C83974]" />
+              <Icon id="envelope-closed" class="w-8 h-8 text-[#C83974]" />
             </div>
             <div class="mx-auto w-4/5 text-center  sm:w-full sm:text-left">
               <p class="font-semibold">Feb 22</p>
@@ -46,13 +46,13 @@
               <button
                 class="flex items-center gap-2 rounded-full border border-[#158ABB] py-2 px-4"
               >
-                <Icon id="twitter-logo" className="w-8 h-8 text-[#158ABB]" />
+                <Icon id="twitter-logo" class="w-8 h-8 text-[#158ABB]" />
                 <span class="font-semibold text-[#158ABB]">Twitter</span>
               </button>
               <button
                 class="flex items-center gap-2 rounded-full border border-[#8a3ab9] py-2 px-4"
               >
-                <Icon id="instagram-logo" className="w-8 h-8 text-[#8a3ab9]" />
+                <Icon id="instagram-logo" class="w-8 h-8 text-[#8a3ab9]" />
                 <span class="font-semibold text-[#8a3ab9]">Instagram</span>
               </button>
             </div>

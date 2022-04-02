@@ -24,7 +24,7 @@
         <p class="text-sm font-bold uppercase text-primary lg:text-base">
           About the community
         </p>
-        <Icon id="dots-horizontal" className="w-6 h-6 text-primary" />
+        <Icon id="dots-horizontal" class="w-6 h-6 text-primary" />
       </div>
 
       <div class="space-y-5 lg:space-y-10">

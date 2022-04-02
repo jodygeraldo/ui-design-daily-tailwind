@@ -48,14 +48,14 @@
           <button
             class="flex w-full items-center justify-center rounded-r border border-ascent bg-white px-2 py-1 sm:py-[10px] sm:px-6"
           >
-            <Icon id="heart" className="h-5 w-5 text-[#2C3E50]" />
+            <Icon id="heart" class="h-5 w-5 text-[#2C3E50]" />
           </button>
         </div>
 
         <div class="relative">
           <Icon
             id="magnifying-glass"
-            className="absolute w-7 h-7 top-1/2 bottom-1/2 -translate-y-1/2 text-[#0F1B4A] left-4"
+            class="absolute w-7 h-7 top-1/2 bottom-1/2 -translate-y-1/2 text-[#0F1B4A] left-4"
           />
           <input
             type="search"
@@ -82,9 +82,9 @@
               <h3>{item.name}</h3>
             </div>
             {#if item.love}
-              <Icon id="heart-filled" className="w-5 h-5 text-[#0F1B4A]" />
+              <Icon id="heart-filled" class="w-5 h-5 text-[#0F1B4A]" />
             {:else}
-              <Icon id="heart" className="w-5 h-5 text-[#0F1B4A]" />
+              <Icon id="heart" class="w-5 h-5 text-[#0F1B4A]" />
             {/if}
           </div>
         {/each}

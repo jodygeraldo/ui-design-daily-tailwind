@@ -22,21 +22,21 @@
           >
             <div class="mr-2 h-[10px] w-[10px] rounded-sm bg-[#1e78ff]" />
             <span class="mr-1 text-primary">Artwork</span>
-            <Icon id="chevron-down" className="w-5 h-5 text-primary" />
+            <Icon id="chevron-down" class="w-5 h-5 text-primary" />
           </button>
 
           <button
             class="flex items-center rounded-full border-[6px] border-ascent bg-white p-4"
           >
             <span class="mr-1 text-primary">All</span>
-            <Icon id="chevron-down" className="w-5 h-5 text-primary" />
+            <Icon id="chevron-down" class="w-5 h-5 text-primary" />
           </button>
 
           <button
             class="flex items-center rounded-full border-[6px] border-ascent bg-white p-4"
           >
             <span class="mr-1 text-primary">All tags</span>
-            <Icon id="chevron-down" className="w-5 h-5 text-primary" />
+            <Icon id="chevron-down" class="w-5 h-5 text-primary" />
           </button>
         </div>
 
@@ -47,7 +47,7 @@
             class="absolute top-[40%] -bottom-[30%] -right-[30%] left-[60%] -z-10 hidden rounded-2xl bg-[#f8c6f460] xl:block"
           />
           <div class="border-primary/10 flex w-3/4 items-center border-b pb-4">
-            <Icon id="magnifying-glass" className="w-8 h-8 text-primary" />
+            <Icon id="magnifying-glass" class="w-8 h-8 text-primary" />
             <input
               type="search"
               placeholder="Search"

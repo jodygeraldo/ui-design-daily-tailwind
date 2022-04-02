@@ -34,7 +34,7 @@
       <div>
         <Icon
           id="magnifying-glass"
-          className="absolute w-9 h-9 mt-3 ml-2 opacity-50"
+          class="absolute w-9 h-9 mt-3 ml-2 opacity-50"
         />
         <input
           type="search"
@@ -51,7 +51,7 @@
           <span class="w-0 flex-1 truncate text-lg font-medium text-primary">
             https://work.me/g/sajhsjhazyaL
           </span>
-          <Icon id="copy" className="h-8 w-8 text-primary" />
+          <Icon id="copy" class="h-8 w-8 text-primary" />
         </div>
       </div>
 
@@ -70,7 +70,7 @@
             <button
               class="mt-4 flex w-full items-center justify-center gap-[10px] rounded bg-primary px-4 py-2 text-white sm:mt-0 sm:w-auto"
             >
-              <Icon id="plus" className="h-5 w-5" />
+              <Icon id="plus" class="h-5 w-5" />
               <span>Add</span>
             </button>
           </div>

@@ -69,11 +69,11 @@
       >
         <h2 class="font-medium text-white">Rate this page</h2>
         <div class="flex items-center gap-2">
-          <Icon id="star" className="w-8 h-8 text-white" />
-          <Icon id="star" className="w-8 h-8 text-white" />
-          <Icon id="star" className="w-8 h-8 text-white" />
-          <Icon id="star" className="w-8 h-8 text-white" />
-          <Icon id="star" className="w-8 h-8 text-white" />
+          <Icon id="star" class="w-8 h-8 text-white" />
+          <Icon id="star" class="w-8 h-8 text-white" />
+          <Icon id="star" class="w-8 h-8 text-white" />
+          <Icon id="star" class="w-8 h-8 text-white" />
+          <Icon id="star" class="w-8 h-8 text-white" />
         </div>
       </div>
 

@@ -34,7 +34,7 @@
           </div>
         </div>
         <button class="rounded-r-2xl bg-primary p-4">
-          <Icon id="magnifying-glass" className="w-7 h-7 text-white" />
+          <Icon id="magnifying-glass" class="w-7 h-7 text-white" />
         </button>
       </div>
 

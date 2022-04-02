@@ -34,9 +34,9 @@
 
       <div class="space-y-2 text-primary">
         <div class="flex items-center gap-2">
-          <Icon id="link-break-1" className="h-6 w-6" />
+          <Icon id="link-break-1" class="h-6 w-6" />
           <p class="text-lg font-medium">Restricted</p>
-          <Icon id="chevron-down" className="h-4 w-4" />
+          <Icon id="chevron-down" class="h-4 w-4" />
         </div>
         <p class="font-medium opacity-70">
           Only people you add can open this link

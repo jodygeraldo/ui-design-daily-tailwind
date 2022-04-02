@@ -36,15 +36,15 @@
         <div class="mt-4 text-primary sm:mt-0">
           <div class="space-y-2 lg:space-y-4">
             <div class="flex items-center gap-1">
-              <Icon id="star" className="h-8 w-8" />
+              <Icon id="star" class="h-8 w-8" />
               <p class="text-sm font-medium lg:text-base">4.7 Rating</p>
             </div>
             <div class="flex items-center gap-1">
-              <Icon id="face" className="h-8 w-8" />
+              <Icon id="face" class="h-8 w-8" />
               <p class="text-sm font-medium lg:text-base">4,447 Reviews</p>
             </div>
             <div class="flex items-center gap-1">
-              <Icon id="person" className="h-8 w-8" />
+              <Icon id="person" class="h-8 w-8" />
               <p class="text-sm font-medium lg:text-base">478 Students</p>
             </div>
           </div>
