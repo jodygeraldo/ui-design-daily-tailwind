@@ -55,7 +55,7 @@
             <p>Work Type</p>
             <Icon
               id="chevron-up"
-              class="absolute right-2 text-primary w-6 h-6 top-1/2 bottom-1/2 -translate-y-[40%]"
+              class="absolute right-2 top-1/2 bottom-1/2 h-6 w-6 -translate-y-[40%] text-primary"
             />
           </div>
 
@@ -76,7 +76,7 @@
                   )}
                 >
                   {#if option.checked}
-                    <Icon id="check" class="w-6 h-6" />
+                    <Icon id="check" class="h-6 w-6" />
                   {/if}
                 </div>
                 <span>

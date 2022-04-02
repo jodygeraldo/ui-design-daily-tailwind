@@ -58,7 +58,7 @@
             <button class="h-8 w-8 shrink-0 rounded bg-primary" />
             <Icon
               id="check"
-              class="h-5 w-5 absolute top-1/2 bottom-1/2 right-1/2 -translate-y-[65%] translate-x-1/2 text-white"
+              class="absolute top-1/2 bottom-1/2 right-1/2 h-5 w-5 -translate-y-[65%] translate-x-1/2 text-white"
             />
           </div>
           <p class="text-sm font-medium lg:text-base">

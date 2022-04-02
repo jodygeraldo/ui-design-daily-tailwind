@@ -136,7 +136,7 @@
                 class="relative -mr-px inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm font-medium text-gray-9 transition-colors hover:text-gray-11"
               >
                 <span> UIDesignDaily </span>
-                <Icon id="external-link" class="hidden sm:block w-4 h-4 ml-2" />
+                <Icon id="external-link" class="ml-2 hidden h-4 w-4 sm:block" />
               </a>
             </div>
             <div class="-ml-px flex w-0 flex-1">
@@ -147,7 +147,7 @@
                 <span> Implementation </span>
                 <Icon
                   id="arrow-top-right"
-                  class="hidden sm:block w-4 h-4 ml-2"
+                  class="ml-2 hidden h-4 w-4 sm:block"
                 />
               </a>
             </div>

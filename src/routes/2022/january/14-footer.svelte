@@ -25,7 +25,7 @@
       >
         <div class="space-y-4 text-white">
           <div class="ml-2 flex items-center gap-[9px]">
-            <Icon id="magnifying-glass" class="w-6 h-6" />
+            <Icon id="magnifying-glass" class="h-6 w-6" />
             <h3 class="-mt-1 text-2xl font-semibold">Search</h3>
           </div>
           <div>
@@ -41,7 +41,7 @@
       >
         <div class="space-y-4 text-white">
           <div class="ml-2 flex items-center gap-[9px]">
-            <Icon id="drawing-pin" class="w-6 h-6" />
+            <Icon id="drawing-pin" class="h-6 w-6" />
             <h3 class="-mt-1 text-2xl font-semibold">CRO</h3>
           </div>
           <div>
@@ -57,7 +57,7 @@
       >
         <div class="space-y-4 text-white">
           <div class="ml-2 flex items-center gap-[9px]">
-            <Icon id="chat-bubble" class="w-6 h-6" />
+            <Icon id="chat-bubble" class="h-6 w-6" />
             <h3 class="-mt-1 text-2xl font-semibold">Social Media</h3>
           </div>
           <div>
@@ -73,7 +73,7 @@
       >
         <div class="space-y-4 text-[#485258]">
           <div class="ml-2 flex items-center gap-[9px]">
-            <Icon id="magnifying-glass" class="w-6 h-6" />
+            <Icon id="magnifying-glass" class="h-6 w-6" />
             <h3 class="-mt-1 text-2xl font-semibold">Other services</h3>
           </div>
           <div>
