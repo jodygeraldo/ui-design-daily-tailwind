@@ -1,9 +1,7 @@
 import { formattedDate } from '../../utils'
 import type { ItemType } from '..'
 
-const list: ItemType[] = []
-
-export const pendingList = [
+const list: ItemType[] = [
   {
     id: 1562,
     title: 'Price Card',
@@ -13,6 +11,9 @@ export const pendingList = [
     linkComponent: '/2022/march/1-price-card',
     imageUrl: '2022/march/1.png',
   },
+]
+
+export const pendingList = [
   {
     id: 1563,
     title: 'Stores List',
