@@ -12,16 +12,16 @@
   }
 </script>
 
-<nav class="border-t border-gray-6 flex items-center justify-between mt-8">
-  <div class="-mt-px w-0 flex-1 flex">
+<nav class="mt-8 flex items-center justify-between border-t border-gray-6">
+  <div class="-mt-px flex w-0 flex-1">
     <a
       href={`?page=${page - 1}`}
       disabled={page === 1}
       class={clsx(
         page === 1
-          ? 'opacity-50 pointer-events-none'
-          : 'hover:text-gray-12 hover:border-gray-8',
-        'border-t-2 border-transparent pt-4 pr-1 inline-flex items-center text-sm font-medium text-gray-11',
+          ? 'pointer-events-none opacity-50'
+          : 'hover:border-gray-8 hover:text-gray-12',
+        'inline-flex items-center border-t-2 border-transparent pt-4 pr-1 text-sm font-medium text-gray-11',
       )}
     >
       <Icon id="arrow-left" class="mr-3 h-5 w-5 text-gray-11" />
@@ -35,9 +35,9 @@
           href={`?page=${pageIndex}`}
           class={clsx(
             page === pageIndex
-              ? 'border-gray-7 text-gray-9 pointer-events-none'
-              : 'border-transparent text-gray-11 hover:text-gray-12 hover:border-gray-8',
-            'border-t-2 pt-4 px-4 inline-flex items-center text-sm font-medium',
+              ? 'pointer-events-none border-gray-7 text-gray-9'
+              : 'border-transparent text-gray-11 hover:border-gray-8 hover:text-gray-12',
+            'inline-flex items-center border-t-2 px-4 pt-4 text-sm font-medium',
           )}
           aria-current={page === pageIndex ? 'page' : undefined}
         >
@@ -138,15 +138,15 @@
       {/if}
     {/if}
   </div>
-  <div class="-mt-px w-0 flex-1 flex justify-end">
+  <div class="-mt-px flex w-0 flex-1 justify-end">
     <a
       href={`?page=${page + 1}`}
       disabled={page === totalPages}
       class={clsx(
         page === totalPages
-          ? 'opacity-50 pointer-events-none'
-          : 'hover:text-gray-12 hover:border-gray-8',
-        'border-t-2 border-transparent pt-4 pr-1 inline-flex items-center text-sm font-medium text-gray-11',
+          ? 'pointer-events-none opacity-50'
+          : 'hover:border-gray-8 hover:text-gray-12',
+        'inline-flex items-center border-t-2 border-transparent pt-4 pr-1 text-sm font-medium text-gray-11',
       )}
     >
       Next
