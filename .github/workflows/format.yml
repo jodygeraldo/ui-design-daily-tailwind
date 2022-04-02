@@ -16,7 +16,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: pnpm install
+        run: npm install
 
       - name: Format
-        run: pnpm run format --if-present
+        run: npm run format --if-present
