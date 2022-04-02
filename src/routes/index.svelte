@@ -10,8 +10,7 @@
   import { browser, mode } from '$app/env'
 
   const imageUrl = {
-    default: (url: string) =>
-      `//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${url}&w=588&h=330.75&af`,
+    default: (url: string) => `/assets/images/${url}`,
     sources: (url: string) => [
       {
         url: `//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${url}&w=588&h=330.75&output=webp`,
@@ -47,6 +46,13 @@
         type: 'image/webp',
         w: 470.67,
         h: 264.75,
+      },
+      {
+        url: `//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${url}&w=588&h=330.75&af`,
+        media: '(max-width: 768px)',
+        type: 'image/png',
+        w: 588,
+        h: 330.75,
       },
       {
         url: `//images.weserv.nl/?url=ui-design-daily-tailwind.pages.dev/assets/images/${url}&w=344&h=193.5&af`,
