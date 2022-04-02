@@ -3,6 +3,15 @@ import type { ItemType } from '..'
 
 const list: ItemType[] = [
   {
+    id: 1563,
+    title: 'Stores List',
+    date: formattedDate(2, 3, 2022),
+    linkOriginal:
+      'https://www.uidesigndaily.com/posts/figma-stores-list-card-dark-mode-day-1563',
+    linkComponent: '/2022/march/2-stores-list',
+    imageUrl: '2022/march/2.png',
+  },
+  {
     id: 1562,
     title: 'Price Card',
     date: formattedDate(1, 3, 2022),
@@ -14,15 +23,6 @@ const list: ItemType[] = [
 ]
 
 export const pendingList = [
-  {
-    id: 1563,
-    title: 'Stores List',
-    date: formattedDate(2, 3, 2022),
-    linkOriginal:
-      'https://www.uidesigndaily.com/posts/figma-stores-list-card-dark-mode-day-1563',
-    linkComponent: '/2022/march/2-stores-list',
-    imageUrl: '2022/march/2.png',
-  },
   {
     id: 1564,
     title: 'Details Card',
