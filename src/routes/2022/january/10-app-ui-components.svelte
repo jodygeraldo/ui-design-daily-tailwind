@@ -38,7 +38,7 @@
           </div>
 
           <div class="mt-4 space-y-2">
-            <div class=" relative h-[9px] w-full rounded-full bg-tertiary">
+            <div class="relative h-[9px] w-full rounded-full bg-tertiary">
               <div
                 class="absolute top-0 left-0 h-[9px] w-1/6 rounded-full bg-primary bg-black"
               />

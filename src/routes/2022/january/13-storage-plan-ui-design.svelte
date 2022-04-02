@@ -16,46 +16,48 @@
   <div class="container mx-auto px-4 py-16 sm:px-6 md:px-8">
     <div class="grid grid-cols-1 place-items-center gap-40 2xl:grid-cols-2">
       <div
-        class="relative col-span-1 max-w-fit space-y-6 rounded-3xl bg-[#EBEBEB] p-4 md:p-8 2xl:space-y-[42px] 2xl:p-[60px]"
+        class="relative col-span-1 max-w-fit rounded-3xl bg-[#EBEBEB] p-4 md:p-8 2xl:p-[60px]"
       >
         <div
           class="absolute -top-5 bottom-0 right-8 left-4 -z-10 rounded-3xl border-2 border-white bg-white/20"
         />
-        <div class="flex items-center gap-4">
-          <div
-            class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white"
-          >
-            <Icon id="arrow-left" class="h-10 w-10 text-black" />
-          </div>
-
-          <h3 class="text-2xl font-medium">Total storage</h3>
-        </div>
-
-        <div class="flex items-center gap-5 2xl:gap-[35px]">
-          <div
-            class="relative h-48 w-48 shrink-0 rounded-full border-2 border-white/60 md:h-60 md:w-60 2xl:h-80 2xl:w-80"
-          >
-            <div class="absolute inset-4 rounded-full bg-ascent" />
+        <div class="space-y-6 2xl:space-y-[42px]">
+          <div class="flex items-center gap-4">
             <div
-              class="absolute inset-4 rounded-full bg-primary shadow-xl shadow-[#303eb740] [clip-path:polygon(50%_0,50%_50%,80%_0)]"
-            />
+              class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white"
+            >
+              <Icon id="arrow-left" class="h-10 w-10 text-black" />
+            </div>
+
+            <h3 class="text-2xl font-medium">Total storage</h3>
           </div>
 
-          <div class="space-y-[42px]">
-            <div class="font-semibold text-black">
-              <p class="md:text-2xl">30 GB</p>
-              <p class="mt-2">Total storage</p>
-            </div>
-
-            <div class="font-semibold text-primary">
-              <p class="md:text-2xl">3.6 GB</p>
-              <p class="mt-2">10% used</p>
-            </div>
-
-            <button
-              class="rounded-2xl bg-black px-3 py-2 text-white md:px-6 md:py-4"
-              >View details</button
+          <div class="flex items-center gap-5 2xl:gap-[35px]">
+            <div
+              class="relative h-48 w-48 shrink-0 rounded-full border-2 border-white/60 md:h-60 md:w-60 2xl:h-80 2xl:w-80"
             >
+              <div class="absolute inset-4 rounded-full bg-ascent" />
+              <div
+                class="absolute inset-4 rounded-full bg-primary shadow-xl shadow-[#303eb740] [clip-path:polygon(50%_0,50%_50%,80%_0)]"
+              />
+            </div>
+
+            <div class="space-y-[42px]">
+              <div class="font-semibold text-black">
+                <p class="md:text-2xl">30 GB</p>
+                <p class="mt-2">Total storage</p>
+              </div>
+
+              <div class="font-semibold text-primary">
+                <p class="md:text-2xl">3.6 GB</p>
+                <p class="mt-2">10% used</p>
+              </div>
+
+              <button
+                class="rounded-2xl bg-black px-3 py-2 text-white md:px-6 md:py-4"
+                >View details</button
+              >
+            </div>
           </div>
         </div>
       </div>

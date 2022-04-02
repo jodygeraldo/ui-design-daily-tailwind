@@ -107,27 +107,29 @@
       </div>
 
       <div
-        class="relative col-span-1 mx-auto max-w-xs space-y-8 rounded-3xl bg-[#E9EFF5] p-[42px] text-primary"
+        class="relative col-span-1 mx-auto max-w-xs rounded-3xl bg-[#E9EFF5] p-[42px] text-primary"
       >
         <div
           class="absolute inset-x-0 -inset-y-2 -z-10 translate-x-3 rotate-[5.11deg] rounded-3xl bg-white"
         />
-        <div class="space-y-2 font-semibold">
-          <p>Basic Pay</p>
-          <p class="text-4xl">$7,544</p>
-        </div>
-        <div class="space-y-2 font-semibold">
-          <p>Allowances</p>
-          <p class="text-4xl">$250</p>
-        </div>
-        <div class="space-y-2 font-semibold">
-          <p>Special Pay</p>
-          <p class="text-4xl">$0</p>
-        </div>
-        <div class="h-0.5 w-full bg-white" />
-        <div class="space-y-2 font-semibold">
-          <p>Basic Pay</p>
-          <p class="text-4xl">$7,794 <span class="text-sm">Monthly</span></p>
+        <div class="space-y-8">
+          <div class="space-y-2 font-semibold">
+            <p>Basic Pay</p>
+            <p class="text-4xl">$7,544</p>
+          </div>
+          <div class="space-y-2 font-semibold">
+            <p>Allowances</p>
+            <p class="text-4xl">$250</p>
+          </div>
+          <div class="space-y-2 font-semibold">
+            <p>Special Pay</p>
+            <p class="text-4xl">$0</p>
+          </div>
+          <div class="h-0.5 w-full bg-white" />
+          <div class="space-y-2 font-semibold">
+            <p>Basic Pay</p>
+            <p class="text-4xl">$7,794 <span class="text-sm">Monthly</span></p>
+          </div>
         </div>
       </div>
     </div>

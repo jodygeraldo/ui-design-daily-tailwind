@@ -53,23 +53,28 @@
       </div>
 
       <div
-        class="relative col-span-1 mx-auto max-w-xs space-y-8 rounded-2xl bg-ascent p-5 md:p-8 lg:p-10"
+        class="relative col-span-1 mx-auto max-w-xs rounded-2xl bg-ascent p-5 md:p-8 lg:p-10"
       >
         <div
           class="absolute -top-8 -left-8 right-4 bottom-1/2 -z-10 rounded-2xl bg-[#4AA2F7]"
         />
-        <h2 class="text-lg font-black text-tertiary">Checklist</h2>
-        <div class="space-y-6">
-          {#each checkboxes as checkbox}
-            <div class="flex items-center gap-3">
-              <input
-                type="checkbox"
-                class="form-checkbox h-7 w-7 rounded-full border border-tertiary bg-ascent checked:bg-primary"
-                checked={checkbox.checked}
-              />
-              <p class="text-lg font-semibold text-tertiary">{checkbox.text}</p>
-            </div>
-          {/each}
+
+        <div class="space-y-8 ">
+          <h2 class="text-lg font-black text-tertiary">Checklist</h2>
+          <div class="space-y-6">
+            {#each checkboxes as checkbox}
+              <div class="flex items-center gap-3">
+                <input
+                  type="checkbox"
+                  class="form-checkbox h-7 w-7 rounded-full border border-tertiary bg-ascent checked:bg-primary"
+                  checked={checkbox.checked}
+                />
+                <p class="text-lg font-semibold text-tertiary">
+                  {checkbox.text}
+                </p>
+              </div>
+            {/each}
+          </div>
         </div>
       </div>
     </div>

@@ -20,7 +20,7 @@
       </button>
 
       <div
-        class="relative space-y-7 rounded-2xl bg-white p-10 shadow-[0_10px_24px_0_#09115910]"
+        class="relative rounded-2xl bg-white p-10 shadow-[0_10px_24px_0_#09115910]"
       >
         <div
           class="absolute -top-[36%] bottom-[50%] -left-[27%] right-[55%] -z-10 hidden rounded-[50px] bg-[#E9EBFF] lg:block"
