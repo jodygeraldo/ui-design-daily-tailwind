@@ -10,16 +10,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2.2.1
+        with:
+          version: 6.32.3
+
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'pnpm'
+
+      - name: Install npm@7
+        run: npm add --global npm@7
 
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       - name: Format
-        run: npm run format --if-present
+        run: pnpm run format --if-present
 
       - name: Commit changes
         run: |
