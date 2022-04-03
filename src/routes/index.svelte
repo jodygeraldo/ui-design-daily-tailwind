@@ -93,10 +93,10 @@
   <h2
     class="py-4 text-2xl font-bold leading-7 text-gray-12 sm:truncate sm:text-3xl"
   >
-    Recents
+    UIDesignDaily with Tailwind CSS
   </h2>
 
-  <ul class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+  <ul class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
     {#each paginatedList as item}
       <li
         class="col-span-1 flex flex-col divide-y divide-gray-6 rounded border-2 border-gray-7 bg-gray-3 text-center shadow"
