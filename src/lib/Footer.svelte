@@ -27,7 +27,7 @@
 
 <footer>
   <div
-    class="container mx-auto px-4 py-12 sm:px-6 lg:px-8 md:flex md:items-center md:justify-between"
+    class="container mx-auto px-4 py-12 sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
   >
     <div class="flex justify-center space-x-6 md:order-2">
       {#each links as link}
@@ -37,7 +37,7 @@
         </a>
       {/each}
     </div>
-    <div class="mt-8 md:mt-0 md:order-1">
+    <div class="mt-8 md:order-1 md:mt-0">
       <p class="text-center text-base text-gray-11">
         <a
           href="https://www.uidesigndaily.com/"
