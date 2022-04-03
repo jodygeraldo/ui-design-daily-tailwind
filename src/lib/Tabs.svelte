@@ -12,9 +12,9 @@
         disabled={sortedBy === 'date'}
         class={clsx(
           sortedBy === 'date'
-            ? 'border-gray-8 text-gray-9 pointer-events-none'
+            ? 'pointer-events-none border-gray-8 text-gray-9'
             : 'hover:border-gray-7',
-          'border-transparent text-gray-11 hover:text-gray-12 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm',
+          'whitespace-nowrap border-b-2 border-transparent py-4 px-1 text-sm font-medium text-gray-11 hover:text-gray-12',
         )}
       >
         Sorted by date
@@ -25,9 +25,9 @@
         disabled={sortedBy === 'recent'}
         class={clsx(
           sortedBy === 'recent'
-            ? 'border-gray-8 text-gray-9 pointer-events-none'
+            ? 'pointer-events-none border-gray-8 text-gray-9'
             : 'hover:border-gray-7',
-          'border-transparent text-gray-11 hover:text-gray-12 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm',
+          'whitespace-nowrap border-b-2 border-transparent py-4 px-1 text-sm font-medium text-gray-11 hover:text-gray-12',
         )}
       >
         Recent built
