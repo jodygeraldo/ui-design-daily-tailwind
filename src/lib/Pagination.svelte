@@ -4,6 +4,7 @@
 
   export let page: number
   export let totalPages: number
+  export let sortedBy: 'date' | 'recent'
 
   function range(start: number | null, end: number): number[] {
     return Array.from(Array(end).keys())
@@ -15,7 +16,7 @@
 <nav class="mt-8 flex items-center justify-between border-t border-gray-6">
   <div class="-mt-px flex w-0 flex-1">
     <a
-      href={`?page=${page - 1}`}
+      href={`?page=${page - 1}&sort=${sortedBy}`}
       disabled={page === 1}
       class={clsx(
         page === 1
@@ -32,7 +33,7 @@
     {#if page < 6 || totalPages < 8}
       {#each range(null, totalPages > 7 ? 7 : totalPages) as pageIndex}
         <a
-          href={`?page=${pageIndex}`}
+          href={`?page=${pageIndex}&sort=${sortedBy}`}
           class={clsx(
             page === pageIndex
               ? 'pointer-events-none border-gray-7 text-gray-9'
@@ -47,7 +48,7 @@
     {:else}
       {#if page > 5}
         <a
-          href={`?page=1`}
+          href={`?page=1&sort=${sortedBy}`}
           class={clsx(
             page === 1
               ? 'border-gray-7 text-gray-9 pointer-events-none'
@@ -67,7 +68,7 @@
       {#if totalPages - page > 1}
         {#each range(page - 3, page) as pageIndex}
           <a
-            href={`?page=${pageIndex}`}
+            href={`?page=${pageIndex}&sort=${sortedBy}`}
             class={clsx(
               page === pageIndex
                 ? 'border-gray-7 text-gray-9 pointer-events-none'
@@ -81,7 +82,7 @@
         {/each}
         {#each range(page, page + 2) as pageIndex}
           <a
-            href={`?page=${pageIndex}`}
+            href={`?page=${pageIndex}&sort=${sortedBy}`}
             class={clsx(
               page === pageIndex
                 ? 'border-gray-7 text-gray-9 pointer-events-none'
@@ -96,7 +97,7 @@
       {:else if totalPages - page === 1}
         {#each range(page - 4, page) as pageIndex}
           <a
-            href={`?page=${pageIndex}`}
+            href={`?page=${pageIndex}&sort=${sortedBy}`}
             class={clsx(
               page === pageIndex
                 ? 'border-gray-7 text-gray-9 pointer-events-none'
@@ -109,7 +110,7 @@
           </a>
         {/each}
         <a
-          href={`?page=${totalPages}`}
+          href={`?page=${totalPages}&sort=${sortedBy}`}
           class={clsx(
             page === totalPages
               ? 'border-gray-7 text-gray-9 pointer-events-none'
@@ -123,7 +124,7 @@
       {:else}
         {#each range(page - 5, totalPages) as pageIndex}
           <a
-            href={`?page=${pageIndex}`}
+            href={`?page=${pageIndex}&sort=${sortedBy}`}
             class={clsx(
               page === pageIndex
                 ? 'border-gray-7 text-gray-9 pointer-events-none'
@@ -140,7 +141,7 @@
   </div>
   <div class="-mt-px flex w-0 flex-1 justify-end">
     <a
-      href={`?page=${page + 1}`}
+      href={`?page=${page + 1}&sort=${sortedBy}`}
       disabled={page === totalPages}
       class={clsx(
         page === totalPages

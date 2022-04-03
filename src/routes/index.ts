@@ -1,4 +1,4 @@
-import list from '../data/index'
+import list, { listByBuiltTime } from '../data/index'
 
 /** @type {import('./index').RequestHandler} */
 export async function get({ url }) {
@@ -6,6 +6,13 @@ export async function get({ url }) {
 
   let page = Number(searchParams.get('page')) || 1
   const limit = Number(searchParams.get('limit')) || 15
+  let sortedBy = searchParams.get('sort')
+
+  if (sortedBy !== 'date' && sortedBy !== 'recent') {
+    sortedBy = 'date'
+  }
+
+  const usedList = sortedBy === 'recent' ? listByBuiltTime : list
 
   const totalPages = Math.ceil(list.length / limit)
 
@@ -13,9 +20,9 @@ export async function get({ url }) {
     page = 1
   }
 
-  const paginatedList = list.slice((page - 1) * limit, page * limit)
+  const paginatedList = usedList.slice((page - 1) * limit, page * limit)
 
   return {
-    body: { page, totalPages, paginatedList },
+    body: { page, totalPages, list: paginatedList, sortedBy },
   }
 }

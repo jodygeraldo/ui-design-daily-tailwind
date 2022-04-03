@@ -4,10 +4,14 @@
   import { browser, mode } from '$app/env'
   import Pagination from '$lib/Pagination.svelte'
   import Footer from '$lib/Footer.svelte'
+  import Tabs from '$lib/Tabs.svelte'
 
   export let page: number
+  export let sortedBy: 'date' | 'recent'
   export let totalPages: number
-  export let paginatedList: ItemType[]
+  export let list: ItemType[]
+
+  console.log(sortedBy)
 
   const imageUrl = {
     default: (url: string) => `/assets/images/${url}`,
@@ -108,8 +112,10 @@
     </div>
   </div>
 
+  <Tabs {sortedBy} />
+
   <ul class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
-    {#each paginatedList as item}
+    {#each list as item}
       <li
         class="col-span-1 flex flex-col divide-y divide-gray-6 rounded border-2 border-gray-7 bg-gray-3 text-center shadow"
       >
@@ -134,7 +140,7 @@
         </picture>
         <div class="relative flex flex-1 flex-col p-8">
           <time class="absolute top-1 right-1 text-sm text-gray-9 "
-            >built on {item.builtOn}</time
+            >built on {item.builtOn.formatted}</time
           >
           <h3 class="text-lg font-medium text-gray-12">{item.title}</h3>
 
@@ -172,7 +178,7 @@
   </ul>
 
   {#if totalPages > 1}
-    <Pagination {page} {totalPages} />
+    <Pagination {page} {totalPages} {sortedBy} />
   {/if}
 
   <Footer />
