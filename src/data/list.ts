@@ -1,4 +1,4 @@
-import { formattedDate } from 'src/utils'
+import { formattedDate } from '$lib/utils'
 import type { ItemType } from './index'
 
 const list: ItemType[] = [
