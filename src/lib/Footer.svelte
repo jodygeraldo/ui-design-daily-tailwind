@@ -37,7 +37,7 @@
         </a>
       {/each}
     </div>
-    <div class="mt-8 md:mt-0 md:order-1">
+    <div class="mt-8 md:order-1 md:mt-0">
       <p class="text-center text-base text-gray-11">
         <a
           href="https://www.uidesigndaily.com/"
