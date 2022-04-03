@@ -29,21 +29,21 @@
   <title>Product Review Modal - UI Design Daily with Tailwind CSS</title>
 </svelte:head>
 
-<div class="theme grid place-items-center min-h-screen">
-  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
-    <div class="p-8 lg:p-14 bg-white rounded-[40px] max-w-2xl mx-auto relative">
+<div class="theme grid min-h-screen place-items-center">
+  <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
+    <div class="relative mx-auto max-w-2xl rounded-[40px] bg-white p-8 lg:p-14">
       <!-- background rectangle -->
       <div
-        class="hidden xl:block absolute bg-[#fdd4d4] rounded-[70px] inset-y-24 -inset-x-32 -z-10"
+        class="absolute inset-y-24 -inset-x-32 -z-10 hidden rounded-[70px] bg-[#fdd4d4] xl:block"
       />
 
       <!-- close icon button -->
       <button
-        class="p-2.5 rounded-full bg-[#f5f4ff] absolute top-3 right-4 lg:top-8 lg:right-8"
+        class="absolute top-3 right-4 rounded-full bg-[#f5f4ff] p-2.5 lg:top-8 lg:right-8"
       >
         <Icon
           id="cross-2"
-          class="text-primary opacity-50 w-6 h-6 sm:w-8 sm:h-8"
+          class="h-6 w-6 text-primary opacity-50 sm:h-8 sm:w-8"
         />
       </button>
 
@@ -51,37 +51,37 @@
       <div class="space-y-6">
         <div class="space-y-4">
           <!-- heading -->
-          <h2 class="text-primary font-black text-2xl">Overall rating</h2>
+          <h2 class="text-2xl font-black text-primary">Overall rating</h2>
           <!-- rating -->
-          <div class="flex gap-1 items-center">
-            <div class="p-2 rounded-md bg-white border-ascent border-[3px]">
+          <div class="flex items-center gap-1">
+            <div class="rounded-md border-[3px] border-ascent bg-white p-2">
               <Icon
                 id="star-filled"
-                class="text-[#FFEC8A] w-6 h-6 sm:w-8 sm:h-8 stroke-[#FFB444]"
+                class="h-6 w-6 stroke-[#FFB444] text-[#FFEC8A] sm:h-8 sm:w-8"
               />
             </div>
-            <div class="p-2 rounded-md bg-white border-ascent border-[3px]">
+            <div class="rounded-md border-[3px] border-ascent bg-white p-2">
               <Icon
                 id="star-filled"
-                class="text-[#FFEC8A] w-6 h-6 sm:w-8 sm:h-8 stroke-[#FFB444]"
+                class="h-6 w-6 stroke-[#FFB444] text-[#FFEC8A] sm:h-8 sm:w-8"
               />
             </div>
-            <div class="p-2 rounded-md bg-white border-ascent border-[3px]">
+            <div class="rounded-md border-[3px] border-ascent bg-white p-2">
               <Icon
                 id="star-filled"
-                class="text-[#FFEC8A] w-6 h-6 sm:w-8 sm:h-8 stroke-[#FFB444]"
+                class="h-6 w-6 stroke-[#FFB444] text-[#FFEC8A] sm:h-8 sm:w-8"
               />
             </div>
-            <div class="p-2 rounded-md bg-white border-ascent border-[3px]">
+            <div class="rounded-md border-[3px] border-ascent bg-white p-2">
               <Icon
                 id="star-filled"
-                class="text-[#FFEC8A] w-6 h-6 sm:w-8 sm:h-8 stroke-[#FFB444]"
+                class="h-6 w-6 stroke-[#FFB444] text-[#FFEC8A] sm:h-8 sm:w-8"
               />
             </div>
-            <div class="p-2 rounded-md bg-white border-ascent border-[3px]">
+            <div class="rounded-md border-[3px] border-ascent bg-white p-2">
               <Icon
                 id="star-filled"
-                class="text-white w-6 h-6 sm:w-8 sm:h-8 stroke-[#AEB3C5]"
+                class="h-6 w-6 stroke-[#AEB3C5] text-white sm:h-8 sm:w-8"
               />
             </div>
           </div>
@@ -91,13 +91,13 @@
 
         <!-- input -->
         <div>
-          <label for="input-1" class="font-semibold text-sm text-primary"
+          <label for="input-1" class="text-sm font-semibold text-primary"
             >Review title</label
           >
           <input
             type="text"
             id="input-1"
-            class="form-input mt-1 w-full p-3 rounded-md border-2 border-ascent placeholder:font-medium placeholder-[#12163350]"
+            class="form-input mt-1 w-full rounded-md border-2 border-ascent p-3 placeholder-[#12163350] placeholder:font-medium"
             placeholder="Example: Easy to use"
           />
         </div>
@@ -109,20 +109,20 @@
           </p>
           <div class="mt-4 flex gap-6">
             {#each radio as r}
-              <div class="flex gap-2 items-center">
+              <div class="flex items-center gap-2">
                 <div class="relative">
                   <button
-                    class="p-4 rounded-full border-2 border-ascent text-primary w-7 h-7"
+                    class="h-7 w-7 rounded-full border-2 border-ascent p-4 text-primary"
                     disabled={r.selected}
                     value={r.value}
                   />
                   {#if r.selected}
                     <div
-                      class="absolute inset-2 bg-primary rounded-full pointer-events-none"
+                      class="pointer-events-none absolute inset-2 rounded-full bg-primary"
                     />
                   {/if}
                 </div>
-                <p class="text-primary font-medium">{r.value}</p>
+                <p class="font-medium text-primary">{r.value}</p>
               </div>
             {/each}
           </div>
@@ -130,38 +130,38 @@
 
         <!-- textarea -->
         <div>
-          <label for="textarea-1" class="font-semibold text-sm text-primary"
+          <label for="textarea-1" class="text-sm font-semibold text-primary"
             >Product review</label
           >
           <textarea
             id="textarea-1"
-            class="form-textarea mt-1 w-full p-3 rounded-md border-2 border-ascent placeholder:font-medium placeholder-[#12163350]"
+            class="form-textarea mt-1 w-full rounded-md border-2 border-ascent p-3 placeholder-[#12163350] placeholder:font-medium"
             placeholder="Example: Since I bought this a month ago, it has been used a lot. What I like best/what is worst about this product is"
             rows="2"
           />
         </div>
 
         <!-- another input -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+        <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
           <div class="cols-1">
-            <label for="input-1" class="font-semibold text-sm text-primary"
+            <label for="input-1" class="text-sm font-semibold text-primary"
               >Nickname</label
             >
             <input
               type="text"
               id="input-1"
-              class="form-input mt-1 w-full p-3 rounded-md border-2 border-ascent placeholder:font-medium placeholder-[#12163350]"
+              class="form-input mt-1 w-full rounded-md border-2 border-ascent p-3 placeholder-[#12163350] placeholder:font-medium"
               placeholder="Example: bob27"
             />
           </div>
           <div class="cols-1">
-            <label for="input-1" class="font-semibold text-sm text-primary"
+            <label for="input-1" class="text-sm font-semibold text-primary"
               >Email address (will not be published)</label
             >
             <input
               type="text"
               id="input-1"
-              class="form-input mt-1 w-full p-3 rounded-md border-2 border-ascent placeholder:font-medium placeholder-[#12163350]"
+              class="form-input mt-1 w-full rounded-md border-2 border-ascent p-3 placeholder-[#12163350] placeholder:font-medium"
               placeholder="Example: your@email.com"
             />
           </div>
@@ -170,12 +170,12 @@
         <!-- another radio -->
         <div>
           <div class="mt-4 flex gap-6">
-            <div class="flex gap-2 items-center">
+            <div class="flex items-center gap-2">
               <button
-                class="p-3 rounded-full border-2 border-ascent text-primary w-7 h-7"
+                class="h-7 w-7 rounded-full border-2 border-ascent p-3 text-primary"
               />
 
-              <p class="text-primary font-medium">
+              <p class="font-medium text-primary">
                 I accept the
                 <span class="underline underline-offset-1"
                   >terms and conditions</span
@@ -186,7 +186,7 @@
         </div>
 
         <!-- text -->
-        <p class="font-medium text-sm text-primary">
+        <p class="text-sm font-medium text-primary">
           You will be able to receive emails in connection with this review (eg
           if others comment on your review). All emails contain the option to
           unsubscribe. We can use the text and star rating from your review in
@@ -194,7 +194,7 @@
         </p>
 
         <!-- submit button -->
-        <button class="font-medium text-white p-3 rounded bg-primary"
+        <button class="rounded bg-primary p-3 font-medium text-white"
           >Submit product review</button
         >
       </div>
