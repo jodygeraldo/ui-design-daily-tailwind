@@ -91,11 +91,22 @@
 </svelte:head>
 
 <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
-  <h2
-    class="py-4 text-2xl font-bold leading-7 text-gray-12 sm:truncate sm:text-3xl"
-  >
-    UIDesignDaily with Tailwind CSS
-  </h2>
+  <div class="items-center justify-between lg:flex">
+    <h2
+      class="py-4 text-2xl font-bold leading-7 text-gray-12 sm:truncate sm:text-3xl"
+    >
+      UIDesignDaily with Tailwind CSS
+    </h2>
+    <div class="flex items-center gap-2">
+      <Icon id="github-logo" class="h-6 w-6 text-gray-12" />
+      <a
+        href="https://github.com/jodygeraldo/ui-design-daily-tailwind"
+        rel="external"
+        target="_blank"
+        class="text-gray-11 hover:text-gray-12">Source code on GitHub</a
+      >
+    </div>
+  </div>
 
   <ul class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
     {#each paginatedList as item}
