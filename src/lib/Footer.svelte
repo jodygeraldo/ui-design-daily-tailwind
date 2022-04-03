@@ -31,7 +31,12 @@
   >
     <div class="flex justify-center space-x-6 md:order-2">
       {#each links as link}
-        <a href={link.to} class="text-gray-11 hover:text-gray-12">
+        <a
+          href={link.to}
+          rel="external"
+          target="_blank"
+          class="text-gray-11 hover:text-gray-12"
+        >
           <span class="sr-only">{link.name}</span>
           <Icon id={link.iconId} class="h-6 w-6" ariaHidden={true} />
         </a>
