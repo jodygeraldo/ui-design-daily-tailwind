@@ -27,7 +27,7 @@
 
 <footer>
   <div
-    class="container mx-auto px-4 py-12 sm:px-6 lg:px-8 md:flex md:items-center md:justify-between"
+    class="container mx-auto py-12 md:flex md:items-center md:justify-between"
   >
     <div class="flex justify-center space-x-6 md:order-2">
       {#each links as link}

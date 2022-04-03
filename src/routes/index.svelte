@@ -3,6 +3,7 @@
   import type { ItemType } from '../data/index'
   import { browser, mode } from '$app/env'
   import Pagination from '$lib/Pagination.svelte'
+  import Footer from '$lib/Footer.svelte'
 
   export let page: number
   export let totalPages: number
@@ -159,6 +160,8 @@
   {#if totalPages > 1}
     <Pagination {page} {totalPages} />
   {/if}
+
+  <Footer />
 </div>
 
 {#if browser && mode !== 'development'}
