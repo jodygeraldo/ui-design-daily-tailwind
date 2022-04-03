@@ -9,6 +9,7 @@ export interface ItemType {
   linkOriginal: string
   linkComponent: string
   imageUrl: string
+  builtOn: string
 }
 
 const list: ItemType[] = [

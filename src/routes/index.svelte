@@ -132,7 +132,10 @@
             loading="lazy"
           />
         </picture>
-        <div class="flex flex-1 flex-col p-8">
+        <div class="relative flex flex-1 flex-col p-8">
+          <time class="absolute top-1 right-1 text-sm text-gray-9 "
+            >built on {item.builtOn}</time
+          >
           <h3 class="text-lg font-medium text-gray-12">{item.title}</h3>
 
           <time class="mt-1 truncate text-sm text-gray-11">{item.date}</time>

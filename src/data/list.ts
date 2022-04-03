@@ -9,6 +9,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/1-',
     imageUrl: '2022/april/1.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -17,6 +18,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/2-',
     imageUrl: '2022/april/2.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -25,6 +27,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/3-',
     imageUrl: '2022/april/3.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
 
   {
@@ -34,6 +37,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/4-',
     imageUrl: '2022/april/4.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -42,6 +46,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/5-',
     imageUrl: '2022/april/5.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -50,6 +55,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/6-',
     imageUrl: '2022/april/6.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -58,6 +64,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/7-',
     imageUrl: '2022/april/7.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -66,6 +73,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/8-',
     imageUrl: '2022/april/8.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -74,6 +82,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/9-',
     imageUrl: '2022/april/9.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -82,6 +91,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/10-',
     imageUrl: '2022/april/10.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -90,6 +100,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/11-',
     imageUrl: '2022/april/11.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -98,6 +109,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/12-',
     imageUrl: '2022/april/12.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -106,6 +118,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/13-',
     imageUrl: '2022/april/13.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -114,6 +127,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/14-',
     imageUrl: '2022/april/14.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -122,6 +136,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/15-',
     imageUrl: '2022/april/15.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -130,6 +145,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/16-',
     imageUrl: '2022/april/16.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -138,6 +154,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/17-',
     imageUrl: '2022/april/17.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -146,6 +163,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/18-',
     imageUrl: '2022/april/18.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -154,6 +172,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/19-',
     imageUrl: '2022/april/19.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -162,6 +181,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/20-',
     imageUrl: '2022/april/20.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -170,6 +190,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/21-',
     imageUrl: '2022/april/21.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -178,6 +199,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/22-',
     imageUrl: '2022/april/22.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -186,6 +208,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/23-',
     imageUrl: '2022/april/23.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -194,6 +217,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/24-',
     imageUrl: '2022/april/24.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -202,6 +226,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/25-',
     imageUrl: '2022/april/25.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -210,6 +235,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/26-',
     imageUrl: '2022/april/26.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -218,6 +244,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/27-',
     imageUrl: '2022/april/27.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -226,6 +253,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/28-',
     imageUrl: '2022/april/28.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -234,6 +262,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/29-',
     imageUrl: '2022/april/29.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -242,6 +271,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/30-',
     imageUrl: '2022/april/30.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 15,
@@ -250,6 +280,7 @@ const list: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/january/31-',
     imageUrl: '2022/april/31.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
 ]
 

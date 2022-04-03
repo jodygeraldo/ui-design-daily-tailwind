@@ -10,6 +10,7 @@ const list: ItemType[] = [
       'https://www.uidesigndaily.com/posts/figma-pricing-card-subscribe-day-1566',
     linkComponent: '/2022/march/7-pricing-card',
     imageUrl: '2022/march/7.png',
+    builtOn: formattedDate(3, 4, 2022),
   },
   {
     id: 1565,
@@ -19,6 +20,7 @@ const list: ItemType[] = [
       'https://www.uidesigndaily.com/posts/figma-product-review-modal-rating-day-1565',
     linkComponent: '/2022/march/4-product-review-modal',
     imageUrl: '2022/march/4.png',
+    builtOn: formattedDate(3, 4, 2022),
   },
   {
     id: 1564,
@@ -28,6 +30,7 @@ const list: ItemType[] = [
       'https://www.uidesigndaily.com/posts/figma-details-card-day-1564',
     linkComponent: '/2022/march/3-details-card',
     imageUrl: '2022/march/3.png',
+    builtOn: formattedDate(3, 4, 2022),
   },
   {
     id: 1563,
@@ -37,6 +40,7 @@ const list: ItemType[] = [
       'https://www.uidesigndaily.com/posts/figma-stores-list-card-dark-mode-day-1563',
     linkComponent: '/2022/march/2-stores-list',
     imageUrl: '2022/march/2.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
   {
     id: 1562,
@@ -46,6 +50,7 @@ const list: ItemType[] = [
       'https://www.uidesigndaily.com/posts/figma-price-card-day-1562',
     linkComponent: '/2022/march/1-price-card',
     imageUrl: '2022/march/1.png',
+    builtOn: formattedDate(2, 4, 2022),
   },
 ]
 
