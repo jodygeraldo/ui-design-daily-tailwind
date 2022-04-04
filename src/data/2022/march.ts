@@ -3,6 +3,16 @@ import type { ItemType } from '..'
 
 const list: ItemType[] = [
   {
+    id: 1569,
+    title: 'Filter Modal',
+    date: formattedDate(10, 3, 2022).formatted,
+    linkOriginal:
+      'https://www.uidesigndaily.com/posts/figma-filter-modal-day-1569',
+    linkComponent: '/2022/march/10-filter-modal',
+    imageUrl: '2022/march/10.png',
+    builtOn: formattedDate(4, 4, 2022, 1),
+  },
+  {
     id: 1566,
     title: 'Pricing Card',
     date: formattedDate(7, 3, 2022).formatted,
@@ -72,15 +82,6 @@ export const pendingList = [
       'https://www.uidesigndaily.com/posts/figma-statistics-analytics-chart-day-1568',
     linkComponent: '/2022/march/9-statistics',
     imageUrl: '2022/march/9.png',
-  },
-  {
-    id: 1569,
-    title: 'Filter Modal',
-    date: formattedDate(10, 3, 2022).formatted,
-    linkOriginal:
-      'https://www.uidesigndaily.com/posts/figma-filter-modal-day-1569',
-    linkComponent: '/2022/march/10-filter-modal',
-    imageUrl: '2022/march/10.png',
   },
   {
     id: 1570,
