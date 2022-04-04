@@ -9,7 +9,7 @@ const below2021List: ItemType[] = [
     linkOriginal:
       'https://www.uidesigndaily.com/posts/figma-add-members-list-widget-tags-day-287',
     linkComponent: '/2017/april/13-add-members',
-    imageUrl: 'below2021/287.png',
+    imageUrl: 'below2021/day287.png',
     builtOn: formattedDate(3, 4, 2022, 4),
   },
 ]
