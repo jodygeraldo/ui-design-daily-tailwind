@@ -3,6 +3,16 @@ import type { ItemType } from '..'
 
 const list: ItemType[] = [
   {
+    id: 1574,
+    title: 'Buy Subscription Section',
+    date: formattedDate(17, 3, 2022).formatted,
+    linkOriginal:
+      'https://www.uidesigndaily.com/posts/figma-buy-subscription-section-pricing-card-day-1574',
+    linkComponent: '/2022/march/17-buy-subscription-section',
+    imageUrl: '2022/march/17.png',
+    builtOn: formattedDate(5, 4, 2022, 4),
+  },
+  {
     id: 1573,
     title: 'Reviews',
     date: formattedDate(16, 3, 2022).formatted,
@@ -121,15 +131,6 @@ export const pendingList = [
       'https://www.uidesigndaily.com/posts/figma-statistics-analytics-chart-day-1568',
     linkComponent: '/2022/march/9-statistics',
     imageUrl: '2022/march/9.png',
-  },
-  {
-    id: 1574,
-    title: 'Buy Subscription Section',
-    date: formattedDate(17, 3, 2022).formatted,
-    linkOriginal:
-      'https://www.uidesigndaily.com/posts/figma-buy-subscription-section-pricing-card-day-1574',
-    linkComponent: '/2022/march/17-buy-subscription-section',
-    imageUrl: '2022/march/17.png',
   },
   {
     id: 1575,
