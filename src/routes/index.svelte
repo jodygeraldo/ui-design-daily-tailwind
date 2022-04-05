@@ -1,17 +1,15 @@
 <script lang="ts">
-  import Icon from '$lib/Icon.svelte'
-  import type { ItemType } from '../data/index'
   import { browser, mode } from '$app/env'
-  import Pagination from '$lib/Pagination.svelte'
   import Footer from '$lib/Footer.svelte'
+  import Icon from '$lib/Icon.svelte'
+  import Pagination from '$lib/Pagination.svelte'
   import Tabs from '$lib/Tabs.svelte'
+  import type { ItemType } from '../data/index'
 
   export let page: number
   export let sortedBy: 'date' | 'recent'
   export let totalPages: number
   export let list: ItemType[]
-
-  console.log(sortedBy)
 
   const imageUrl = {
     default: (url: string) => `/assets/images/${url}`,
