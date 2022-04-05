@@ -25,7 +25,7 @@
             />
             <div class="absolute inset-y-2 right-2">
               <select
-                class="rounded border border-[#E2E7FB] bg-[#F6F8FF] text-primary"
+                class="rounded border border-[#E2E7FB] bg-[#F6F8FF] text-custom-1"
               >
                 <option value="EN">EN</option>
                 <option value="ID">ID</option>
@@ -33,7 +33,7 @@
             </div>
           </div>
         </div>
-        <button class="rounded-r-2xl bg-primary p-4">
+        <button class="rounded-r-2xl bg-custom-1 p-4">
           <Icon id="magnifying-glass" class="h-7 w-7 text-white" />
         </button>
       </div>
@@ -50,7 +50,7 @@
               class="h-[72px] w-[72px] rounded-2xl"
               alt=""
             />
-            <div class="text-primary">
+            <div class="text-custom-1">
               <h3 class="font-semibold">Apple</h3>
               <p class="text-sm">Fruit and tree</p>
             </div>
@@ -61,7 +61,7 @@
               class="h-[72px] w-[72px] rounded-2xl"
               alt=""
             />
-            <div class="text-primary">
+            <div class="text-custom-1">
               <h3 class="font-semibold">Apple Inc.</h3>
               <p class="text-sm">American multinational</p>
             </div>
@@ -72,7 +72,7 @@
               class="h-[72px] w-[72px] rounded-2xl"
               alt=""
             />
-            <div class="text-primary">
+            <div class="text-custom-1">
               <h3 class="font-semibold">Apple TV</h3>
               <p class="text-sm">Home media receiver</p>
             </div>
@@ -83,7 +83,7 @@
               class="h-[72px] w-[72px] rounded-2xl"
               alt=""
             />
-            <div class="text-primary">
+            <div class="text-custom-1">
               <h3 class="font-semibold">Apple Silicon</h3>
               <p class="text-sm">Processors designed by Apple</p>
             </div>
@@ -97,6 +97,6 @@
 
 <style>
   .theme {
-    --color-primary: #2c3e50;
+    --color-1: #2c3e50;
   }
 </style>

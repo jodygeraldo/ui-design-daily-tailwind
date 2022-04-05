@@ -5,9 +5,9 @@
     }
   }
 
-  import clsx from 'clsx'
   import Icon from '$lib/Icon.svelte'
   import type { IconId } from '$lib/IconType'
+  import clsx from 'clsx'
 
   const list: { name: string; iconId: IconId; selected: boolean }[] = [
     { name: 'Overview', iconId: 'home', selected: false },
@@ -34,17 +34,17 @@
             <div class="flex h-16 w-16 items-center justify-center">
               <Icon id="github-logo" class="h-12 w-12" />
             </div>
-            <h2 class="text-2xl font-bold text-primary">Storage</h2>
+            <h2 class="text-2xl font-bold text-custom-1">Storage</h2>
           </div>
 
           <div class="mt-4 space-y-2">
-            <div class="relative h-[9px] w-full rounded-full bg-tertiary">
+            <div class="relative h-[9px] w-full rounded-full bg-custom-3">
               <div
-                class="absolute top-0 left-0 h-[9px] w-1/6 rounded-full bg-primary bg-black"
+                class="absolute top-0 left-0 h-[9px] w-1/6 rounded-full bg-custom-1 bg-black"
               />
               <div class="w-full" />
             </div>
-            <p class="text-ascent">384.8 MB of 30 GB used</p>
+            <p class="text-custom-2">384.8 MB of 30 GB used</p>
           </div>
 
           <button class="mt-9 w-full rounded-md bg-black p-4 text-lg text-white"
@@ -62,11 +62,11 @@
             {#each list as item}
               <li
                 class={clsx(
-                  item.selected && 'bg-tertiary',
+                  item.selected && 'bg-custom-3',
                   'flex items-center space-x-2 rounded-lg p-6',
                 )}
               >
-                <Icon id={item.iconId} class="h-8 w-8 text-primary" />
+                <Icon id={item.iconId} class="h-8 w-8 text-custom-1" />
                 <p class="text-lg text-black">{item.name}</p>
               </li>
             {/each}
@@ -87,14 +87,14 @@
                 <p class="text-lg">English</p>
                 <p class="text-lg">United States</p>
               </div>
-              <Icon id="pencil-1" class="h-8 w-8 text-primary" />
+              <Icon id="pencil-1" class="h-8 w-8 text-custom-1" />
             </div>
             <div class="flex items-center gap-[113px]">
               <div class="space-y-2">
                 <p class="text-lg">English</p>
                 <p class="text-lg">United States</p>
               </div>
-              <Icon id="pencil-1" class="h-8 w-8 text-primary" />
+              <Icon id="pencil-1" class="h-8 w-8 text-custom-1" />
             </div>
           </div>
 
@@ -112,8 +112,8 @@
 
 <style>
   .theme {
-    --color-primary: #0c0f2b;
-    --color-ascent: #494e76;
-    --color-tertiary: #edf1ff;
+    --color-1: #0c0f2b;
+    --color-2: #494e76;
+    --color-3: #edf1ff;
   }
 </style>

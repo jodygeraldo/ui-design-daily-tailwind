@@ -15,7 +15,7 @@
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div
-      class="relative mx-auto max-w-lg rounded-lg bg-white p-6 text-primary shadow-[0_24px_34px_0_#00278a10] sm:p-8 md:rounded-2xl md:p-10 lg:p-12 xl:rounded-[32px] xl:p-16"
+      class="relative mx-auto max-w-lg rounded-lg bg-white p-6 text-custom-1 shadow-[0_24px_34px_0_#00278a10] sm:p-8 md:rounded-2xl md:p-10 lg:p-12 xl:rounded-[32px] xl:p-16"
     >
       <Icon
         id="cross-2"
@@ -39,7 +39,7 @@
               <select
                 name="select-1"
                 id="select-1"
-                class="form-select w-0 flex-1 truncate rounded-lg border border-ascent p-2 pr-10 text-lg font-medium text-black sm:p-4"
+                class="form-select w-0 flex-1 truncate rounded-lg border border-custom-2 p-2 pr-10 text-lg font-medium text-black sm:p-4"
               >
                 <option value="1">9 311.-/month for 6 months</option>
               </select>
@@ -69,7 +69,7 @@
         </div>
 
         <button
-          class="w-full rounded-lg border border-ascent p-2 font-medium text-black sm:p-4 sm:text-lg"
+          class="w-full rounded-lg border border-custom-2 p-2 font-medium text-black sm:p-4 sm:text-lg"
           >Back to the product</button
         >
       </div>
@@ -79,7 +79,7 @@
 
 <style>
   .theme {
-    --color-primary: #0b2055;
-    --color-ascent: #5884c6;
+    --color-1: #0b2055;
+    --color-2: #5884c6;
   }
 </style>

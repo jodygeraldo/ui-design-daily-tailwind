@@ -17,12 +17,12 @@
         class="absolute right-1/2 -z-10 hidden h-[502px] w-[502px] translate-x-1/2 rounded-full bg-[#6C9EFF] 2xl:block"
       />
       <div
-        class="col-span-1 mx-auto max-w-md space-y-9 rounded-3xl bg-white p-4 text-primary shadow-[0_13px_28px_0_#4f63aa10] sm:p-8 2xl:-translate-y-16 2xl:translate-x-32"
+        class="col-span-1 mx-auto max-w-md space-y-9 rounded-3xl bg-white p-4 text-custom-1 shadow-[0_13px_28px_0_#4f63aa10] sm:p-8 2xl:-translate-y-16 2xl:translate-x-32"
       >
         <h2 class="ml-4 font-serif text-3xl font-bold">My pages</h2>
         <div class="space-y-4 text-lg">
           <div
-            class="flex w-full justify-between gap-4 rounded-lg bg-tertiary p-4"
+            class="flex w-full justify-between gap-4 rounded-lg bg-custom-3 p-4"
           >
             <div class="flex items-center gap-4">
               <div
@@ -35,7 +35,7 @@
             </div>
             <div>
               <p
-                class="rounded-[21px] border border-ascent py-1 px-[14px] font-bold"
+                class="rounded-[21px] border border-custom-2 py-1 px-[14px] font-bold"
               >
                 4
               </p>
@@ -56,7 +56,7 @@
             </div>
             <div>
               <p
-                class="rounded-[21px] border border-ascent py-1 px-[14px] font-bold"
+                class="rounded-[21px] border border-custom-2 py-1 px-[14px] font-bold"
               >
                 7
               </p>
@@ -77,7 +77,7 @@
             </div>
             <div>
               <p
-                class="rounded-[21px] border border-ascent py-1 px-[14px] font-bold"
+                class="rounded-[21px] border border-custom-2 py-1 px-[14px] font-bold"
               >
                 2
               </p>
@@ -87,7 +87,7 @@
       </div>
 
       <div
-        class="col-span-1 mx-auto max-w-md space-y-9 rounded-3xl bg-white p-4 text-primary shadow-[0_13px_28px_0_#4f63aa10] sm:p-8  2xl:translate-y-24 2xl:-translate-x-32"
+        class="col-span-1 mx-auto max-w-md space-y-9 rounded-3xl bg-white p-4 text-custom-1 shadow-[0_13px_28px_0_#4f63aa10] sm:p-8  2xl:translate-y-24 2xl:-translate-x-32"
       >
         <div class="space-y-8">
           <div class="flex gap-4">
@@ -101,14 +101,14 @@
               </p>
             </div>
           </div>
-          <button class="w-full rounded bg-primary p-[10px] text-white"
+          <button class="w-full rounded bg-custom-1 p-[10px] text-white"
             >View Profile</button
           >
 
           <h3 class="ml-4 font-semibold">Account</h3>
 
           <div class="space-y-1">
-            <div class="bg-tertiary py-[10px] px-4">
+            <div class="bg-custom-3 py-[10px] px-4">
               <p>Settings & Privacy</p>
             </div>
             <div class="py-[10px] px-4">
@@ -126,8 +126,8 @@
 
 <style>
   .theme {
-    --color-primary: #201f4d;
-    --color-ascent: #bfcaf0;
-    --color-tertiary: #f6f8ff;
+    --color-1: #201f4d;
+    --color-2: #bfcaf0;
+    --color-3: #f6f8ff;
   }
 </style>

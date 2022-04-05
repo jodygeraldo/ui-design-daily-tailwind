@@ -43,7 +43,7 @@
       >
         <Icon
           id="cross-2"
-          class="h-6 w-6 text-primary opacity-50 sm:h-8 sm:w-8"
+          class="h-6 w-6 text-custom-1 opacity-50 sm:h-8 sm:w-8"
         />
       </button>
 
@@ -51,34 +51,34 @@
       <div class="space-y-6">
         <div class="space-y-4">
           <!-- heading -->
-          <h2 class="text-2xl font-black text-primary">Overall rating</h2>
+          <h2 class="text-2xl font-black text-custom-1">Overall rating</h2>
           <!-- rating -->
           <div class="flex items-center gap-1">
-            <div class="rounded-md border-[3px] border-ascent bg-white p-2">
+            <div class="rounded-md border-[3px] border-custom-2 bg-white p-2">
               <Icon
                 id="star-filled"
                 class="h-6 w-6 stroke-[#FFB444] text-[#FFEC8A] sm:h-8 sm:w-8"
               />
             </div>
-            <div class="rounded-md border-[3px] border-ascent bg-white p-2">
+            <div class="rounded-md border-[3px] border-custom-2 bg-white p-2">
               <Icon
                 id="star-filled"
                 class="h-6 w-6 stroke-[#FFB444] text-[#FFEC8A] sm:h-8 sm:w-8"
               />
             </div>
-            <div class="rounded-md border-[3px] border-ascent bg-white p-2">
+            <div class="rounded-md border-[3px] border-custom-2 bg-white p-2">
               <Icon
                 id="star-filled"
                 class="h-6 w-6 stroke-[#FFB444] text-[#FFEC8A] sm:h-8 sm:w-8"
               />
             </div>
-            <div class="rounded-md border-[3px] border-ascent bg-white p-2">
+            <div class="rounded-md border-[3px] border-custom-2 bg-white p-2">
               <Icon
                 id="star-filled"
                 class="h-6 w-6 stroke-[#FFB444] text-[#FFEC8A] sm:h-8 sm:w-8"
               />
             </div>
-            <div class="rounded-md border-[3px] border-ascent bg-white p-2">
+            <div class="rounded-md border-[3px] border-custom-2 bg-white p-2">
               <Icon
                 id="star-filled"
                 class="h-6 w-6 stroke-[#AEB3C5] text-white sm:h-8 sm:w-8"
@@ -86,25 +86,25 @@
             </div>
           </div>
           <!-- small description -->
-          <p class="mt-2 text-sm text-primary">Click to rate</p>
+          <p class="mt-2 text-sm text-custom-1">Click to rate</p>
         </div>
 
         <!-- input -->
         <div>
-          <label for="input-1" class="text-sm font-semibold text-primary"
+          <label for="input-1" class="text-sm font-semibold text-custom-1"
             >Review title</label
           >
           <input
             type="text"
             id="input-1"
-            class="form-input mt-1 w-full rounded-md border-2 border-ascent p-3 placeholder-[#12163350] placeholder:font-medium"
+            class="form-input mt-1 w-full rounded-md border-2 border-custom-2 p-3 placeholder-[#12163350] placeholder:font-medium"
             placeholder="Example: Easy to use"
           />
         </div>
 
         <!-- radio -->
         <div>
-          <p class="font-medium text-primary">
+          <p class="font-medium text-custom-1">
             Would you recommend this product to a friend?
           </p>
           <div class="mt-4 flex gap-6">
@@ -112,17 +112,17 @@
               <div class="flex items-center gap-2">
                 <div class="relative">
                   <button
-                    class="h-7 w-7 rounded-full border-2 border-ascent p-4 text-primary"
+                    class="h-7 w-7 rounded-full border-2 border-custom-2 p-4 text-custom-1"
                     disabled={r.selected}
                     value={r.value}
                   />
                   {#if r.selected}
                     <div
-                      class="pointer-events-none absolute inset-2 rounded-full bg-primary"
+                      class="pointer-events-none absolute inset-2 rounded-full bg-custom-1"
                     />
                   {/if}
                 </div>
-                <p class="font-medium text-primary">{r.value}</p>
+                <p class="font-medium text-custom-1">{r.value}</p>
               </div>
             {/each}
           </div>
@@ -130,12 +130,12 @@
 
         <!-- textarea -->
         <div>
-          <label for="textarea-1" class="text-sm font-semibold text-primary"
+          <label for="textarea-1" class="text-sm font-semibold text-custom-1"
             >Product review</label
           >
           <textarea
             id="textarea-1"
-            class="form-textarea mt-1 w-full rounded-md border-2 border-ascent p-3 placeholder-[#12163350] placeholder:font-medium"
+            class="form-textarea mt-1 w-full rounded-md border-2 border-custom-2 p-3 placeholder-[#12163350] placeholder:font-medium"
             placeholder="Example: Since I bought this a month ago, it has been used a lot. What I like best/what is worst about this product is"
             rows="2"
           />
@@ -144,24 +144,24 @@
         <!-- another input -->
         <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
           <div class="cols-1">
-            <label for="input-1" class="text-sm font-semibold text-primary"
+            <label for="input-1" class="text-sm font-semibold text-custom-1"
               >Nickname</label
             >
             <input
               type="text"
               id="input-1"
-              class="form-input mt-1 w-full rounded-md border-2 border-ascent p-3 placeholder-[#12163350] placeholder:font-medium"
+              class="form-input mt-1 w-full rounded-md border-2 border-custom-2 p-3 placeholder-[#12163350] placeholder:font-medium"
               placeholder="Example: bob27"
             />
           </div>
           <div class="cols-1">
-            <label for="input-1" class="text-sm font-semibold text-primary"
+            <label for="input-1" class="text-sm font-semibold text-custom-1"
               >Email address (will not be published)</label
             >
             <input
               type="text"
               id="input-1"
-              class="form-input mt-1 w-full rounded-md border-2 border-ascent p-3 placeholder-[#12163350] placeholder:font-medium"
+              class="form-input mt-1 w-full rounded-md border-2 border-custom-2 p-3 placeholder-[#12163350] placeholder:font-medium"
               placeholder="Example: your@email.com"
             />
           </div>
@@ -172,10 +172,10 @@
           <div class="mt-4 flex gap-6">
             <div class="flex items-center gap-2">
               <button
-                class="h-7 w-7 rounded-full border-2 border-ascent p-3 text-primary"
+                class="h-7 w-7 rounded-full border-2 border-custom-2 p-3 text-custom-1"
               />
 
-              <p class="font-medium text-primary">
+              <p class="font-medium text-custom-1">
                 I accept the
                 <span class="underline underline-offset-1"
                   >terms and conditions</span
@@ -186,7 +186,7 @@
         </div>
 
         <!-- text -->
-        <p class="text-sm font-medium text-primary">
+        <p class="text-sm font-medium text-custom-1">
           You will be able to receive emails in connection with this review (eg
           if others comment on your review). All emails contain the option to
           unsubscribe. We can use the text and star rating from your review in
@@ -194,7 +194,7 @@
         </p>
 
         <!-- submit button -->
-        <button class="rounded bg-primary p-3 font-medium text-white"
+        <button class="rounded bg-custom-1 p-3 font-medium text-white"
           >Submit product review</button
         >
       </div>
@@ -204,7 +204,7 @@
 
 <style>
   .theme {
-    --color-primary: #121633;
-    --color-ascent: #eef2ff;
+    --color-1: #121633;
+    --color-2: #eef2ff;
   }
 </style>

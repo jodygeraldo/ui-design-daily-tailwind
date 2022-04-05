@@ -5,8 +5,8 @@
     }
   }
 
-  import clsx from 'clsx'
   import Icon from '$lib/Icon.svelte'
+  import clsx from 'clsx'
 
   const options = [
     { name: 'All', checked: true, special: false },
@@ -30,12 +30,12 @@
       />
 
       <div class="space-y-4">
-        <h2 class="text-2xl font-bold text-primary">Filter by</h2>
+        <h2 class="text-2xl font-bold text-custom-1">Filter by</h2>
 
         <div class="flex flex-col gap-5 sm:flex-row">
           <div class="relative w-full">
             <select
-              class="w-full rounded-lg border border-[#C7CCDE] p-4 font-medium text-primary"
+              class="w-full rounded-lg border border-[#C7CCDE] p-4 font-medium text-custom-1"
             >
               <option value="" disabled selected hidden>Location</option>
             </select>
@@ -43,7 +43,7 @@
 
           <div class="relative w-full">
             <select
-              class="w-full rounded-lg border border-[#C7CCDE] p-4 font-medium text-primary"
+              class="w-full rounded-lg border border-[#C7CCDE] p-4 font-medium text-custom-1"
             >
               <option value="" disabled selected hidden>Team</option>
             </select>
@@ -51,12 +51,12 @@
 
           <div class="relative w-full">
             <div
-              class="relative w-full rounded-lg border border-primary p-4 font-medium text-primary"
+              class="relative w-full rounded-lg border border-custom-1 p-4 font-medium text-custom-1"
             >
               <p>Work Type</p>
               <Icon
                 id="chevron-up"
-                class="absolute right-2 top-1/2 bottom-1/2 h-6 w-6 -translate-y-[40%] text-primary"
+                class="absolute right-2 top-1/2 bottom-1/2 h-6 w-6 -translate-y-[40%] text-custom-1"
               />
             </div>
 
@@ -95,6 +95,6 @@
 
 <style>
   .theme {
-    --color-primary: #151234;
+    --color-1: #151234;
   }
 </style>

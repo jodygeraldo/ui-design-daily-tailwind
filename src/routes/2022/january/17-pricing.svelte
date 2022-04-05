@@ -19,12 +19,12 @@
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div class="mx-auto max-w-xl rounded-2xl">
-      <div class="space-y-6 rounded-t-3xl bg-white pt-8 text-primary">
+      <div class="space-y-6 rounded-t-3xl bg-white pt-8 text-custom-1">
         <h2 class="text-center text-2xl font-black">Buy this image</h2>
 
         <div class="flex">
           <button
-            class="flex-1 border-b-2 border-primary p-6 text-lg font-semibold"
+            class="flex-1 border-b-2 border-custom-1 p-6 text-lg font-semibold"
             >Standard Licenses</button
           >
           <button class="flex-1 p-6 text-lg font-semibold"
@@ -33,15 +33,17 @@
         </div>
       </div>
 
-      <div class="space-y-6 rounded-b-3xl bg-ascent px-4 pb-6 pt-12">
-        <div class="space-y-2 text-primary">
+      <div class="space-y-6 rounded-b-3xl bg-custom-2 px-4 pb-6 pt-12">
+        <div class="space-y-2 text-custom-1">
           <div
             class="grid grid-cols-12 rounded-lg bg-white p-6 shadow-[0_4px_24px_0_#34389525]"
           >
             <button
-              class="relative col-span-2 h-8 w-8 rounded-full border-2 border-primary bg-white sm:col-span-1"
+              class="relative col-span-2 h-8 w-8 rounded-full border-2 border-custom-1 bg-white sm:col-span-1"
             >
-              <div class="absolute inset-1.5 rounded-full bg-primary" /></button
+              <div
+                class="absolute inset-1.5 rounded-full bg-custom-1"
+              /></button
             >
             <h3 class="col-span-8 text-lg font-bold sm:col-span-9">
               Personal use
@@ -64,7 +66,7 @@
           {#each others as other}
             <div class="grid grid-cols-12 rounded-lg bg-white p-6">
               <button
-                class="border-primary/60 relative col-span-2 h-8 w-8 rounded-full border-2 bg-white sm:col-span-1"
+                class="border-custom-1/60 relative col-span-2 h-8 w-8 rounded-full border-2 bg-white sm:col-span-1"
               />
 
               <h3 class="col-span-8 text-lg font-bold sm:col-span-9">
@@ -81,12 +83,12 @@
         </div>
 
         <button
-          class="w-full rounded-lg bg-primary p-6 text-lg font-bold text-white"
+          class="w-full rounded-lg bg-custom-1 p-6 text-lg font-bold text-white"
           >Buy now</button
         >
 
         <button
-          class="w-full rounded-lg border border-primary bg-transparent p-6 text-lg font-bold text-primary"
+          class="w-full rounded-lg border border-custom-1 bg-transparent p-6 text-lg font-bold text-custom-1"
           >Add to cart</button
         >
       </div>
@@ -96,7 +98,7 @@
 
 <style>
   .theme {
-    --color-primary: #191a39;
-    --color-ascent: #eef2ff;
+    --color-1: #191a39;
+    --color-2: #eef2ff;
   }
 </style>

@@ -22,16 +22,16 @@
           <input
             type="text"
             placeholder="Search for a part-time job"
-            class="w-0 flex-1 truncate rounded border border-ascent p-4 pl-16 placeholder:font-medium placeholder:text-[#281a5154]"
+            class="w-0 flex-1 truncate rounded border border-custom-2 p-4 pl-16 placeholder:font-medium placeholder:text-[#281a5154]"
           />
           <Icon
             id="magnifying-glass"
-            class="absolute top-1/2 bottom-1/2 left-4 h-8 w-8 -translate-y-1/2 text-primary opacity-[54%]"
+            class="absolute top-1/2 bottom-1/2 left-4 h-8 w-8 -translate-y-1/2 text-custom-1 opacity-[54%]"
           />
         </div>
 
         <button
-          class="mt-4 inline-flex w-full items-center justify-center gap-[10px] rounded border border-ascent bg-primary p-4 text-white sm:mt-0 sm:w-auto"
+          class="mt-4 inline-flex w-full items-center justify-center gap-[10px] rounded border border-custom-2 bg-custom-1 p-4 text-white sm:mt-0 sm:w-auto"
         >
           <svg
             width="22"
@@ -67,7 +67,7 @@
       </div>
 
       <div
-        class="mt-8 grid grid-cols-1 gap-4 text-primary sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+        class="mt-8 grid grid-cols-1 gap-4 text-custom-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
       >
         <div
           class="col-span-1 flex flex-col items-center space-y-1 rounded-lg bg-[#FFECEC] p-6"
@@ -261,7 +261,7 @@
           <h3 class="font-medium">Boat</h3>
         </div>
         <div
-          class="col-span-1 flex flex-col items-center space-y-1 rounded-lg border border-ascent bg-white p-6 shadow-[0_14px_16px_0_#290b8010]"
+          class="col-span-1 flex flex-col items-center space-y-1 rounded-lg border border-custom-2 bg-white p-6 shadow-[0_14px_16px_0_#290b8010]"
         >
           <svg
             width="32"
@@ -376,7 +376,7 @@
 
 <style>
   .theme {
-    --color-primary: #281a51;
-    --color-ascent: #dbd5ec;
+    --color-1: #281a51;
+    --color-2: #dbd5ec;
   }
 </style>

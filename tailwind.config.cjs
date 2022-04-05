@@ -4,11 +4,17 @@ const config = {
   theme: {
     extend: {
       colors: {
-        primary: 'var(--color-primary)',
-        ascent: 'var(--color-ascent)',
-        tertiary: 'var(--color-tertiary)',
-        'high-contrast': 'var(--text-color-high)',
-        'low-contrast': 'var(--text-color-low)',
+        custom: {
+          1: 'var(--color-1)',
+          2: 'var(--color-2)',
+          3: 'var(--color-3)',
+          4: 'var(--color-4)',
+          5: 'var(--color-5)',
+          6: 'var(--color-6)',
+          7: 'var(--color-7)',
+          8: 'var(--color-8)',
+          9: 'var(--color-9)',
+        },
         gray: {
           1: 'var(--gray1)',
           2: 'var(--gray2)',

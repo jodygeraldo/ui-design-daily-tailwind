@@ -5,8 +5,8 @@
     }
   }
 
-  import clsx from 'clsx'
   import Icon from '$lib/Icon.svelte'
+  import clsx from 'clsx'
 
   const tabs = [
     {
@@ -39,11 +39,11 @@
         class="col-span-1 mx-auto max-w-lg space-y-7 self-start rounded-3xl bg-white p-6 pb-16 shadow-[0_4px_0_0_#d8e4ef70]"
       >
         <div
-          class="min-w-[240px] rounded-lg bg-[#f6f8fa] p-[10px] text-primary sm:flex"
+          class="min-w-[240px] rounded-lg bg-[#f6f8fa] p-[10px] text-custom-1 sm:flex"
         >
           {#each tabs as tab}
             <div
-              class={clsx(tab.active && 'border-b-2 border-b-primary', 'grow')}
+              class={clsx(tab.active && 'border-b-2 border-b-custom-1', 'grow')}
             >
               <a
                 href={`#${tab.name}`}
@@ -99,7 +99,7 @@
             </div>
           </div>
           <button
-            class="col-span-2 rounded bg-primary p-4 font-semibold text-white"
+            class="col-span-2 rounded bg-custom-1 p-4 font-semibold text-white"
           >
             Next: Allowances
           </button>
@@ -107,7 +107,7 @@
       </div>
 
       <div
-        class="relative col-span-1 mx-auto max-w-xs rounded-3xl bg-[#E9EFF5] p-[42px] text-primary"
+        class="relative col-span-1 mx-auto max-w-xs rounded-3xl bg-[#E9EFF5] p-[42px] text-custom-1"
       >
         <div
           class="absolute inset-x-0 -inset-y-2 -z-10 translate-x-3 rotate-[5.11deg] rounded-3xl bg-white"
@@ -138,6 +138,6 @@
 
 <style>
   .theme {
-    --color-primary: #20194b;
+    --color-1: #20194b;
   }
 </style>

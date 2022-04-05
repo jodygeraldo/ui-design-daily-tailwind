@@ -13,9 +13,9 @@
 </svelte:head>
 
 <div class="theme grid min-h-screen place-items-center">
-  <div class="container mx-auto px-4 py-4 text-primary sm:px-6 lg:px-8">
+  <div class="container mx-auto px-4 py-4 text-custom-1 sm:px-6 lg:px-8">
     <div class="mx-auto flex max-w-2xl flex-col items-end gap-4">
-      <button class="rounded-full bg-primary p-4">
+      <button class="rounded-full bg-custom-1 p-4">
         <Icon id="bell" class="h-8 w-8 text-white" />
       </button>
 
@@ -65,6 +65,6 @@
 
 <style>
   .theme {
-    --color-primary: #0c0e41;
+    --color-1: #0c0e41;
   }
 </style>

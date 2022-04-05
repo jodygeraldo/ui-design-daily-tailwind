@@ -26,14 +26,14 @@
           alt=""
           class="h-24 w-24 rounded-full border-8 border-[#e6effa]"
         />
-        <div class="text-primary">
+        <div class="text-custom-1">
           <h2 class="text-lg font-bold lg:text-2xl">David Grant</h2>
           <p class="mt-2 text-sm font-medium lg:text-base">3D Artist</p>
         </div>
       </div>
       <div class="flex items-center gap-4">
         <div class="hidden w-24 shrink-0 sm:block" />
-        <div class="mt-4 text-primary sm:mt-0">
+        <div class="mt-4 text-custom-1 sm:mt-0">
           <div class="space-y-2 lg:space-y-4">
             <div class="flex items-center gap-1">
               <Icon id="star" class="h-8 w-8" />
@@ -55,7 +55,7 @@
             Producer, creating games for console, mobile, PC and Facebook.
           </p>
 
-          <button class="mt-7 rounded border-2 border-ascent p-2"
+          <button class="mt-7 rounded border-2 border-custom-2 p-2"
             >Show more</button
           >
         </div>
@@ -66,7 +66,7 @@
 
 <style>
   .theme {
-    --color-primary: #1c2b62;
-    --color-ascent: #c4cadf;
+    --color-1: #1c2b62;
+    --color-2: #c4cadf;
   }
 </style>

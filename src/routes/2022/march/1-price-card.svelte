@@ -15,7 +15,7 @@
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div
-      class="relative mx-auto max-w-lg space-y-10 rounded-[30px] bg-white p-6 text-primary shadow-[0_34px_94px_-30px_#b3c7e3] sm:p-10 lg:p-14"
+      class="relative mx-auto max-w-lg space-y-10 rounded-[30px] bg-white p-6 text-custom-1 shadow-[0_34px_94px_-30px_#b3c7e3] sm:p-10 lg:p-14"
     >
       <div class="space-y-6">
         <div class="space-y-10">
@@ -70,12 +70,12 @@
             <div class="relative flex flex-1">
               <input
                 type="text"
-                class="w-0 flex-1 truncate rounded-lg border border-[#B3C7E3] p-4 pl-12 placeholder:text-lg placeholder:font-bold placeholder:text-primary"
+                class="w-0 flex-1 truncate rounded-lg border border-[#B3C7E3] p-4 pl-12 placeholder:text-lg placeholder:font-bold placeholder:text-custom-1"
                 placeholder="Zip Code"
               />
               <Icon
                 id="magnifying-glass"
-                class="absolute top-1/2 bottom-1/2 left-4 h-7 w-7 -translate-y-1/2 text-primary"
+                class="absolute top-1/2 bottom-1/2 left-4 h-7 w-7 -translate-y-1/2 text-custom-1"
               />
             </div>
             <button
@@ -96,6 +96,6 @@
 
 <style>
   .theme {
-    --color-primary: #292e5a;
+    --color-1: #292e5a;
   }
 </style>

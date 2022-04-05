@@ -26,24 +26,24 @@
               />
             </div>
 
-            <p class="text-primary">Tina V. invited you to join</p>
+            <p class="text-custom-1">Tina V. invited you to join</p>
           </div>
 
-          <h2 class="text-lg font-extrabold text-primary lg:text-2xl">
+          <h2 class="text-lg font-extrabold text-custom-1 lg:text-2xl">
             Channel name
           </h2>
 
           <div class="mx-auto w-3/4 rounded-lg bg-[#f8f4fa] p-4">
-            <p class="text-primary">46K Active users・78K Total users</p>
+            <p class="text-custom-1">46K Active users・78K Total users</p>
           </div>
         </div>
 
         <div class="space-y-2">
-          <p class="text-primary">Username</p>
+          <p class="text-custom-1">Username</p>
 
           <input
             type="text"
-            class="w-full rounded-lg border border-[#c2adc2] bg-white p-6 text-primary lg:text-lg lg:placeholder:text-lg"
+            class="w-full rounded-lg border border-[#c2adc2] bg-white p-6 text-custom-1 lg:text-lg lg:placeholder:text-lg"
             placeholder="How do you like people to call you?"
           />
         </div>
@@ -55,11 +55,11 @@
           <p class="lg:text-lg">
             I have read and agree to the <a
               href="#tos"
-              class="text-ascent underline underline-offset-1"
+              class="text-custom-2 underline underline-offset-1"
               >Terms of service</a
             >
             and
-            <a href="#pp" class="text-ascent underline underline-offset-1"
+            <a href="#pp" class="text-custom-2 underline underline-offset-1"
               >Privacy policy</a
             >.
           </p>
@@ -68,14 +68,14 @@
 
       <div class="space-y-14">
         <button
-          class="w-full rounded-lg border border-[#c2adc2] bg-ascent p-6 text-lg font-semibold text-white"
+          class="w-full rounded-lg border border-[#c2adc2] bg-custom-2 p-6 text-lg font-semibold text-white"
         >
           Continue
         </button>
 
         <a
           href="#login"
-          class="block text-center text-sm text-ascent underline underline-offset-1 lg:text-base"
+          class="block text-center text-sm text-custom-2 underline underline-offset-1 lg:text-base"
           >Already have an account</a
         >
       </div>
@@ -85,7 +85,7 @@
 
 <style>
   .theme {
-    --color-primary: #1c2852;
-    --color-ascent: #a30062;
+    --color-1: #1c2852;
+    --color-2: #a30062;
   }
 </style>

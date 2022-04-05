@@ -5,8 +5,8 @@
     }
   }
 
-  import clsx from 'clsx'
   import Icon from '$lib/Icon.svelte'
+  import clsx from 'clsx'
 
   const list = [
     { name: 'BTC', imageUrl: 'btc.png', love: false, selected: false },
@@ -35,19 +35,19 @@
         <div class="px-4">
           <div class="mb-6 flex">
             <button
-              class="w-full rounded-l border border-ascent bg-primary px-2 py-1 text-white sm:py-[10px] sm:px-6"
+              class="w-full rounded-l border border-custom-2 bg-custom-1 px-2 py-1 text-white sm:py-[10px] sm:px-6"
               >All</button
             >
             <button
-              class="w-full border-y border-r border-ascent bg-white px-2 py-1 text-black sm:py-[10px] sm:px-6"
+              class="w-full border-y border-r border-custom-2 bg-white px-2 py-1 text-black sm:py-[10px] sm:px-6"
               >USDT</button
             >
             <button
-              class="w-full border-y border-ascent bg-white px-2 py-1 text-black sm:py-[10px] sm:px-6"
+              class="w-full border-y border-custom-2 bg-white px-2 py-1 text-black sm:py-[10px] sm:px-6"
               >BUSD</button
             >
             <button
-              class="flex w-full items-center justify-center rounded-r border border-ascent bg-white px-2 py-1 sm:py-[10px] sm:px-6"
+              class="flex w-full items-center justify-center rounded-r border border-custom-2 bg-white px-2 py-1 sm:py-[10px] sm:px-6"
             >
               <Icon id="heart" class="h-5 w-5 text-[#2C3E50]" />
             </button>
@@ -60,7 +60,7 @@
             />
             <input
               type="search"
-              class="placeholder:text-primary/60 w-full rounded-lg border border-ascent bg-[#f2f5ff] py-4 pl-12 pr-4"
+              class="placeholder:text-custom-1/60 w-full rounded-lg border border-custom-2 bg-[#f2f5ff] py-4 pl-12 pr-4"
               placeholder="Search ETH, BTC, ..."
             />
           </div>
@@ -97,8 +97,7 @@
 
 <style>
   .theme {
-    --color-primary: #4a6fff;
-    --color-ascent: #dde1f4;
-    --color-tertiary: #2c3e50;
+    --color-1: #4a6fff;
+    --color-2: #dde1f4;
   }
 </style>

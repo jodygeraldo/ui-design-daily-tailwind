@@ -13,7 +13,7 @@
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div
-      class="relative mx-auto max-w-4xl rounded-2xl bg-primary p-6 text-white lg:p-10 xl:p-14"
+      class="relative mx-auto max-w-4xl rounded-2xl bg-custom-1 p-6 text-white lg:p-10 xl:p-14"
     >
       <div
         class="absolute inset-x-4 top-4 -bottom-4 -z-10 hidden rounded-2xl bg-[#222B5C] sm:block lg:inset-x-6 lg:top-6 lg:-bottom-6 xl:inset-x-8 xl:top-8 xl:-bottom-8"
@@ -33,7 +33,7 @@
             class="w-full flex-1 truncate rounded border-4 border-[#747db0] bg-transparent p-4 placeholder:text-lg placeholder:text-white sm:w-0 lg:p-6 lg:placeholder:text-xl xl:p-8 xl:placeholder:text-2xl"
           />
           <button
-            class="mt-4 w-full rounded bg-ascent p-4 text-lg sm:mt-0 sm:w-auto lg:p-6 lg:text-xl xl:p-8 xl:text-2xl"
+            class="mt-4 w-full rounded bg-custom-2 p-4 text-lg sm:mt-0 sm:w-auto lg:p-6 lg:text-xl xl:p-8 xl:text-2xl"
             >Sign me up!</button
           >
         </div>
@@ -53,7 +53,7 @@
 
 <style>
   .theme {
-    --color-primary: #47518b;
-    --color-ascent: #9d50ff;
+    --color-1: #47518b;
+    --color-2: #9d50ff;
   }
 </style>

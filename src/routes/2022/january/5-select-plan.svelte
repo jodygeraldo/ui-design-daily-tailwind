@@ -40,8 +40,8 @@
               <button
                 class={`${
                   plan.enable
-                    ? 'border-[9px] border-primary'
-                    : 'border border-ascent'
+                    ? 'border-[9px] border-custom-1'
+                    : 'border border-custom-2'
                 } h-[35px] w-[35px] shrink-0 rounded-full bg-white`}
               />
               <div class="space-y-3">
@@ -67,7 +67,9 @@
             </p>
           </div>
           <div class="flex space-x-[13px]">
-            <button class="h-[35px] w-[35px] rounded-lg border border-ascent" />
+            <button
+              class="h-[35px] w-[35px] rounded-lg border border-custom-2"
+            />
             <p class="text-lg font-medium">
               I’d like to receive direct marketing email updates.
             </p>
@@ -76,7 +78,7 @@
 
         <div class="space-y-6 pr-[10px]">
           <button
-            class="w-full bg-primary p-[10px] text-lg font-medium text-white"
+            class="w-full bg-custom-1 p-[10px] text-lg font-medium text-white"
             >Start free trial</button
           >
           <p class="text-center font-medium">No credit card needed</p>
@@ -88,7 +90,7 @@
 
 <style>
   .theme {
-    --color-primary: #130f29;
-    --color-ascent: #5e797b;
+    --color-1: #130f29;
+    --color-2: #5e797b;
   }
 </style>

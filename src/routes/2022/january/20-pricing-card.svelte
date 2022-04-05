@@ -13,7 +13,7 @@
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div class="relative mx-auto max-w-lg rounded-2xl bg-white">
-      <div class="flex items-end justify-between rounded-t-2xl bg-primary p-9">
+      <div class="flex items-end justify-between rounded-t-2xl bg-custom-1 p-9">
         <img src="/assets/images/ps.png" alt="" class="h-24 w-24" />
         <h3 class="pr-5 pb-3 text-2xl font-bold text-white">Photoshop</h3>
       </div>
@@ -34,7 +34,7 @@
         </div>
 
         <button
-          class="w-full rounded-[66px] bg-primary p-4 text-2xl font-semibold text-white"
+          class="w-full rounded-[66px] bg-custom-1 p-4 text-2xl font-semibold text-white"
           >Buy now</button
         >
       </div>
@@ -48,6 +48,6 @@
 
 <style>
   .theme {
-    --color-primary: #133e61;
+    --color-1: #133e61;
   }
 </style>

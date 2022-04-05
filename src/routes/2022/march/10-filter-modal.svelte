@@ -15,7 +15,7 @@
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div
-      class="relative mx-auto max-w-md rounded-[32px] bg-[#322e59] px-8 pt-8 pb-12 text-primary"
+      class="relative mx-auto max-w-md rounded-[32px] bg-[#322e59] px-8 pt-8 pb-12 text-custom-1"
     >
       <div
         class="absolute bottom-8 right-4 -left-8 -top-8 -z-10 hidden rounded-[32px] bg-[#1B183C] sm:block"
@@ -43,7 +43,7 @@
               <input
                 type="text"
                 placeholder="Search jobs"
-                class="w-full rounded-lg border-none bg-tertiary p-3 pl-12"
+                class="w-full rounded-lg border-none bg-custom-3 p-3 pl-12"
               />
             </div>
           </div>
@@ -53,23 +53,23 @@
             <div class="mt-4 space-y-2">
               <div class="flex items-center gap-2">
                 <button
-                  class="relative h-8 w-8 rounded-full border border-primary bg-tertiary"
+                  class="relative h-8 w-8 rounded-full border border-custom-1 bg-custom-3"
                 />
                 <p>All job posts</p>
               </div>
 
               <div class="flex items-center gap-2">
                 <button
-                  class="relative h-8 w-8 rounded-full border border-primary bg-tertiary"
+                  class="relative h-8 w-8 rounded-full border border-custom-1 bg-custom-3"
                 />
                 <p>Active job posts</p>
               </div>
 
               <div class="flex items-center gap-2">
                 <button
-                  class="relative h-8 w-8 rounded-full border border-primary bg-tertiary"
+                  class="relative h-8 w-8 rounded-full border border-custom-1 bg-custom-3"
                 >
-                  <div class="absolute inset-1 rounded-full bg-primary" />
+                  <div class="absolute inset-1 rounded-full bg-custom-1" />
                 </button>
                 <p>Archived job posts</p>
               </div>
@@ -81,7 +81,7 @@
             <div class="mt-4 flex items-center gap-2">
               <input
                 type="checkbox"
-                class="form-checkbox h-8 w-8 rounded-md text-primary"
+                class="form-checkbox h-8 w-8 rounded-md text-custom-1"
               />
               <p>Jobs shared with me</p>
             </div>
@@ -89,7 +89,7 @@
         </div>
 
         <button
-          class="w-full rounded-lg bg-ascent p-4 font-semibold text-tertiary"
+          class="w-full rounded-lg bg-custom-2 p-4 font-semibold text-custom-3"
           >Save changes</button
         >
       </div>
@@ -99,9 +99,9 @@
 
 <style>
   .theme {
-    --color-primary: #bcbacf;
-    --color-ascent: #ffbb56;
-    --color-tertiary: rgb(35, 32, 68);
+    --color-1: #bcbacf;
+    --color-2: #ffbb56;
+    --color-3: rgb(35, 32, 68);
   }
 
   [type='checkbox']:checked {

@@ -5,9 +5,8 @@
     }
   }
 
-  import clsx from 'clsx'
-
   import Icon from '$lib/Icon.svelte'
+  import clsx from 'clsx'
 
   const nav = [
     { name: 'Reputation', active: false },
@@ -73,7 +72,7 @@
       class="space-y-4 rounded-2xl bg-white p-6 shadow-2xl shadow-[#BCC6E7] lg:space-y-8 lg:p-12"
     >
       <div class="space-y-4">
-        <h2 class="text-2xl font-black text-primary lg:text-3xl">Users</h2>
+        <h2 class="text-2xl font-black text-custom-1 lg:text-3xl">Users</h2>
 
         <div class="items-center justify-between lg:flex">
           <div class="relative flex-1">
@@ -83,7 +82,7 @@
             />
             <input
               type="search"
-              class="placeholder-primary/70 w-full rounded border border-tertiary bg-[#FBFCFF] p-4 pl-8 placeholder:font-medium lg:w-2/3 lg:pl-12"
+              class="placeholder-custom-1/70 w-full rounded border border-custom-2 bg-[#FBFCFF] p-4 pl-8 placeholder:font-medium lg:w-2/3 lg:pl-12"
               placeholder="Search users"
             />
           </div>
@@ -93,7 +92,9 @@
               {#each nav as navItem}
                 <li
                   class={clsx(
-                    navItem.active ? 'bg-[#849FFF] text-white' : 'text-primary',
+                    navItem.active
+                      ? 'bg-[#849FFF] text-white'
+                      : 'text-custom-1',
                     'min-w-fit rounded-lg p-2 font-medium lg:p-4',
                   )}
                 >
@@ -112,7 +113,7 @@
           <div
             class={clsx(
               user.selected &&
-                'border border-tertiary shadow-[0_8px_23px_0_#DAE0F970]',
+                'border border-custom-2 shadow-[0_8px_23px_0_#DAE0F970]',
               'col-span-1 rounded-2xl bg-[#FBFCFF] p-6 text-center sm:flex sm:gap-4 sm:text-left',
             )}
           >
@@ -146,8 +147,7 @@
 
 <style>
   .theme {
-    --color-primary: #151b32;
-    --color-ascent: #849fff;
-    --color-tertiary: #bfc8e5;
+    --color-1: #151b32;
+    --color-2: #bfc8e5;
   }
 </style>

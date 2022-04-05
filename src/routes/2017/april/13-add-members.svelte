@@ -20,7 +20,7 @@
       <Icon id="cross-1" class="absolute top-4 right-4 h-5 w-5" />
 
       <div>
-        <h2 class="text-2xl font-bold text-primary">Add members</h2>
+        <h2 class="text-2xl font-bold text-custom-1">Add members</h2>
 
         <div class="mt-4 flex items-center gap-4">
           <div class="flex-1">
@@ -38,13 +38,13 @@
         </div>
         <div class="mt-4 flex flex-wrap items-center gap-2">
           <div
-            class="flex items-center gap-3 rounded-lg border border-ascent bg-[#f4fbff] py-2 px-4"
+            class="flex items-center gap-3 rounded-lg border border-custom-2 bg-[#f4fbff] py-2 px-4"
           >
             <p class="text-[#4F4F4F]">James Patterson</p>
             <Icon id="cross-1" class="h-4 w-4 text-[#83A0B1]" />
           </div>
           <div
-            class="flex items-center gap-3 rounded-lg border border-ascent bg-[#f4fbff] py-2 px-4"
+            class="flex items-center gap-3 rounded-lg border border-custom-2 bg-[#f4fbff] py-2 px-4"
           >
             <p class="text-[#4F4F4F]">Jamel E. Getz</p>
             <Icon id="cross-1" class="h-4 w-4 text-[#83A0B1]" />
@@ -52,17 +52,17 @@
         </div>
 
         <div class="mt-12">
-          <h2 class="text-2xl font-bold text-primary">Allow members to</h2>
+          <h2 class="text-2xl font-bold text-custom-1">Allow members to</h2>
           <div class="mt-4 items-center justify-between sm:mt-0 sm:flex">
             <div class="mt-2 flex items-center gap-2">
               <div class="relative h-5 w-5">
-                <button class="h-5 w-5 border border-ascent bg-transparent" />
+                <button class="h-5 w-5 border border-custom-2 bg-transparent" />
               </div>
               <p class="text-lg text-[#4F4F4F]">Edit</p>
             </div>
             <div class="mt-2 flex items-center gap-2">
               <div class="relative h-5 w-5">
-                <button class="h-5 w-5 border border-ascent bg-transparent" />
+                <button class="h-5 w-5 border border-custom-2 bg-transparent" />
                 <Icon
                   id="check"
                   class="pointer-events-none absolute top-1/2 bottom-1/2 right-1/2 h-4 w-4 -translate-y-1/2 translate-x-1/2 text-[#7A7E80]"
@@ -72,7 +72,7 @@
             </div>
             <div class="mt-2 flex items-center gap-2">
               <div class="relative h-5 w-5">
-                <button class="h-5 w-5 border border-ascent bg-transparent" />
+                <button class="h-5 w-5 border border-custom-2 bg-transparent" />
               </div>
               <p class="text-lg text-[#4F4F4F]">Add members</p>
             </div>
@@ -85,7 +85,7 @@
 
 <style>
   .theme {
-    --color-primary: #505050;
-    --color-ascent: #b2e3ff;
+    --color-1: #505050;
+    --color-2: #b2e3ff;
   }
 </style>

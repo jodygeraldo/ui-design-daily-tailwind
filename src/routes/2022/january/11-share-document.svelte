@@ -25,14 +25,14 @@
         <input
           type="text"
           value="https://drive.com/file/d/1V_5zPJDskasjkIIIlysNFXGhtlZ7EI2EcHLF/view?"
-          class="w-0 flex-1 truncate rounded-lg border border-[#BDE5C8] bg-white p-6 font-medium text-primary"
+          class="w-0 flex-1 truncate rounded-lg border border-[#BDE5C8] bg-white p-6 font-medium text-custom-1"
         />
-        <button class="rounded-lg bg-ascent p-6 text-white">Copy Link</button>
+        <button class="rounded-lg bg-custom-2 p-6 text-white">Copy Link</button>
       </div>
 
-      <h3 class="text-2xl font-medium text-primary">Permission</h3>
+      <h3 class="text-2xl font-medium text-custom-1">Permission</h3>
 
-      <div class="space-y-2 text-primary">
+      <div class="space-y-2 text-custom-1">
         <div class="flex items-center gap-2">
           <Icon id="link-break-1" class="h-6 w-6" />
           <p class="text-lg font-medium">Restricted</p>
@@ -43,7 +43,7 @@
         </p>
       </div>
 
-      <p class="font-medium text-ascent underline underline-offset-1">
+      <p class="font-medium text-custom-2 underline underline-offset-1">
         Send feedback
       </p>
     </div>
@@ -52,7 +52,7 @@
 
 <style>
   .theme {
-    --color-primary: #132a46;
-    --color-ascent: #4e7d75;
+    --color-1: #132a46;
+    --color-2: #4e7d75;
   }
 </style>

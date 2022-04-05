@@ -1,6 +1,5 @@
 <script context="module" lang="ts">
   import Icon from '$lib/Icon.svelte'
-  import { each } from 'svelte/internal'
 
   export async function load() {
     return {
@@ -33,7 +32,7 @@
               alt=""
               class="h-14 w-14 rounded-full"
             />
-            <h2 class="font-serif text-2xl font-black text-primary">Trello</h2>
+            <h2 class="font-serif text-2xl font-black text-custom-1">Trello</h2>
           </div>
           <div class="flex gap-4">
             <div
@@ -55,7 +54,8 @@
             <ul class="grid grid-cols-1 justify-between gap-4 sm:grid-cols-2">
               {#each links as link}
                 <li class="col-span-1">
-                  <a href={`#${link}`} class="font-medium text-ascent">{link}</a
+                  <a href={`#${link}`} class="font-medium text-custom-2"
+                    >{link}</a
                   >
                 </li>
               {/each}
@@ -65,7 +65,7 @@
       </div>
 
       <div
-        class="col-span-1 mx-auto max-w-md space-y-6 rounded-3xl bg-primary p-4 shadow-[0_10px_7px_0_#15325f20] sm:p-6 2xl:-translate-x-32 2xl:translate-y-64"
+        class="col-span-1 mx-auto max-w-md space-y-6 rounded-3xl bg-custom-1 p-4 shadow-[0_10px_7px_0_#15325f20] sm:p-6 2xl:-translate-x-32 2xl:translate-y-64"
       >
         <h2 class="font-medium text-white">Rate this page</h2>
         <div class="flex items-center gap-2">
@@ -80,24 +80,26 @@
       <div
         class="col-span-1 mx-auto max-w-md space-y-6 rounded-3xl bg-white p-4 shadow-[0_10px_7px_0_#15325f10] sm:p-8 2xl:-translate-x-48 2xl:translate-y-12"
       >
-        <h2 class="ml-[10px] text-2xl font-black text-primary">On this page</h2>
+        <h2 class="ml-[10px] text-2xl font-black text-custom-1">
+          On this page
+        </h2>
         <div class="space-y-2">
-          <a href="#link" class="block p-[10px] font-medium text-primary"
+          <a href="#link" class="block p-[10px] font-medium text-custom-1"
             >Payment models</a
           >
-          <a href="#link" class="block p-[10px] font-medium text-primary"
+          <a href="#link" class="block p-[10px] font-medium text-custom-1"
             >Apps for cloud users</a
           >
           <a
             href="#link"
-            class="block border border-[#d7e1ff] bg-[#f2f6ff] p-[10px] font-medium text-ascent "
+            class="block border border-[#d7e1ff] bg-[#f2f6ff] p-[10px] font-medium text-custom-2 "
           >
             Partner agreements and terms of use
           </a>
-          <a href="#link" class="block p-[10px] font-medium text-primary"
+          <a href="#link" class="block p-[10px] font-medium text-custom-1"
             >Partner profiles</a
           >
-          <a href="#link" class="block p-[10px] font-medium text-primary">
+          <a href="#link" class="block p-[10px] font-medium text-custom-1">
             Universal Plugin Manager
           </a>
         </div>
@@ -108,7 +110,7 @@
 
 <style>
   .theme {
-    --color-primary: #15325f;
-    --color-ascent: #004cbf;
+    --color-1: #15325f;
+    --color-2: #004cbf;
   }
 </style>

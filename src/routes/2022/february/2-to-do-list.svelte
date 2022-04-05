@@ -25,21 +25,21 @@
       />
       <div>
         <div class="flex items-center justify-between">
-          <h2 class="text-2xl font-black text-primary lg:text-4xl">
+          <h2 class="text-2xl font-black text-custom-1 lg:text-4xl">
             Groceries
           </h2>
-          <Icon id="dots-horizontal" class="h-8 w-8 text-ascent" />
+          <Icon id="dots-horizontal" class="h-8 w-8 text-custom-2" />
         </div>
-        <p class="mt-1 text-sm font-medium text-ascent lg:mt-2 lg:text-base">
+        <p class="mt-1 text-sm font-medium text-custom-2 lg:mt-2 lg:text-base">
           Shared with <span>1 person</span>
         </p>
         <ul class="mt-4 space-y-4 lg:mt-8 lg:space-y-6">
           {#each todos as todo}
             <li class="flex items-center gap-2">
               <button
-                class="h-10 w-10 rounded-full border border-primary bg-white"
+                class="h-10 w-10 rounded-full border border-custom-1 bg-white"
               />
-              <p class="font-medium text-primary lg:text-xl">
+              <p class="font-medium text-custom-1 lg:text-xl">
                 {todo}
               </p>
             </li>
@@ -47,7 +47,7 @@
         </ul>
 
         <div class="mt-5 lg:mt-10">
-          <h3 class="font-medium uppercase text-primary">
+          <h3 class="font-medium uppercase text-custom-1">
             Completed ({todosCompleted.length})
           </h3>
           <ul class="mt-4 space-y-4 lg:mt-8 lg:space-y-6">
@@ -55,14 +55,14 @@
               <li class="flex items-center gap-2">
                 <div class="relative h-10 w-10">
                   <button
-                    class="h-10 w-10 rounded-full border border-primary bg-white"
+                    class="h-10 w-10 rounded-full border border-custom-1 bg-white"
                   />
                   <Icon
                     id="check"
-                    class="pointer-events-none absolute top-1/2 bottom-1/2 right-1/2 h-6 w-6 -translate-y-1/2 translate-x-1/2 text-ascent"
+                    class="pointer-events-none absolute top-1/2 bottom-1/2 right-1/2 h-6 w-6 -translate-y-1/2 translate-x-1/2 text-custom-2"
                   />
                 </div>
-                <p class="font-medium text-ascent lg:text-xl">
+                <p class="font-medium text-custom-2 lg:text-xl">
                   {todo}
                 </p>
               </li>
@@ -71,7 +71,7 @@
         </div>
 
         <div class="flex justify-end">
-          <button class="mt-8 rounded-2xl bg-primary px-6 py-2 lg:mt-16">
+          <button class="mt-8 rounded-2xl bg-custom-1 px-6 py-2 lg:mt-16">
             <Icon id="plus" class="h-8 w-8 text-white" />
           </button>
         </div>
@@ -82,7 +82,7 @@
 
 <style>
   .theme {
-    --color-primary: #3b3b71;
-    --color-ascent: #8a8aaa;
+    --color-1: #3b3b71;
+    --color-2: #8a8aaa;
   }
 </style>

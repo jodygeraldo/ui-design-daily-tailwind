@@ -23,10 +23,10 @@
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div
-      class="relative mx-auto max-w-md rounded-3xl bg-white py-12 px-4 text-primary shadow-[0_24px_27px_0_#6971ba16] 2xl:mb-24"
+      class="relative mx-auto max-w-md rounded-3xl bg-white py-12 px-4 text-custom-1 shadow-[0_24px_27px_0_#6971ba16] 2xl:mb-24"
     >
       <div
-        class="absolute top-16 -bottom-24 left-1/2 -right-16 -z-10 hidden rounded-[43px] bg-primary 2xl:block"
+        class="absolute top-16 -bottom-24 left-1/2 -right-16 -z-10 hidden rounded-[43px] bg-custom-1 2xl:block"
       />
       <div class="space-y-8">
         <div class="flex items-center justify-between px-5">
@@ -46,7 +46,7 @@
             <p class="font-bold">7 min 32 sec</p>
           </div>
           <button
-            class="mt-4 rounded-full bg-primary py-6 px-8 font-bold text-white"
+            class="mt-4 rounded-full bg-custom-1 py-6 px-8 font-bold text-white"
             >Stop timing</button
           >
         </div>
@@ -62,7 +62,7 @@
             </thead>
             <tbody>
               {#each table as tr, idx}
-                <tr class={clsx(idx % 2 === 0 && 'bg-ascent')}>
+                <tr class={clsx(idx % 2 === 0 && 'bg-custom-2')}>
                   {#each tr as td, idx}
                     <td
                       class={clsx(
@@ -84,7 +84,7 @@
 
 <style>
   .theme {
-    --color-primary: #171a3c;
-    --color-ascent: #ebedfd;
+    --color-1: #171a3c;
+    --color-2: #ebedfd;
   }
 </style>

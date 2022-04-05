@@ -36,9 +36,9 @@
             <div
               class="relative h-48 w-48 shrink-0 rounded-full border-2 border-white/60 md:h-60 md:w-60 2xl:h-80 2xl:w-80"
             >
-              <div class="absolute inset-4 rounded-full bg-ascent" />
+              <div class="absolute inset-4 rounded-full bg-custom-2" />
               <div
-                class="absolute inset-4 rounded-full bg-primary shadow-xl shadow-[#303eb740] [clip-path:polygon(50%_0,50%_50%,80%_0)]"
+                class="absolute inset-4 rounded-full bg-custom-1 shadow-xl shadow-[#303eb740] [clip-path:polygon(50%_0,50%_50%,80%_0)]"
               />
             </div>
 
@@ -48,7 +48,7 @@
                 <p class="mt-2">Total storage</p>
               </div>
 
-              <div class="font-semibold text-primary">
+              <div class="font-semibold text-custom-1">
                 <p class="md:text-2xl">3.6 GB</p>
                 <p class="mt-2">10% used</p>
               </div>
@@ -120,7 +120,7 @@
                 class="md:text-md self-end rounded-2xl bg-black px-3 py-2 font-medium text-white md:px-6 md:py-4"
                 >NOK 17.00/month</button
               >
-              <p class="text-sm font-semibold text-primary md:text-base">
+              <p class="text-sm font-semibold text-custom-1 md:text-base">
                 Or prepay anually NOK 170.00/year
               </p>
             </div>
@@ -166,7 +166,7 @@
                 class="md:text-md self-end rounded-2xl bg-black px-3 py-2 font-medium text-white md:px-6 md:py-4"
                 >NOK 89.00/month</button
               >
-              <p class="text-sm font-semibold text-primary md:text-base">
+              <p class="text-sm font-semibold text-custom-1 md:text-base">
                 Or prepay anually NOK 899.00/year
               </p>
             </div>
@@ -206,7 +206,7 @@
 
 <style>
   .theme {
-    --color-primary: #424fc0;
-    --color-ascent: #a0cce2;
+    --color-1: #424fc0;
+    --color-2: #a0cce2;
   }
 </style>

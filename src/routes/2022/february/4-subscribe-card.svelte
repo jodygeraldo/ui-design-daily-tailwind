@@ -22,7 +22,7 @@
       />
       <div class="space-y-4 lg:space-y-6 xl:space-y-8">
         <div class="space-y-2">
-          <h2 class="text-2xl font-black text-primary lg:text-3xl">
+          <h2 class="text-2xl font-black text-custom-1 lg:text-3xl">
             Try it now!
           </h2>
           <p class="font-medium lg:text-xl">Free trial, no obligation</p>
@@ -60,7 +60,7 @@
           </div>
           <div class="flex items-center gap-3">
             <div class="relative">
-              <button class="h-8 w-8 shrink-0 rounded bg-primary" />
+              <button class="h-8 w-8 shrink-0 rounded bg-custom-1" />
               <Icon
                 id="check"
                 class="absolute top-1/2 bottom-1/2 right-1/2 h-5 w-5 -translate-y-[65%] translate-x-1/2 text-white"
@@ -73,7 +73,7 @@
         </div>
 
         <button
-          class="w-full rounded border border-[#cb6565] bg-ascent px-3 py-2 text-sm font-medium text-primary lg:px-6 lg:py-4 lg:text-base"
+          class="w-full rounded border border-[#cb6565] bg-custom-2 px-3 py-2 text-sm font-medium text-custom-1 lg:px-6 lg:py-4 lg:text-base"
           >Download Now</button
         >
       </div>
@@ -83,7 +83,7 @@
 
 <style>
   .theme {
-    --color-primary: #141a3a;
-    --color-ascent: #fdc3d4;
+    --color-1: #141a3a;
+    --color-2: #fdc3d4;
   }
 </style>

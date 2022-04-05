@@ -40,14 +40,14 @@
 
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
-    <footer class="rounded-3xl bg-primary p-10 shadow-lg">
+    <footer class="rounded-3xl bg-custom-1 p-10 shadow-lg">
       <div class="grid grid-cols-1 gap-x-28 gap-y-4 lg:grid-cols-3">
         <div class="col-span-1">
-          <h2 class="font-serif text-[26px] font-extrabold text-high-contrast">
+          <h2 class="font-serif text-[26px] font-extrabold text-custom-3">
             About the store
           </h2>
           <nav class="mt-4">
-            <ul class="space-y-2 text-high-contrast">
+            <ul class="space-y-2 text-custom-3">
               {#each navLinks as link}
                 <li>{link}</li>
               {/each}
@@ -55,15 +55,15 @@
           </nav>
         </div>
         <div class="col-span-1">
-          <h2 class="font-serif text-[26px] font-extrabold text-high-contrast">
+          <h2 class="font-serif text-[26px] font-extrabold text-custom-3">
             Language
           </h2>
-          <ul class="mt-4 flex flex-wrap items-center text-high-contrast">
+          <ul class="mt-4 flex flex-wrap items-center text-custom-3">
             {#each languages as language}
               <li
                 class={`mr-4 py-1 ${
                   language.enabled &&
-                  'rounded-md bg-ascent px-2 text-high-contrast'
+                  'rounded-md bg-custom-2 px-2 text-custom-3'
                 }`}
               >
                 {language.name}
@@ -72,13 +72,13 @@
           </ul>
         </div>
         <div class="col-span-1">
-          <h2 class="font-serif text-[26px] font-extrabold text-high-contrast">
+          <h2 class="font-serif text-[26px] font-extrabold text-custom-3">
             Get in touch
           </h2>
           <div class="mt-4 flex gap-6">
-            <Icon id="discord-logo" class="h-6 w-6 text-high-contrast" />
-            <Icon id="github-logo" class="h-6 w-6 text-high-contrast" />
-            <Icon id="twitter-logo" class="h-6 w-6 text-high-contrast" />
+            <Icon id="discord-logo" class="h-6 w-6 text-custom-3" />
+            <Icon id="github-logo" class="h-6 w-6 text-custom-3" />
+            <Icon id="twitter-logo" class="h-6 w-6 text-custom-3" />
           </div>
         </div>
       </div>
@@ -93,9 +93,8 @@
 
 <style>
   .theme {
-    --color-primary: #1e3161;
-    --color-ascent: #5ac1d8;
-    --text-color-high: #ffffff;
-    --text-color-low: #838faa;
+    --color-1: #1e3161;
+    --color-2: #5ac1d8;
+    --color-3: #ffffff;
   }
 </style>

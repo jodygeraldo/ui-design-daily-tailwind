@@ -63,7 +63,7 @@
     <div
       class="space-y-[72px] rounded-xl bg-white p-4 shadow-2xl shadow-gray-3 lg:p-8 2xl:p-12"
     >
-      <h2 class="text-center text-[32px] font-extrabold text-primary">
+      <h2 class="text-center text-[32px] font-extrabold text-custom-1">
         Open positions
       </h2>
 
@@ -87,20 +87,22 @@
                   'flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br',
                 )}
               >
-                <Icon id={position.iconId} class="h-8 w-8 text-primary" />
+                <Icon id={position.iconId} class="h-8 w-8 text-custom-1" />
               </div>
-              <h3 class="text-2xl font-medium text-primary">{position.name}</h3>
+              <h3 class="text-2xl font-medium text-custom-1">
+                {position.name}
+              </h3>
             </div>
             <button
               class={`w-full rounded-lg border border-[#C2C5E2] px-6 py-4 text-lg font-medium ${
-                position.special ? 'bg-primary text-white' : 'text-primary'
+                position.special ? 'bg-custom-1 text-white' : 'text-custom-1'
               }`}>{position.open} open positions</button
             >
           </div>
         {/each}
       </div>
 
-      <p class="font-medium text-primary opacity-70">
+      <p class="font-medium text-custom-1 opacity-70">
         We are proud to be an equal opportunity employer that values diversity.
         We do not discriminate on the basis of race, religion, color, national
         origin, gender, sexual orientation, age, marital status, veteran status,
@@ -112,9 +114,6 @@
 
 <style>
   .theme {
-    --color-primary: #1e2246;
-    --color-ascent: #5ac1d8;
-    --text-color-high: #ffffff;
-    --text-color-low: #838faa;
+    --color-1: #1e2246;
   }
 </style>

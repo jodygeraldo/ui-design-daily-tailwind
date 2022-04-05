@@ -15,7 +15,7 @@
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 pt-20 pb-4 sm:px-6 lg:px-8">
     <div
-      class="relative mx-auto max-w-md rounded-[18px] bg-ascent p-10 text-[#C4C0FF]"
+      class="relative mx-auto max-w-md rounded-[18px] bg-custom-2 p-10 text-[#C4C0FF]"
     >
       <div
         class="absolute right-12 -left-16 -top-16 bottom-[60%] -z-10 hidden rounded-tr-3xl rounded-bl-3xl bg-gradient-to-br from-[#FF5DAB] to-[#756BFF] sm:block"
@@ -75,7 +75,7 @@
         </div>
 
         <button
-          class="w-full rounded bg-primary p-4 text-lg font-bold text-white"
+          class="w-full rounded bg-custom-1 p-4 text-lg font-bold text-white"
           >View all</button
         >
       </div>
@@ -85,7 +85,7 @@
 
 <style>
   .theme {
-    --color-primary: #756bff;
-    --color-ascent: #121129;
+    --color-1: #756bff;
+    --color-2: #121129;
   }
 </style>

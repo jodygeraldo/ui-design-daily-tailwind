@@ -15,10 +15,10 @@
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div
-      class="relative mx-auto max-w-xs rounded-3xl bg-gradient-to-br from-white to-[#CBCAFF] px-8 pt-8 pb-16 text-primary"
+      class="relative mx-auto max-w-xs rounded-3xl bg-gradient-to-br from-white to-[#CBCAFF] px-8 pt-8 pb-16 text-custom-1"
     >
       <div
-        class="absolute inset-x-6 -inset-y-12 -z-10 rounded-[11px] bg-primary"
+        class="absolute inset-x-6 -inset-y-12 -z-10 rounded-[11px] bg-custom-1"
       />
       <div
         class="absolute bottom-6 left-6 h-36 w-36 rounded-full bg-[#5EFFC560] blur-2xl"
@@ -28,13 +28,13 @@
       />
 
       <div class="flex justify-end">
-        <Icon id="hamburger-menu" class="h-6 w-6 text-primary" />
+        <Icon id="hamburger-menu" class="h-6 w-6 text-custom-1" />
       </div>
 
       <div class="flex flex-col items-center space-y-6">
         <img
           src="/assets/images/person-3.png"
-          class="z-10 h-28 w-28 rounded-full border-8 border-ascent"
+          class="z-10 h-28 w-28 rounded-full border-8 border-custom-2"
           alt=""
         />
 
@@ -47,7 +47,7 @@
         </div>
 
         <button
-          class="z-10 rounded-full bg-primary px-4 py-2 text-sm text-white"
+          class="z-10 rounded-full bg-custom-1 px-4 py-2 text-sm text-white"
           >View Content</button
         >
       </div>
@@ -57,7 +57,7 @@
 
 <style>
   .theme {
-    --color-primary: #141a41;
-    --color-ascent: #f1f3ff;
+    --color-1: #141a41;
+    --color-2: #f1f3ff;
   }
 </style>

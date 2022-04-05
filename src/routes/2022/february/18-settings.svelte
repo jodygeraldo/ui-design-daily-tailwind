@@ -1,7 +1,6 @@
 <script context="module" lang="ts">
   import Icon from '$lib/Icon.svelte'
   import clsx from 'clsx'
-  import { each } from 'svelte/internal'
 
   export async function load() {
     return {
@@ -46,11 +45,11 @@
           {#each tabs as tab}
             <div
               class={clsx(
-                tab.active ? 'border-primary' : 'border-tertiary',
+                tab.active ? 'border-custom-1' : 'border-custom-3',
                 'border-b-2',
               )}
             >
-              <p class="py-[10px] px-4 text-ascent">{tab.name}</p>
+              <p class="py-[10px] px-4 text-custom-2">{tab.name}</p>
             </div>
           {/each}
         </div>
@@ -59,32 +58,32 @@
       <div
         class="mx-auto max-w-lg space-y-6 rounded-2xl bg-white py-4 px-7 shadow-[0_16px_43px_0_#BCA5FF10] md:py-8 md:px-14 2xl:absolute 2xl:translate-x-48 2xl:translate-y-64"
       >
-        <h2 class="text-xs font-semibold uppercase text-primary">
+        <h2 class="text-xs font-semibold uppercase text-custom-1">
           Account prefferences
         </h2>
 
         <div class="items-center justify-between gap-4 md:flex">
           <div class="space-y-2">
-            <h3 class="text-sm text-primary">Email address</h3>
-            <p class="text-primary">email@address.com</p>
+            <h3 class="text-sm text-custom-1">Email address</h3>
+            <p class="text-custom-1">email@address.com</p>
           </div>
 
           <button
-            class="mt-2 w-full rounded-full border border-primary bg-primary py-2 px-6 text-white md:mt-0 md:w-auto"
+            class="mt-2 w-full rounded-full border border-custom-1 bg-custom-1 py-2 px-6 text-white md:mt-0 md:w-auto"
             >Change</button
           >
         </div>
 
         <div class="items-center justify-between gap-10 md:flex">
           <div class="space-y-2">
-            <h3 class="text-sm text-primary">Change password</h3>
-            <p class="text-primary">
+            <h3 class="text-sm text-custom-1">Change password</h3>
+            <p class="text-custom-1">
               Password must be at least 8 characters long
             </p>
           </div>
 
           <button
-            class="mt-2 w-full rounded-full border border-primary bg-primary py-2 px-6 text-white md:mt-0 md:w-auto"
+            class="mt-2 w-full rounded-full border border-custom-1 bg-custom-1 py-2 px-6 text-white md:mt-0 md:w-auto"
             >Change</button
           >
         </div>
@@ -95,23 +94,23 @@
       >
         <div class="space-y-2">
           <div class="flex items-center gap-2">
-            <h2 class="font-semibold text-primary">Display language Beta</h2>
+            <h2 class="font-semibold text-custom-1">Display language Beta</h2>
             <span
-              class="rounded-full bg-primary px-2 py-0.5 text-[10px] text-white"
+              class="rounded-full bg-custom-1 px-2 py-0.5 text-[10px] text-white"
               >Beta</span
             >
           </div>
-          <p class="text-sm text-primary">
+          <p class="text-sm text-custom-1">
             Select the language you’d like to experience the interface in. Note
             that this won’t change the language of user-generated content.
           </p>
         </div>
 
         <button
-          class="inline-flex items-center gap-[10px] rounded-full border border-primary bg-white py-2 px-6"
+          class="inline-flex items-center gap-[10px] rounded-full border border-custom-1 bg-white py-2 px-6"
         >
-          <span class="text-sm text-primary">Change</span>
-          <Icon id="chevron-down" class="h-5 w-5 text-primary" />
+          <span class="text-sm text-custom-1">Change</span>
+          <Icon id="chevron-down" class="h-5 w-5 text-custom-1" />
         </button>
       </div>
     </div>
@@ -120,8 +119,8 @@
 
 <style>
   .theme {
-    --color-primary: #122156;
-    --color-ascent: #595f78;
-    --color-tertiary: #8e97b9;
+    --color-1: #122156;
+    --color-2: #595f78;
+    --color-3: #8e97b9;
   }
 </style>
