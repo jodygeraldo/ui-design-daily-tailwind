@@ -3,6 +3,16 @@ import type { ItemType } from '..'
 
 const list: ItemType[] = [
   {
+    id: 1579,
+    title: 'Rent A Car UI Design',
+    date: formattedDate(24, 3, 2022).formatted,
+    linkOriginal:
+      'https://www.uidesigndaily.com/posts/figma-rent-a-car-ui-design-card-search-day-1579',
+    linkComponent: '/2022/march/24-rent-a-car-ui-design',
+    imageUrl: '2022/march/24.png',
+    builtOn: formattedDate(7, 4, 2022, 2),
+  },
+  {
     id: 1578,
     title: 'Timeline UI Design',
     date: formattedDate(23, 3, 2022).formatted,
@@ -171,15 +181,6 @@ export const pendingList = [
       'https://www.uidesigndaily.com/posts/figma-statistics-analytics-chart-day-1568',
     linkComponent: '/2022/march/9-statistics',
     imageUrl: '2022/march/9.png',
-  },
-  {
-    id: 1579,
-    title: 'Rent A Car UI Design',
-    date: formattedDate(24, 3, 2022).formatted,
-    linkOriginal:
-      'https://www.uidesigndaily.com/posts/figma-rent-a-car-ui-design-card-search-day-1579',
-    linkComponent: '/2022/march/24-rent-a-car-ui-design',
-    imageUrl: '2022/march/24.png',
   },
   {
     id: 1580,
