@@ -1,10 +1,12 @@
-<script context="module" lang="ts">
+<script context="module">
   export async function load() {
     return {
       maxage: 31536000,
     }
   }
+</script>
 
+<script lang="ts">
   import Icon from '$lib/Icon.svelte'
 
   const navLinks = [

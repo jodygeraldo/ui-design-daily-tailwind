@@ -1,12 +1,14 @@
-<script context="module" lang="ts">
-  import Icon from '$lib/Icon.svelte'
-  import clsx from 'clsx'
-
+<script context="module">
   export async function load() {
     return {
       maxage: 31536000,
     }
   }
+</script>
+
+<script lang="ts">
+  import Icon from '$lib/Icon.svelte'
+  import clsx from 'clsx'
 
   const tabs = [
     { name: 'Profile', active: false },

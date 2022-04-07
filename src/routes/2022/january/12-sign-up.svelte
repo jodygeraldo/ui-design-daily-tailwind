@@ -1,4 +1,4 @@
-<script context="module" lang="ts">
+<script context="module">
   export async function load() {
     return {
       maxage: 31536000,

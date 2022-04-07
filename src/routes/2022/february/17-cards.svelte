@@ -1,11 +1,13 @@
-<script context="module" lang="ts">
-  import Icon from '$lib/Icon.svelte'
-
+<script context="module">
   export async function load() {
     return {
       maxage: 31536000,
     }
   }
+</script>
+
+<script lang="ts">
+  import Icon from '$lib/Icon.svelte'
 
   const links = ['REST APIs', 'Intro to Power-Ups', 'Getting started']
 </script>

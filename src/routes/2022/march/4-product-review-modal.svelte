@@ -1,10 +1,18 @@
-<script context="module" lang="ts">
-  import Icon from '$lib/Icon.svelte'
-
+<script context="module">
   export async function load() {
     return {
       maxage: 31536000,
     }
+  }
+</script>
+
+<script lang="ts">
+  import Icon from '$lib/Icon.svelte'
+
+  let isTermAccepted = false
+
+  const toggleAcceptTerm = () => {
+    isTermAccepted = !isTermAccepted
   }
 
   let radio = [
@@ -12,17 +20,15 @@
     { value: 'No', selected: false },
   ]
 
-  // Handle radio button clicks
-  // disabled becuase can't cache it staticly if enabled
-  //   const handleRadioClick = (e: MouseEvent) => {
-  //     const target = e.target as HTMLInputElement
-  //     const value = target.value
-  //     radio.forEach((item) => {
-  //       item.selected = item.value === value
-  //     })
+  const handleRadioClick = (e: MouseEvent) => {
+    const target = e.target as HTMLInputElement
+    const value = target.value
+    radio.forEach((item) => {
+      item.selected = item.value === value
+    })
 
-  //     radio = radio
-  //   }
+    radio = radio
+  }
 </script>
 
 <svelte:head>
@@ -113,6 +119,7 @@
                 <div class="relative">
                   <button
                     class="h-7 w-7 rounded-full border-2 border-custom-2 p-4 text-custom-1"
+                    on:click={handleRadioClick}
                     disabled={r.selected}
                     value={r.value}
                   />
@@ -168,20 +175,25 @@
         </div>
 
         <!-- another radio -->
-        <div>
-          <div class="mt-4 flex gap-6">
-            <div class="flex items-center gap-2">
+        <div class="mt-4">
+          <div class="flex items-center gap-2">
+            <div class="relative">
               <button
-                class="h-7 w-7 rounded-full border-2 border-custom-2 p-3 text-custom-1"
+                class="h-7 w-7 rounded-full border-2 border-custom-2 p-2 text-custom-1"
+                on:click={toggleAcceptTerm}
               />
-
-              <p class="font-medium text-custom-1">
-                I accept the
-                <span class="underline underline-offset-1"
-                  >terms and conditions</span
-                >
-              </p>
+              {#if isTermAccepted}
+                <div
+                  class="pointer-events-none absolute inset-1.5 rounded-full bg-custom-1"
+                />
+              {/if}
             </div>
+            <p class="font-medium text-custom-1">
+              I accept the
+              <span class="underline underline-offset-1"
+                >terms and conditions</span
+              >
+            </p>
           </div>
         </div>
 

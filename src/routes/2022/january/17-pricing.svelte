@@ -1,10 +1,12 @@
-<script context="module" lang="ts">
+<script context="module">
   export async function load() {
     return {
       maxage: 31536000,
     }
   }
+</script>
 
+<script lang="ts">
   const others = [
     { name: 'Oresentation or newsletter', price: '$11.00' },
     { name: 'Magazines and books', price: '$53.00' },
