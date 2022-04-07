@@ -159,6 +159,7 @@
             </div>
             <div class="-ml-px flex w-0 flex-1">
               <a
+                sveltekit:prefetch
                 href={item.linkComponent}
                 class="relative inline-flex w-0 flex-1 items-center justify-center rounded-br-lg border border-transparent py-4 text-sm font-medium text-gray-9 transition-colors hover:text-gray-11"
               >
