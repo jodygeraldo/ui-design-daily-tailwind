@@ -204,7 +204,7 @@
                 <div
                   class={clsx(
                     i === 0 ? 'border-4' : 'border',
-                    'flex h-5 w-5 items-center justify-center rounded-full border-4 border-custom-4 bg-white',
+                    'flex h-5 w-5 items-center justify-center rounded-full border-custom-4 bg-white',
                   )}
                 />
                 <div class="min-w-0 flex-1">
