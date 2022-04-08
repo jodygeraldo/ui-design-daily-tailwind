@@ -3,6 +3,16 @@ import type { ItemType } from '..'
 
 const list: ItemType[] = [
   {
+    id: 1581,
+    title: 'Cookie Preferences Modal',
+    date: formattedDate(29, 3, 2022).formatted,
+    linkOriginal:
+      'https://www.uidesigndaily.com/posts/figma-cookie-preferences-modal-cookies-settings-day-1581',
+    linkComponent: '/2022/march/29-cookie-preferences-modal',
+    imageUrl: '2022/march/29-1.png',
+    builtOn: formattedDate(8, 4, 2022, 1),
+  },
+  {
     id: 1580,
     title: 'Profile Page Header',
     date: formattedDate(25, 3, 2022).formatted,
@@ -173,7 +183,7 @@ const list: ItemType[] = [
   },
 ]
 
-export const pendingList = [
+export const pendingList: ItemType[] = [
   {
     id: 1567,
     title: 'Analytics',
@@ -182,6 +192,7 @@ export const pendingList = [
       'https://www.uidesigndaily.com/posts/figma-analytics-statistics-day-1567',
     linkComponent: '/2022/march/8-analytics',
     imageUrl: '2022/march/8.png',
+    builtOn: formattedDate(1, 1, 2022, 1),
   },
   {
     id: 1568,
@@ -191,54 +202,37 @@ export const pendingList = [
       'https://www.uidesigndaily.com/posts/figma-statistics-analytics-chart-day-1568',
     linkComponent: '/2022/march/9-statistics',
     imageUrl: '2022/march/9.png',
+    builtOn: formattedDate(1, 1, 2022, 1),
   },
   {
-    id: 15,
-    title: '',
-    date: formattedDate(26, 3, 2022).formatted,
-    linkOriginal: '',
-    linkComponent: '/2022/march/26-',
-    imageUrl: '2022/march/26.png',
-  },
-  {
-    id: 15,
-    title: '',
-    date: formattedDate(27, 3, 2022).formatted,
-    linkOriginal: '',
-    linkComponent: '/2022/march/27-',
-    imageUrl: '2022/march/27.png',
-  },
-  {
-    id: 15,
-    title: '',
-    date: formattedDate(28, 3, 2022).formatted,
-    linkOriginal: '',
-    linkComponent: '/2022/march/28-',
-    imageUrl: '2022/march/28.png',
-  },
-  {
-    id: 15,
-    title: '',
+    id: 1582,
+    title: 'Page Header',
     date: formattedDate(29, 3, 2022).formatted,
-    linkOriginal: '',
-    linkComponent: '/2022/march/29-',
-    imageUrl: '2022/march/29.png',
+    linkOriginal:
+      'https://www.uidesigndaily.com/posts/figma-page-header-day-1582',
+    linkComponent: '/2022/march/29-page-header',
+    imageUrl: '2022/march/29-2.png',
+    builtOn: formattedDate(8, 4, 2022, 2),
   },
   {
-    id: 15,
-    title: '',
+    id: 1583,
+    title: 'Enter Password',
     date: formattedDate(30, 3, 2022).formatted,
-    linkOriginal: '',
-    linkComponent: '/2022/march/30-',
+    linkOriginal:
+      'https://www.uidesigndaily.com/posts/figma-enter-password-log-in-authentication-card-day-1583',
+    linkComponent: '/2022/march/30-enter-password',
     imageUrl: '2022/march/30.png',
+    builtOn: formattedDate(8, 4, 2022, 3),
   },
   {
-    id: 15,
-    title: '',
+    id: 1584,
+    title: 'Blog Component',
     date: formattedDate(31, 3, 2022).formatted,
-    linkOriginal: '',
-    linkComponent: '/2022/march/31-',
+    linkOriginal:
+      'https://www.uidesigndaily.com/posts/figma-blog-component-search-tags-links-card-day-1584',
+    linkComponent: '/2022/march/31-blog-component',
     imageUrl: '2022/march/31.png',
+    builtOn: formattedDate(8, 4, 2022, 4),
   },
 ]
 
