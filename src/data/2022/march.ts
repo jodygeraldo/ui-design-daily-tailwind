@@ -3,6 +3,16 @@ import type { ItemType } from '..'
 
 const list: ItemType[] = [
   {
+    id: 1582,
+    title: 'Page Header',
+    date: formattedDate(29, 3, 2022).formatted,
+    linkOriginal:
+      'https://www.uidesigndaily.com/posts/figma-page-header-day-1582',
+    linkComponent: '/2022/march/29-page-header',
+    imageUrl: '2022/march/29-2.png',
+    builtOn: formattedDate(8, 4, 2022, 2),
+  },
+  {
     id: 1581,
     title: 'Cookie Preferences Modal',
     date: formattedDate(29, 3, 2022).formatted,
@@ -203,16 +213,6 @@ export const pendingList: ItemType[] = [
     linkComponent: '/2022/march/9-statistics',
     imageUrl: '2022/march/9.png',
     builtOn: formattedDate(1, 1, 2022, 1),
-  },
-  {
-    id: 1582,
-    title: 'Page Header',
-    date: formattedDate(29, 3, 2022).formatted,
-    linkOriginal:
-      'https://www.uidesigndaily.com/posts/figma-page-header-day-1582',
-    linkComponent: '/2022/march/29-page-header',
-    imageUrl: '2022/march/29-2.png',
-    builtOn: formattedDate(8, 4, 2022, 2),
   },
   {
     id: 1583,
