@@ -26,12 +26,12 @@
     <div
       class="relative rounded-3xl bg-white px-6 py-8 text-custom-1 shadow-[0_51px_93px_0_#0f095309] sm:px-8"
     >
-      <div class="flex">
+      <div class="sm:flex">
         {#each tabs as tab}
           <button
             class={clsx(
               tab.current ? 'text-custom-1' : 'text-custom-2',
-              'relative p-4 font-medium',
+              'relative p-4 font-medium w-full sm:w-auto',
             )}
           >
             <span>
@@ -46,31 +46,33 @@
         {/each}
       </div>
 
-      <div class="mt-8 flex items-center justify-between">
+      <div class="mt-8 md:flex items-center justify-between">
         <h2 class="text-lg font-bold sm:text-xl md:text-2xl">My Parameters</h2>
 
-        <div class="flex items-center gap-2">
+        <div class="sm:flex items-center gap-2 mt-4 md:mt-0">
           <button
-            class="flex items-center gap-2 rounded-lg border border-custom-3 p-4"
+            class="flex justify-center items-center gap-2 rounded-lg border border-custom-3 p-4 w-full sm:w-auto mt-2 sm:mt-0"
           >
             <Icon id="pencil-1" class="h-7 w-7 text-custom-1" />
             <span class="font-medium">Edit</span>
           </button>
 
           <button
-            class="flex items-center gap-2 rounded-lg border border-custom-3 p-4"
+            class="flex justify-center items-center gap-2 rounded-lg border border-custom-3 p-4 w-full sm:w-auto mt-2 sm:mt-0"
           >
             <Icon id="trash" class="h-7 w-7 text-custom-1" />
             <span class="font-medium">Delete</span>
           </button>
 
-          <button class="rounded-lg border border-custom-3 bg-custom-1 p-4">
+          <button
+            class="rounded-lg border border-custom-3 bg-custom-1 p-4 w-full sm:w-auto mt-2 sm:mt-0"
+          >
             <span class="font-medium text-white">Create parameter</span>
           </button>
         </div>
       </div>
 
-      <div class="mt-10 flex items-center gap-5">
+      <div class="mt-10 sm:flex items-center gap-5">
         <div class="relative flex-1">
           <Icon
             id="magnifying-glass"
@@ -83,8 +85,8 @@
           />
         </div>
 
-        <div>
-          <div class="flex items-center gap-2 p-4">
+        <div class="flex items-center gap-5">
+          <div class="flex items-center gap-2 py-4 sm:px-4">
             <button>
               <Icon id="chevron-left" class="h-7 w-7 text-custom-1" />
             </button>
@@ -93,23 +95,23 @@
               <Icon id="chevron-right" class="h-7 w-7 text-custom-1" />
             </button>
           </div>
-        </div>
 
-        <button>
-          <Icon id="gear" class="h-7 w-7 text-custom-1" />
-        </button>
+          <button class="p-4">
+            <Icon id="gear" class="h-7 w-7 text-custom-1" />
+          </button>
+        </div>
       </div>
 
-      <div class="mt-4 flex gap-1.5">
+      <div class="mt-4 sm:flex gap-1.5">
         <div
-          class="flex items-center gap-4 rounded-lg border border-custom-1 p-2"
+          class="flex items-center gap-4 rounded-lg border border-custom-1 p-2 justify-between"
         >
           <p class="text-sm font-semibold">Name: contains: auth0</p>
           <Icon id="cross-2" class="h-7 w-7 text-custom-1" />
         </div>
 
         <div
-          class="flex items-center rounded-lg border border-custom-3 px-4 py-2"
+          class="mt-2 sm:mt-0 flex items-center rounded-lg border border-custom-3 px-4 py-2"
         >
           <p class="text-sm font-medium">Clear filters</p>
         </div>
