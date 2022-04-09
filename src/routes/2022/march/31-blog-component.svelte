@@ -43,18 +43,18 @@
 
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
-    <div class="xl:flex gap-10 items-start">
+    <div class="items-start gap-10 xl:flex">
       <div
-        class="rounded-xl bg-custom-2 px-6 py-8 text-custom-1 sm:px-8 border-[12px] border-white max-w-2xl mx-auto shadow-[0_56px_84px_0_#7a3aad15]"
+        class="mx-auto max-w-2xl rounded-xl border-[12px] border-white bg-custom-2 px-6 py-8 text-custom-1 shadow-[0_56px_84px_0_#7a3aad15] sm:px-8"
       >
-        <h2 class="font-serif font-bold text-xl sm:text-2xl">Tags</h2>
+        <h2 class="font-serif text-xl font-bold sm:text-2xl">Tags</h2>
 
-        <div class="mt-4 flex gap-4 flex-wrap">
+        <div class="mt-4 flex flex-wrap gap-4">
           {#each tags as tag}
             <span
               class={clsx(
                 tag.active ? 'bg-custom-1 text-white' : 'bg-white',
-                'px-4 py-2 inline-block rounded-2xl',
+                'inline-block rounded-2xl px-4 py-2',
               )}>{tag.name}</span
             >
           {/each}
@@ -62,7 +62,7 @@
       </div>
 
       <div
-        class="mt-10 rounded-xl bg-custom-2 px-6 py-8 text-custom-1 sm:px-8 border-[12px] border-white max-w-xl mx-auto shadow-[0_56px_84px_0_#7a3aad15] sm:flex items-center gap-4"
+        class="mx-auto mt-10 max-w-xl items-center gap-4 rounded-xl border-[12px] border-white bg-custom-2 px-6 py-8 text-custom-1 shadow-[0_56px_84px_0_#7a3aad15] sm:flex sm:px-8"
       >
         <div class="relative flex-1">
           <Icon
@@ -71,29 +71,29 @@
           />
           <input
             type="text"
-            class="w-full rounded-2xl bg-white border-none p-4 pl-12 sm:pl-16 placeholder:text-custom-1"
+            class="w-full rounded-2xl border-none bg-white p-4 pl-12 placeholder:text-custom-1 sm:pl-16"
             placeholder="Search articles, topics , etc."
           />
         </div>
 
         <button
-          class="mt-4 sm:mt-0 bg-custom-1 text-white px-6 py-4 w-full sm:max-w-fit rounded-2xl"
+          class="mt-4 w-full rounded-2xl bg-custom-1 px-6 py-4 text-white sm:mt-0 sm:max-w-fit"
           >Search</button
         >
       </div>
     </div>
 
     <div
-      class="mt-10 rounded-xl bg-custom-2 px-6 py-8 text-custom-1 sm:px-8 border-[12px] border-white max-w-lg mx-auto shadow-[0_56px_84px_0_#7a3aad15]"
+      class="mx-auto mt-10 max-w-lg rounded-xl border-[12px] border-white bg-custom-2 px-6 py-8 text-custom-1 shadow-[0_56px_84px_0_#7a3aad15] sm:px-8"
     >
-      <h2 class="font-serif font-bold text-xl sm:text-2xl">Recent posts</h2>
+      <h2 class="font-serif text-xl font-bold sm:text-2xl">Recent posts</h2>
 
       <div class="mt-4 space-y-4">
         {#each posts as post}
           <div
             class={clsx(
               post.selected && 'bg-white',
-              'px-4 py-2 rounded-2xl font-semibold sm:text-lg',
+              'rounded-2xl px-4 py-2 font-semibold sm:text-lg',
             )}
           >
             {post.name}
