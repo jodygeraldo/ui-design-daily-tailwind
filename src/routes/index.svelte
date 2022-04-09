@@ -144,8 +144,8 @@
 
           <time class="mt-1 truncate text-sm text-gray-11">{item.date}</time>
 
-          <div class="mt-1 text-sm text-gray-11 flex justify-center gap-2">
-            <Icon id="dimensions" class="w-5 h-5" />
+          <div class="mt-1 flex justify-center gap-2 text-sm text-gray-11">
+            <Icon id="dimensions" class="h-5 w-5" />
             {item.responsiveness ?? 'Responsive'}
           </div>
         </div>
