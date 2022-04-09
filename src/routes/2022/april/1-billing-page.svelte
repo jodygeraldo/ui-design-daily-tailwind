@@ -41,13 +41,13 @@
 <div class="theme grid min-h-screen place-items-center">
   <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-12 shadow-[0_49px_32px_-19px_#38389615]">
-      <div class="lg:col-span-3 2xl:col-span-2 bg-custom-5 py-12 rounded-l-3xl">
-        <div class="h-full flex flex-col gap-10">
-          <div class="flex gap-3 items-center px-10">
+      <div class="rounded-l-3xl bg-custom-5 py-12 lg:col-span-3 2xl:col-span-2">
+        <div class="flex h-full flex-col gap-10">
+          <div class="flex items-center gap-3 px-10">
             <img
               src="/assets/images/person-10.png"
               alt=""
-              class="w-10 h-10 xl:w-14 xl:h-14"
+              class="h-10 w-10 xl:h-14 xl:w-14"
             />
             <div>
               <h3 class="font-bold text-custom-1">Ildiko Gaspar</h3>
@@ -55,30 +55,30 @@
             </div>
           </div>
 
-          <div class="flex flex-col justify-between flex-1">
-            <nav class="px-6 space-y-2">
+          <div class="flex flex-1 flex-col justify-between">
+            <nav class="space-y-2 px-6">
               {#each navbar as nav}
                 <button
                   class={clsx(
                     nav.active ? 'text-custom-1' : 'text-custom-3',
-                    'p-4 relative w-full',
+                    'relative w-full p-4',
                   )}
                 >
-                  <a class="text-sm flex gap-2.5 items-center " href="#link">
+                  <a class="flex items-center gap-2.5 text-sm " href="#link">
                     <Icon id={nav.iconId} class="h-7 w-7" />
                     <span>{nav.name}</span>
                   </a>
                   {#if nav.active}
                     <div
-                      class="absolute -left-2 top-0 h-full w-1.5 bg-custom-2 rounded-full"
+                      class="absolute -left-2 top-0 h-full w-1.5 rounded-full bg-custom-2"
                     />
                   {/if}
                 </button>
               {/each}
             </nav>
 
-            <button class="text-custom-3 flex items-center py-2 px-6 gap-2.5">
-              <Icon id="exit" class="w-7 h-7" />
+            <button class="flex items-center gap-2.5 py-2 px-6 text-custom-3">
+              <Icon id="exit" class="h-7 w-7" />
               <span class="text-sm">Log out</span>
             </button>
           </div>
@@ -86,16 +86,16 @@
       </div>
 
       <div
-        class="-ml-px lg:col-span-9 2xl:col-span-10 bg-gradient-to-br from-white to-custom-5 px-8 pt-12 pb-16 rounded-r-3xl"
+        class="-ml-px rounded-r-3xl bg-gradient-to-br from-white to-custom-5 px-8 pt-12 pb-16 lg:col-span-9 2xl:col-span-10"
       >
-        <h2 class="text-custom-1 font-bold text-2xl sm:text-3xl pl-4">
+        <h2 class="pl-4 text-2xl font-bold text-custom-1 sm:text-3xl">
           Billing
         </h2>
-        <div class="grid grid-cols-3 mt-10 gap-10">
+        <div class="mt-10 grid grid-cols-3 gap-10">
           <div class="col-span-2">
             <div class="pl-4">
-              <h3 class="text-custom-1 font-bold">Order History</h3>
-              <p class="mt-1 text-custom-3 font-medium text-sm">
+              <h3 class="font-bold text-custom-1">Order History</h3>
+              <p class="mt-1 text-sm font-medium text-custom-3">
                 Manage billing information and view receips
               </p>
             </div>
@@ -123,11 +123,11 @@
                           <tr
                             class={clsx(
                               td.selected &&
-                                'bg-white shadow-[0_8px_19px_0_#dfdffd60] rounded-2xl pl-4',
+                                'rounded-2xl bg-white pl-4 shadow-[0_8px_19px_0_#dfdffd60]',
                             )}
                           >
                             <td
-                              class="whitespace-nowrap pl-4 py-2 pr-3 font-medium text-custom-1"
+                              class="whitespace-nowrap py-2 pl-4 pr-3 font-medium text-custom-1"
                               >{td.date}</td
                             >
                             <td
@@ -136,7 +136,7 @@
                             >
                             <td class="whitespace-nowrap px-3 py-2">
                               <button
-                                class="font-medium text-custom-1 px-4 py-2 border border-custom-4 rounded-lg"
+                                class="rounded-lg border border-custom-4 px-4 py-2 font-medium text-custom-1"
                                 >Download</button
                               >
                             </td>
@@ -151,21 +151,21 @@
 
             <a
               href="#load"
-              class="underline underline-offset-1 font-medium text-custom-2 pl-2 mt-2 inline-block"
+              class="mt-2 inline-block pl-2 font-medium text-custom-2 underline underline-offset-1"
               >Load more</a
             >
 
-            <div class="pl-4 mt-10">
-              <h3 class="text-custom-1 font-bold">Payment Method</h3>
-              <p class="mt-1 text-custom-3 font-medium text-sm">
+            <div class="mt-10 pl-4">
+              <h3 class="font-bold text-custom-1">Payment Method</h3>
+              <p class="mt-1 text-sm font-medium text-custom-3">
                 Manage billing information and view receips
               </p>
             </div>
 
-            <div class="mt-4 flex justify-between items-center pl-4">
-              <div class="flex-1 flex items-center gap-4">
+            <div class="mt-4 flex items-center justify-between pl-4">
+              <div class="flex flex-1 items-center gap-4">
                 <div
-                  class="p-2.5 border border-custom-4 flex justify-center items-center rounded-md"
+                  class="flex items-center justify-center rounded-md border border-custom-4 p-2.5"
                 >
                   <img src="/assets/images/visa.png" alt="" class="h-10" />
                 </div>
@@ -173,24 +173,24 @@
               </div>
 
               <button
-                class="font-medium text-custom-1 px-4 py-2 border border-custom-4 rounded-lg"
+                class="rounded-lg border border-custom-4 px-4 py-2 font-medium text-custom-1"
                 >Remove</button
               >
             </div>
           </div>
 
           <div
-            class="col-span-1 p-8 bg-custom-2 text-white rounded-2xl shadow-[0_8px_19px_0_#dfdffd60] self-start"
+            class="col-span-1 self-start rounded-2xl bg-custom-2 p-8 text-white shadow-[0_8px_19px_0_#dfdffd60]"
           >
             <h4 class="font-medium">Your plan</h4>
 
             <div class="mt-4">
-              <p class="font-bold text-xl sm:text-2xl">Pro Annual</p>
-              <p class="mt-1 font-medium text-sm">Renews on Nov. 2021</p>
+              <p class="text-xl font-bold sm:text-2xl">Pro Annual</p>
+              <p class="mt-1 text-sm font-medium">Renews on Nov. 2021</p>
             </div>
 
             <button
-              class="mt-4 font-medium px-4 py-2 border border-white/50 rounded-lg"
+              class="mt-4 rounded-lg border border-white/50 px-4 py-2 font-medium"
               >Cancel subscription</button
             >
           </div>
