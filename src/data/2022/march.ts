@@ -3,6 +3,16 @@ import type { ItemType } from '..'
 
 const list: ItemType[] = [
   {
+    id: 1584,
+    title: 'Blog Component',
+    date: formattedDate(31, 3, 2022).formatted,
+    linkOriginal:
+      'https://www.uidesigndaily.com/posts/figma-blog-component-search-tags-links-card-day-1584',
+    linkComponent: '/2022/march/31-blog-component',
+    imageUrl: '2022/march/31.png',
+    builtOn: formattedDate(9, 4, 2022, 1),
+  },
+  {
     id: 1583,
     title: 'Enter Password',
     date: formattedDate(30, 3, 2022).formatted,
@@ -223,16 +233,6 @@ export const pendingList: ItemType[] = [
     linkComponent: '/2022/march/9-statistics',
     imageUrl: '2022/march/9.png',
     builtOn: formattedDate(1, 1, 2022, 1),
-  },
-  {
-    id: 1584,
-    title: 'Blog Component',
-    date: formattedDate(31, 3, 2022).formatted,
-    linkOriginal:
-      'https://www.uidesigndaily.com/posts/figma-blog-component-search-tags-links-card-day-1584',
-    linkComponent: '/2022/march/31-blog-component',
-    imageUrl: '2022/march/31.png',
-    builtOn: formattedDate(8, 4, 2022, 4),
   },
 ]
 
