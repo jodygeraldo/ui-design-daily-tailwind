@@ -15,6 +15,7 @@ export interface ItemType {
     formatted: string
     raw: string
   }
+  responsiveness?: string
 }
 
 // sorted by date

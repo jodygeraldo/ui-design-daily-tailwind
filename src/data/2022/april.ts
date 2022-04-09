@@ -11,6 +11,7 @@ const list: ItemType[] = [
     linkComponent: '/2022/april/1-billing-page',
     imageUrl: '2022/april/1.png',
     builtOn: formattedDate(9, 4, 2022, 2),
+    responsiveness: 'Width: 1024px+',
   },
 ]
 

@@ -143,6 +143,11 @@
           <h3 class="text-lg font-medium text-gray-12">{item.title}</h3>
 
           <time class="mt-1 truncate text-sm text-gray-11">{item.date}</time>
+
+          <div class="mt-1 text-sm text-gray-11 flex justify-center gap-2">
+            <Icon id="dimensions" class="w-5 h-5" />
+            {item.responsiveness ?? 'Responsive'}
+          </div>
         </div>
         <div>
           <div class="-mt-px flex divide-x divide-gray-6">
