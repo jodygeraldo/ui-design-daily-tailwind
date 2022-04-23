@@ -3,6 +3,16 @@ import type { ItemType } from '..'
 
 const list: ItemType[] = [
   {
+    id: 1600,
+    title: 'Your Progress Card',
+    date: formattedDate(23, 4, 2022).formatted,
+    linkOriginal:
+      'https://dribbble.com/shots/18086480-Your-Progress-Card-UI-Design',
+    linkComponent: '/2022/april/23-your-progress-card',
+    imageUrl: '2022/april/23.png',
+    builtOn: formattedDate(23, 4, 2022, 1),
+  },
+  {
     id: 1585,
     title: 'Billing Page',
     date: formattedDate(1, 4, 2022).formatted,
@@ -204,15 +214,6 @@ export const pendingList: ItemType[] = [
     linkOriginal: '',
     linkComponent: '/2022/april/22-',
     imageUrl: '2022/april/22.png',
-    builtOn: formattedDate(10, 4, 2022, 1),
-  },
-  {
-    id: 15,
-    title: '',
-    date: formattedDate(23, 1, 2022).formatted,
-    linkOriginal: '',
-    linkComponent: '/2022/april/23-',
-    imageUrl: '2022/april/23.png',
     builtOn: formattedDate(10, 4, 2022, 1),
   },
   {
