@@ -1,5 +1,6 @@
 <script lang="ts">
   import { browser, mode } from '$app/env'
+  import Banner from '$lib/Banner.svelte'
   import Footer from '$lib/Footer.svelte'
   import Icon from '$lib/Icon.svelte'
   import Pagination from '$lib/Pagination.svelte'
@@ -92,6 +93,7 @@
   <title>UI Design Daily with Tailwind CSS</title>
 </svelte:head>
 
+<Banner />
 <div class="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
   <div class="items-center justify-between lg:flex">
     <h2
