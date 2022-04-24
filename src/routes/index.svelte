@@ -156,9 +156,9 @@
                 href={item.linkOriginal}
                 rel="external noopener noreferrer"
                 target="_blank"
-                class="relative -mr-px inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm font-medium text-gray-9 transition-colors hover:text-gray-11"
+                class="pointer-events-none relative -mr-px inline-flex w-0 flex-1 items-center justify-center border border-transparent bg-gray-4 py-4 text-sm font-medium text-gray-9 transition-colors hover:text-gray-11"
               >
-                <span> UIDesignDaily </span>
+                <span>Source</span>
                 <Icon id="external-link" class="ml-2 hidden h-4 w-4 sm:block" />
               </a>
             </div>
@@ -166,7 +166,7 @@
               <a
                 sveltekit:prefetch
                 href={item.linkComponent}
-                class="relative inline-flex w-0 flex-1 items-center justify-center rounded-br-lg border border-transparent py-4 text-sm font-medium text-gray-9 transition-colors hover:text-gray-11"
+                class="relative inline-flex w-0 flex-1 items-center justify-center border border-transparent py-4 text-sm font-medium text-gray-9 transition-colors hover:text-gray-11"
               >
                 <span> Implementation </span>
                 <Icon
